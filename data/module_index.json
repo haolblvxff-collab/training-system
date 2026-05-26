@@ -1,0 +1,3834 @@
+{
+  "00-fabrication": {
+    "code": "00-fabrication",
+    "name": "晶圆制造基础",
+    "desc": "硅晶体生长、晶圆制备、基本 Fab 概念",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "CMOS Processing Flow.pdf",
+        "path": "00-fabrication/CMOS Processing Flow.pdf"
+      },
+      {
+        "name": "[Graham_T._Reed]_Silicon_Photonics__An_Introductio(z-lib.org).pdf",
+        "path": "00-fabrication/[Graham_T._Reed]_Silicon_Photonics__An_Introductio(z-lib.org).pdf"
+      },
+      {
+        "name": "Fundamentals of Microelectronics (Razavi, 2006).pdf",
+        "path": "00-fabrication/Fundamentals of Microelectronics (Razavi, 2006).pdf"
+      },
+      {
+        "name": "Handbook of Semiconductor Manufacturing Technology (Yoshio Nishi, Robert Doering).pdf",
+        "path": "00-fabrication/Handbook of Semiconductor Manufacturing Technology (Yoshio Nishi, Robert Doering).pdf"
+      },
+      {
+        "name": "Faccio_ESEsem_ULSI.pdf",
+        "path": "00-fabrication/Faccio_ESEsem_ULSI.pdf"
+      },
+      {
+        "name": "【欧姆社 ※ 第05卷 ※ 漫画半导体】.pdf",
+        "path": "00-fabrication/【欧姆社 ※ 第05卷 ※ 漫画半导体】.pdf"
+      },
+      {
+        "name": "cmos_processing.pdf",
+        "path": "00-fabrication/cmos_processing.pdf"
+      },
+      {
+        "name": "Yole Intelligence - Status of the Wafer Fab Equipment Industry 2024.pdf",
+        "path": "00-fabrication/Yole Intelligence - Status of the Wafer Fab Equipment Industry 2024.pdf"
+      },
+      {
+        "name": "Sailing into the Future of the Semiconductor Industry - from TSMC.pdf",
+        "path": "00-fabrication/Sailing into the Future of the Semiconductor Industry - from TSMC.pdf"
+      },
+      {
+        "name": "2018_Semiconductor Manufacturing Handbook, 2nd Edition.pdf",
+        "path": "00-fabrication/2018_Semiconductor Manufacturing Handbook, 2nd Edition.pdf"
+      },
+      {
+        "name": "An application of Little's Law in Microns supply chain.pdf",
+        "path": "00-fabrication/An application of Little's Law in Microns supply chain.pdf"
+      },
+      {
+        "name": "ch09.pdf",
+        "path": "00-fabrication/Process/ch09.pdf"
+      },
+      {
+        "name": "ch01.pdf",
+        "path": "00-fabrication/Process/ch01.pdf"
+      },
+      {
+        "name": "ch15.pdf",
+        "path": "00-fabrication/Process/ch15.pdf"
+      },
+      {
+        "name": "ch14.pdf",
+        "path": "00-fabrication/Process/ch14.pdf"
+      },
+      {
+        "name": "ch02.pdf",
+        "path": "00-fabrication/Process/ch02.pdf"
+      },
+      {
+        "name": "ch03.pdf",
+        "path": "00-fabrication/Process/ch03.pdf"
+      },
+      {
+        "name": "ch13.pdf",
+        "path": "00-fabrication/Process/ch13.pdf"
+      },
+      {
+        "name": "ch07.pdf",
+        "path": "00-fabrication/Process/ch07.pdf"
+      },
+      {
+        "name": "ch06.pdf",
+        "path": "00-fabrication/Process/ch06.pdf"
+      },
+      {
+        "name": "ch12.pdf",
+        "path": "00-fabrication/Process/ch12.pdf"
+      },
+      {
+        "name": "ch04.pdf",
+        "path": "00-fabrication/Process/ch04.pdf"
+      },
+      {
+        "name": "ch10.pdf",
+        "path": "00-fabrication/Process/ch10.pdf"
+      },
+      {
+        "name": "ch11.pdf",
+        "path": "00-fabrication/Process/ch11.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Wafer Fabrication",
+        "path": "00-fabrication/00-Wafer Fabrication.md"
+      }
+    ],
+    "total_pdfs": 24
+  },
+  "01-Photonics": {
+    "code": "01-Photonics",
+    "name": "光子学与硅光",
+    "desc": "激光器、调制器、波导、CPO",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "2017 III-V on Si review .pdf",
+        "path": "01-Photonics/2017 III-V on Si review .pdf"
+      },
+      {
+        "name": "Innovating for the Era of AI-Optimized Networking.pdf",
+        "path": "01-Photonics/Innovating for the Era of AI-Optimized Networking.pdf"
+      },
+      {
+        "name": "ROADMAP TOWARDS SILICON PHOTONICS INDUSTRIALISATION.pdf",
+        "path": "01-Photonics/ROADMAP TOWARDS SILICON PHOTONICS INDUSTRIALISATION.pdf"
+      },
+      {
+        "name": "OFC展會分享_20260409.pdf",
+        "path": "01-Photonics/OFC展會分享_20260409.pdf"
+      },
+      {
+        "name": "OFC Nokia.pdf",
+        "path": "01-Photonics/OFC Nokia.pdf"
+      },
+      {
+        "name": "Technologies and Performance Aspects for Electrical and Optical Interconnects.pdf",
+        "path": "01-Photonics/Technologies and Performance Aspects for Electrical and Optical Interconnects.pdf"
+      },
+      {
+        "name": "Sergii-Gudyriev-X-Fab.pdf",
+        "path": "01-Photonics/Sergii-Gudyriev-X-Fab.pdf"
+      },
+      {
+        "name": "Liquid Cooling, Advanced Optics, and the Evolution of the Pluggable Beyond 1600ZR.pdf",
+        "path": "01-Photonics/Liquid Cooling, Advanced Optics, and the Evolution of the Pluggable Beyond 1600ZR.pdf"
+      },
+      {
+        "name": "矽光子CPO先進封裝之創新挑戰 Call memo_Fubon 20260408.pdf",
+        "path": "01-Photonics/矽光子CPO先進封裝之創新挑戰 Call memo_Fubon 20260408.pdf"
+      },
+      {
+        "name": "ca100f8c2e4107204759f0ccbcae434c.pdf",
+        "path": "01-Photonics/ca100f8c2e4107204759f0ccbcae434c.pdf"
+      },
+      {
+        "name": "光模块行业深度（二）：CPO商业化节奏探讨及结构件拆解-260406.pdf",
+        "path": "01-Photonics/光模块行业深度（二）：CPO商业化节奏探讨及结构件拆解-260406.pdf"
+      },
+      {
+        "name": "Illuminating the Networks of Tomorrow.pdf",
+        "path": "01-Photonics/Illuminating the Networks of Tomorrow.pdf"
+      },
+      {
+        "name": "PHO033B-2025 Photonics Research Review 2025 年光子学研究综述.pdf",
+        "path": "01-Photonics/PHO033B-2025 Photonics Research Review 2025 年光子学研究综述.pdf"
+      },
+      {
+        "name": "Silicon Photonics Platform-Current and Future Trends.pdf",
+        "path": "01-Photonics/Silicon Photonics Platform-Current and Future Trends.pdf"
+      },
+      {
+        "name": "Silicon Photonics An Introductio.pdf",
+        "path": "01-Photonics/Silicon Photonics An Introductio.pdf"
+      },
+      {
+        "name": "Teaching Silicon New Tricks.pdf",
+        "path": "01-Photonics/Teaching Silicon New Tricks.pdf"
+      },
+      {
+        "name": "The Concept of MOCVD Reactors.pdf",
+        "path": "01-Photonics/The Concept of MOCVD Reactors.pdf"
+      },
+      {
+        "name": "【英伟达】Integrating Photonics in HPC & Network Systems - 集成光子学在HPC和网络系统中的应用.pdf",
+        "path": "01-Photonics/【英伟达】Integrating Photonics in HPC & Network Systems - 集成光子学在HPC和网络系统中的应用.pdf"
+      },
+      {
+        "name": "Silicon-Photonics-CPO-Testing-Technology-Challenges-CC-Tien-V5.pdf",
+        "path": "01-Photonics/Silicon-Photonics-CPO-Testing-Technology-Challenges-CC-Tien-V5.pdf"
+      },
+      {
+        "name": "1_6T_光通訊模組技術_Main_Rev8.pdf",
+        "path": "01-Photonics/1_6T_光通訊模組技術_Main_Rev8.pdf"
+      },
+      {
+        "name": "Vision for the future of optical networks.pdf",
+        "path": "01-Photonics/Vision for the future of optical networks.pdf"
+      },
+      {
+        "name": "openAccessSiliconPhotonicsPlatformsInEurope.pdf",
+        "path": "01-Photonics/openAccessSiliconPhotonicsPlatformsInEurope.pdf"
+      },
+      {
+        "name": "Silicon Photonics for High Bandwidth Optical IO.pdf",
+        "path": "01-Photonics/Silicon Photonics for High Bandwidth Optical IO.pdf"
+      },
+      {
+        "name": "OFC takeways.pdf",
+        "path": "01-Photonics/OFC takeways.pdf"
+      },
+      {
+        "name": "PHO007C-Photonic Integrated Circuits Global Markets with Special Focus on Silicon Photonics 2025年全球光子集成电路市场报告（重点聚焦硅光子技术）.pdf",
+        "path": "01-Photonics/PHO007C-Photonic Integrated Circuits Global Markets with Special Focus on Silicon Photonics 2025年全球光子集成电路市场报告（重点聚焦硅光子技术）.pdf"
+      },
+      {
+        "name": "高速光通訊矽光子技術為短線投資重點-20260325.pdf",
+        "path": "01-Photonics/高速光通訊矽光子技術為短線投資重點-20260325.pdf"
+      },
+      {
+        "name": "Coverage Layout Design Rules and Insertion Utilities for CMP-Related Processes.pdf",
+        "path": "01-Photonics/Coverage Layout Design Rules and Insertion Utilities for CMP-Related Processes.pdf"
+      },
+      {
+        "name": "OFC2026現場觀察與光通信的結構性轉變.pdf",
+        "path": "01-Photonics/OFC2026現場觀察與光通信的結構性轉變.pdf"
+      },
+      {
+        "name": "Innovations in Silicon Photonics Impacting Data Centers and the Biomedical Sector.pdf",
+        "path": "01-Photonics/Innovations in Silicon Photonics Impacting Data Centers and the Biomedical Sector.pdf"
+      },
+      {
+        "name": "20260514_CPO.pdf",
+        "path": "01-Photonics/20260514_CPO.pdf"
+      },
+      {
+        "name": "Roadmapping the next generation of silicon photonics.pdf",
+        "path": "01-Photonics/Roadmapping the next generation of silicon photonics.pdf"
+      },
+      {
+        "name": "MONITOR AND CONTROL STRATEGIES TO REDUCE THE IMPACT OF PROCESS VARIATIONS IN DIGITAL CIRCUITS.pdf",
+        "path": "01-Photonics/MONITOR AND CONTROL STRATEGIES TO REDUCE THE IMPACT OF PROCESS VARIATIONS IN DIGITAL CIRCUITS.pdf"
+      },
+      {
+        "name": "光模块框架培训PPT.pdf",
+        "path": "01-Photonics/光模块框架培训PPT.pdf"
+      },
+      {
+        "name": "Compound Semiconductor Application Specific Photonic Integrated Circuits (ASPICs).pdf",
+        "path": "01-Photonics/Compound Semiconductor Application Specific Photonic Integrated Circuits (ASPICs).pdf"
+      },
+      {
+        "name": "PHO024B-Biophotonics Technologies and Global Markets 2025年生物光子技术及全球市场.pdf",
+        "path": "01-Photonics/PHO024B-Biophotonics Technologies and Global Markets 2025年生物光子技术及全球市场.pdf"
+      },
+      {
+        "name": "Co-Packaged Optics—Heterogeneous Integration of Photonic Integrated Circuits and Electronic Integrated Circuits.pdf",
+        "path": "01-Photonics/Co-Packaged Optics—Heterogeneous Integration of Photonic Integrated Circuits and Electronic Integrated Circuits.pdf"
+      },
+      {
+        "name": "矽光子生態與共封裝整合 Call memo_Fubon 20260408.pdf",
+        "path": "01-Photonics/矽光子生態與共封裝整合 Call memo_Fubon 20260408.pdf"
+      },
+      {
+        "name": "The Future of AI with Silicon Photonics Technology.pdf",
+        "path": "01-Photonics/The Future of AI with Silicon Photonics Technology.pdf"
+      },
+      {
+        "name": "OFC Lumentum.pdf",
+        "path": "01-Photonics/OFC Lumentum.pdf"
+      },
+      {
+        "name": "矽光子于未来AI时代扮演的角色.pdf",
+        "path": "01-Photonics/矽光子于未来AI时代扮演的角色.pdf"
+      },
+      {
+        "name": "BofA-US_Semiconductors_Scaling_AI_with_Photons-_Primer_on_Optical_Interconnects.pdf",
+        "path": "01-Photonics/BofA-US_Semiconductors_Scaling_AI_with_Photons-_Primer_on_Optical_Interconnects.pdf"
+      },
+      {
+        "name": "光模块设备行业深度：光模块需求爆发，驱动设备进入发展快车道-260406.pdf",
+        "path": "01-Photonics/光模块设备行业深度：光模块需求爆发，驱动设备进入发展快车道-260406.pdf"
+      },
+      {
+        "name": "EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf",
+        "path": "01-Photonics/EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf"
+      },
+      {
+        "name": "Silicon Photonics for High-Speed and Energy-Efficient Data Transfer.pdf",
+        "path": "01-Photonics/Silicon Photonics for High-Speed and Energy-Efficient Data Transfer.pdf"
+      },
+      {
+        "name": "Deployment scenarios and control architecture for coherent pluggable transceivers in Telco networks.pdf",
+        "path": "01-Photonics/Deployment scenarios and control architecture for coherent pluggable transceivers in Telco networks.pdf"
+      },
+      {
+        "name": "Silicon Photonics, LPO and CPO - May 2025_st.pdf",
+        "path": "01-Photonics/Silicon Photonics, LPO and CPO - May 2025_st.pdf"
+      },
+      {
+        "name": "Liquid Cooling, Advanced Optics, and the Evolution of the Pluggable Beyond 1600ZR.pdf",
+        "path": "01-Photonics/01-TFLN/Liquid Cooling, Advanced Optics, and the Evolution of the Pluggable Beyond 1600ZR.pdf"
+      },
+      {
+        "name": "20250305_ID_Brosch_PC_LNOI_Einzelseiten.pdf",
+        "path": "01-Photonics/01-TFLN/20250305_ID_Brosch_PC_LNOI_Einzelseiten.pdf"
+      },
+      {
+        "name": "Roadmapping the next generation of silicon photonics.pdf",
+        "path": "01-Photonics/01-TFLN/Roadmapping the next generation of silicon photonics.pdf"
+      },
+      {
+        "name": "Data Centre Interconnect 400G, 800G, and Terabit Pluggable Optics.pdf",
+        "path": "01-Photonics/01-TFLN/Data Centre Interconnect 400G, 800G, and Terabit Pluggable Optics.pdf"
+      },
+      {
+        "name": "20211208124906_9527.pdf",
+        "path": "01-Photonics/01-TFLN/20211208124906_9527.pdf"
+      },
+      {
+        "name": "EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf",
+        "path": "01-Photonics/01-TFLN/EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Photonics & Silicon Photonics",
+        "path": "01-Photonics/01-Photonics & Silicon Photonics.md"
+      },
+      {
+        "name": "**2026全球光通讯芯片与共封装光学（CPO）技术深度研究报告**",
+        "path": "01-Photonics/光通讯芯片与CPO协同工作.md"
+      },
+      {
+        "name": "TFLN 专家笔记 — 圆桌论坛 2026-05-14",
+        "path": "01-Photonics/01-TFLN/TFLN 专家笔记 - 圆桌论坛 2026-05-14.md"
+      }
+    ],
+    "total_pdfs": 52
+  },
+  "02-Power": {
+    "code": "02-Power",
+    "name": "功率半导体",
+    "desc": "SiC、GaN、IGBT 高压电力电子",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "infineon-rf-gan-on-silicon-article-en.pdf",
+        "path": "02-Power/infineon-rf-gan-on-silicon-article-en.pdf"
+      },
+      {
+        "name": "energies-19-01752.pdf",
+        "path": "02-Power/energies-19-01752.pdf"
+      },
+      {
+        "name": "gan-based-hemts-for-high-voltage-operation-design-technology-1tbxfs6075.pdf",
+        "path": "02-Power/gan-based-hemts-for-high-voltage-operation-design-technology-1tbxfs6075.pdf"
+      },
+      {
+        "name": "Investigation_of_Analog_Performance_of_Fin-Shaped_AlGaN_GaN_MOSHEMTs.pdf",
+        "path": "02-Power/Investigation_of_Analog_Performance_of_Fin-Shaped_AlGaN_GaN_MOSHEMTs.pdf"
+      },
+      {
+        "name": "GaN-Power-Device-Tutorial-Part1-GaN-Basics.pdf",
+        "path": "02-Power/GaN-Power-Device-Tutorial-Part1-GaN-Basics.pdf"
+      },
+      {
+        "name": "SiC 进入先进封装主舞台：观察台积电的 SiC 策略 --- SiC Enters the Advanced Packaging Mainstage_ Observing TSMC’s SiC Strategy.pdf",
+        "path": "02-Power/SiC 进入先进封装主舞台：观察台积电的 SiC 策略 --- SiC Enters the Advanced Packaging Mainstage_ Observing TSMC’s SiC Strategy.pdf"
+      },
+      {
+        "name": "IGA MOS-HEMT.pdf",
+        "path": "02-Power/IGA MOS-HEMT.pdf"
+      },
+      {
+        "name": "aln-gan-based-mos-hemt-technology-processing-and-device-jgk7ni7vnx.pdf",
+        "path": "02-Power/aln-gan-based-mos-hemt-technology-processing-and-device-jgk7ni7vnx.pdf"
+      },
+      {
+        "name": "Gate-Recessed_Normally-OFF_GaN_MOSHEMT_With_Improved_Channel_Mobility_and_Dynamic_Performance_Using_AlN_Si3N4_as_Passivation_and_Post_Gate-Recess_Channel_Protection_Layers.pdf",
+        "path": "02-Power/Gate-Recessed_Normally-OFF_GaN_MOSHEMT_With_Improved_Channel_Mobility_and_Dynamic_Performance_Using_AlN_Si3N4_as_Passivation_and_Post_Gate-Recess_Channel_Protection_Layers.pdf"
+      },
+      {
+        "name": "Performance_enhancement_in_Al0.3Ga0.7N_GaN_HEMT_based_inverter_using_MOSHEMT.pdf",
+        "path": "02-Power/Performance_enhancement_in_Al0.3Ga0.7N_GaN_HEMT_based_inverter_using_MOSHEMT.pdf"
+      },
+      {
+        "name": "全球 GaN 技术在卫星通信中的应用与研发全景图.pdf",
+        "path": "02-Power/全球 GaN 技术在卫星通信中的应用与研发全景图.pdf"
+      },
+      {
+        "name": "hemt-processing-flow-chart.pdf",
+        "path": "02-Power/hemt-processing-flow-chart.pdf"
+      },
+      {
+        "name": "Kilovolt_GaN_MOSHEMT_on_silicon_substrate_with_breakdown_electric_field_close_to_the_theoretical_limit.pdf",
+        "path": "02-Power/Kilovolt_GaN_MOSHEMT_on_silicon_substrate_with_breakdown_electric_field_close_to_the_theoretical_limit.pdf"
+      },
+      {
+        "name": "Impact_of_Furnace_Annealing_and_other_Process_Failures_to_be_taken_care_during_Fabrication_of_an_AlGaN_GaN_MOSHEMT.pdf",
+        "path": "02-Power/Impact_of_Furnace_Annealing_and_other_Process_Failures_to_be_taken_care_during_Fabrication_of_an_AlGaN_GaN_MOSHEMT.pdf"
+      },
+      {
+        "name": "Drain Characteristic Analysis of High Electron Mobility Transistors (MOSHEMT).pdf",
+        "path": "02-Power/Drain Characteristic Analysis of High Electron Mobility Transistors (MOSHEMT).pdf"
+      },
+      {
+        "name": "JAP Tutorial HEMT FINAL.pdf",
+        "path": "02-Power/JAP Tutorial HEMT FINAL.pdf"
+      },
+      {
+        "name": "High power PAE (27.8dBm 66%) E-mode GaN-on-Si MOSHEMTs for 5V FR3 UE applications.pdf",
+        "path": "02-Power/High power PAE (27.8dBm 66%) E-mode GaN-on-Si MOSHEMTs for 5V FR3 UE applications.pdf"
+      },
+      {
+        "name": "High-voltage GaN-HEMT devices, simulation and modelling.pdf",
+        "path": "02-Power/High-voltage GaN-HEMT devices, simulation and modelling.pdf"
+      },
+      {
+        "name": "DrGaN_an_Integrated_CMOS_Driver-GaN_Power_Switch_Technology_on_300mm_GaN-on-Si_with_E-mode_GaN_MOSHEMT_and_3D_Monolithic_Si_PMOS.pdf",
+        "path": "02-Power/DrGaN_an_Integrated_CMOS_Driver-GaN_Power_Switch_Technology_on_300mm_GaN-on-Si_with_E-mode_GaN_MOSHEMT_and_3D_Monolithic_Si_PMOS.pdf"
+      },
+      {
+        "name": "Characterization_of_880_V_Normally_Off_GaN_MOSHEMT_on_Silicon_Substrate_Fabricated_With_a_Plasma-Free_Self-Terminated_Gate_Recess_Process.pdf",
+        "path": "02-Power/Characterization_of_880_V_Normally_Off_GaN_MOSHEMT_on_Silicon_Substrate_Fabricated_With_a_Plasma-Free_Self-Terminated_Gate_Recess_Process.pdf"
+      },
+      {
+        "name": "Normally-off AlGaN&GaN MOS-HEMT using ultra-thin Al0.45 Ga0.55N barrier layer.pdf",
+        "path": "02-Power/Normally-off AlGaN&GaN MOS-HEMT using ultra-thin Al0.45 Ga0.55N barrier layer.pdf"
+      },
+      {
+        "name": "Performance and Reliability Optimization of GaN power devices.pdf",
+        "path": "02-Power/Performance and Reliability Optimization of GaN power devices.pdf"
+      },
+      {
+        "name": "Tutorial-AllGaN-GaN-ICs_imec_Aug2019.pdf",
+        "path": "02-Power/Tutorial-AllGaN-GaN-ICs_imec_Aug2019.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Power Semiconductors",
+        "path": "02-Power/02-Power Semiconductors.md"
+      }
+    ],
+    "total_pdfs": 23
+  },
+  "04-MEMS": {
+    "code": "04-MEMS",
+    "name": "MEMS",
+    "desc": "微机电传感器与执行器",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "86960.pdf",
+        "path": "04-MEMS/86960.pdf"
+      },
+      {
+        "name": "Advanced__MEMS_NEMS Fabrication__and Sensors.pdf",
+        "path": "04-MEMS/Advanced__MEMS_NEMS Fabrication__and Sensors.pdf"
+      },
+      {
+        "name": "14.pdf",
+        "path": "04-MEMS/14.pdf"
+      },
+      {
+        "name": "Microelectromechanical Systems Global Market Competitor Report 2025.pdf",
+        "path": "04-MEMS/Microelectromechanical Systems Global Market Competitor Report 2025.pdf"
+      },
+      {
+        "name": "Trend Assessment - Global Sensors Industry.pdf",
+        "path": "04-MEMS/Trend Assessment - Global Sensors Industry.pdf"
+      },
+      {
+        "name": "Unlocking-Precision-Exploring-the-Advancements-in TCXO-Technology.pdf",
+        "path": "04-MEMS/Timer/Unlocking-Precision-Exploring-the-Advancements-in TCXO-Technology.pdf"
+      },
+      {
+        "name": "SiTime-MEMS-Enable-Small-Low-Power-IoT-Wearables (1).pdf",
+        "path": "04-MEMS/Timer/SiTime-MEMS-Enable-Small-Low-Power-IoT-Wearables (1).pdf"
+      },
+      {
+        "name": "SiTime-MEMS-Enable-Small-Low-Power-IoT-Wearables.pdf",
+        "path": "04-MEMS/Timer/SiTime-MEMS-Enable-Small-Low-Power-IoT-Wearables.pdf"
+      },
+      {
+        "name": "JPM_Jentech_Precision_In_2025-09-29_4995454.pdf",
+        "path": "04-MEMS/03-cooling/JPM_Jentech_Precision_In_2025-09-29_4995454.pdf"
+      },
+      {
+        "name": "20251006_散熱_TSMC x Nvidia _ Breaking the Thermal Wall_ How Advanced Cooling Is Powering the Future of Computing.pdf",
+        "path": "04-MEMS/03-cooling/20251006_散熱_TSMC x Nvidia _ Breaking the Thermal Wall_ How Advanced Cooling Is Powering the Future of Computing.pdf"
+      },
+      {
+        "name": "SAW filter Comparison 2023 SAW滤波器对比研究报告.pdf",
+        "path": "04-MEMS/05-Filter/SAW filter Comparison 2023 SAW滤波器对比研究报告.pdf"
+      },
+      {
+        "name": "evatec-layers-9-dp-wireless-yole.pdf",
+        "path": "04-MEMS/05-Filter/evatec-layers-9-dp-wireless-yole.pdf"
+      },
+      {
+        "name": "SAW_filters_and_competitive_technologies_a_comparative_review.pdf",
+        "path": "04-MEMS/05-Filter/SAW_filters_and_competitive_technologies_a_comparative_review.pdf"
+      },
+      {
+        "name": "mckerracher2010.pdf",
+        "path": "04-MEMS/05-Filter/TC-SAW/mckerracher2010.pdf"
+      },
+      {
+        "name": "inoue2019.pdf",
+        "path": "04-MEMS/05-Filter/TC-SAW/inoue2019.pdf"
+      },
+      {
+        "name": "PEPI4808.pdf",
+        "path": "04-MEMS/05-Filter/TC-SAW/PEPI4808.pdf"
+      },
+      {
+        "name": "nakamura2011.pdf",
+        "path": "04-MEMS/05-Filter/TC-SAW/nakamura2011.pdf"
+      },
+      {
+        "name": "white-paper---saw-filter-2018.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/white-paper---saw-filter-2018.pdf"
+      },
+      {
+        "name": "P3N-6.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/P3N-6.pdf"
+      },
+      {
+        "name": "SAW-Filters-Performance-Characteristics-Part-1-Application-Note (1).pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/SAW-Filters-Performance-Characteristics-Part-1-Application-Note (1).pdf"
+      },
+      {
+        "name": "DesignandSimulationofaSAWFilterandanewapproachforbandwidthstuning.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/DesignandSimulationofaSAWFilterandanewapproachforbandwidthstuning.pdf"
+      },
+      {
+        "name": "Full Wave Simulation of SAW Filter Package and SAW Pattern inside Packag.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/Full Wave Simulation of SAW Filter Package and SAW Pattern inside Packag.pdf"
+      },
+      {
+        "name": "p72e.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/p72e.pdf"
+      },
+      {
+        "name": "声表面波滤波器的使用和匹配.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/声表面波滤波器的使用和匹配.pdf"
+      },
+      {
+        "name": "micromachines-13-00656.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/micromachines-13-00656.pdf"
+      },
+      {
+        "name": "5B35DDevelopment20of20Low20Loss20Band-pass20Filters20Using20SAW20Reson.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/5B35DDevelopment20of20Low20Loss20Band-pass20Filters20Using20SAW20Reson.pdf"
+      },
+      {
+        "name": "SAW-Filters-Performance-Characteristics-Part-1-Application-Note.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/SAW-Filters-Performance-Characteristics-Part-1-Application-Note.pdf"
+      },
+      {
+        "name": "DIRECT PIEZOELECTRIC COUPLING.pdf",
+        "path": "04-MEMS/05-Filter/SAW Filter/DIRECT PIEZOELECTRIC COUPLING.pdf"
+      },
+      {
+        "name": "RF Filter Technology For Dummies Qorvo 2nd Ed Chinese.pdf",
+        "path": "04-MEMS/05-Filter/Filter tutorial/RF Filter Technology For Dummies Qorvo 2nd Ed Chinese.pdf"
+      },
+      {
+        "name": "qorvo_rf_filter_technologies.pdf",
+        "path": "04-MEMS/05-Filter/Filter tutorial/qorvo_rf_filter_technologies.pdf"
+      },
+      {
+        "name": "FBAR_基础知识-20180521.pdf",
+        "path": "04-MEMS/05-Filter/Filter tutorial/FBAR_基础知识-20180521.pdf"
+      },
+      {
+        "name": "Overview of bulk acoustic wave technology and its applications.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Overview of bulk acoustic wave technology and its applications.pdf"
+      },
+      {
+        "name": "Design and Analysis of Film Bulk Acoustic Resonator(FBAR) Filter for RF Applications.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Design and Analysis of Film Bulk Acoustic Resonator(FBAR) Filter for RF Applications.pdf"
+      },
+      {
+        "name": "Overview of bulk acoustic wave technology.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Overview of bulk acoustic wave technology.pdf"
+      },
+      {
+        "name": "A Novel Thin Film Bulk Acoustic Resonator (FBAR) Duplexer.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/A Novel Thin Film Bulk Acoustic Resonator (FBAR) Duplexer.pdf"
+      },
+      {
+        "name": "RF-MEMS-Filters.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/RF-MEMS-Filters.pdf"
+      },
+      {
+        "name": "Satoh_2005_Jpn._J._Appl._Phys._44_2883.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Satoh_2005_Jpn._J._Appl._Phys._44_2883.pdf"
+      },
+      {
+        "name": "Improving Manufacturability of Bulk Acoustic Wave and Surface Acoustic Wave Devices.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Improving Manufacturability of Bulk Acoustic Wave and Surface Acoustic Wave Devices.pdf"
+      },
+      {
+        "name": "Filter design.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Filter design.pdf"
+      },
+      {
+        "name": "IUS2019_XBARmodes, Soumya, Final.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/IUS2019_XBARmodes, Soumya, Final.pdf"
+      },
+      {
+        "name": "Optoplex MEMS Tunable Filters_Brochure_Full_2016_ar2.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Optoplex MEMS Tunable Filters_Brochure_Full_2016_ar2.pdf"
+      },
+      {
+        "name": "Design and Analysis of FBAR switches for RF Front-End Mobile Terminal.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Design and Analysis of FBAR switches for RF Front-End Mobile Terminal.pdf"
+      },
+      {
+        "name": "Design and Analysis of FBAR.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Design and Analysis of FBAR.pdf"
+      },
+      {
+        "name": "Resonators.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Resonators.pdf"
+      },
+      {
+        "name": "EP0865157B1-patent.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/EP0865157B1-patent.pdf"
+      },
+      {
+        "name": "digital_filter.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/digital_filter.pdf"
+      },
+      {
+        "name": "Manufacturing and Performance Considerations.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Manufacturing and Performance Considerations.pdf"
+      },
+      {
+        "name": "FiltersManual_RevD.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/FiltersManual_RevD.pdf"
+      },
+      {
+        "name": "Film Bulk Acoustic Wave (FBAR) Resonator.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Film Bulk Acoustic Wave (FBAR) Resonator.pdf"
+      },
+      {
+        "name": "頻率控制使用中體聲波及表面聲波技術之發展.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/頻率控制使用中體聲波及表面聲波技術之發展.pdf"
+      },
+      {
+        "name": "BAW Filter Comparison 2022,2022 BAW滤波器对比研究报告.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/BAW Filter Comparison 2022,2022 BAW滤波器对比研究报告.pdf"
+      },
+      {
+        "name": "jvt1de1.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/jvt1de1.pdf"
+      },
+      {
+        "name": "av02-3869en.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/av02-3869en.pdf"
+      },
+      {
+        "name": "Single Crystal AlScN-on-Silicon XBAW RF Filter Technology for Wide Bandwidth, High Frequency 5G and WiFi Applications.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Single Crystal AlScN-on-Silicon XBAW RF Filter Technology for Wide Bandwidth, High Frequency 5G and WiFi Applications.pdf"
+      },
+      {
+        "name": "A Systematic Design Method for Band-Pass Filters Composed of Film Bulk Acoustic Resonators.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/A Systematic Design Method for Band-Pass Filters Composed of Film Bulk Acoustic Resonators.pdf"
+      },
+      {
+        "name": "Sputtering Processes for Bulk Acoustic Wave Filters.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Sputtering Processes for Bulk Acoustic Wave Filters.pdf"
+      },
+      {
+        "name": "Single Crystal AlScN-on-Silicon XBAW RF Filter Technology for Wide Bandwidth,.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Single Crystal AlScN-on-Silicon XBAW RF Filter Technology for Wide Bandwidth,.pdf"
+      },
+      {
+        "name": "SAW components BAWfilter.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/SAW components BAWfilter.pdf"
+      },
+      {
+        "name": "A Film Bulk Acoustic Resonator (FBAR) L Band Low Noise.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/A Film Bulk Acoustic Resonator (FBAR) L Band Low Noise.pdf"
+      },
+      {
+        "name": "Flim Bulk Acoustic-Wave Resonator (FBAR).pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Flim Bulk Acoustic-Wave Resonator (FBAR).pdf"
+      },
+      {
+        "name": "SAW-Filters-Performance-Characteristics-Part-1-Application-Note.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/SAW-Filters-Performance-Characteristics-Part-1-Application-Note.pdf"
+      },
+      {
+        "name": "MICROMACHINED MEMBRANE PARTICLE FILTERS.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/MICROMACHINED MEMBRANE PARTICLE FILTERS.pdf"
+      },
+      {
+        "name": "A Study on Baw Technology Reconfiguration of FBAR Filter.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/A Study on Baw Technology Reconfiguration of FBAR Filter.pdf"
+      },
+      {
+        "name": "pss20_jeff_john_epiBAW.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/pss20_jeff_john_epiBAW.pdf"
+      },
+      {
+        "name": "Development of Piezoelectric Thin Film Resonator.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Development of Piezoelectric Thin Film Resonator.pdf"
+      },
+      {
+        "name": "Bulk-Acoustic-Wave-Devices-–-Why-How-and-Where-They-are-Going.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Bulk-Acoustic-Wave-Devices-–-Why-How-and-Where-They-are-Going.pdf"
+      },
+      {
+        "name": "9781119008538_RF_Filter_Technologies_Qorvo.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/9781119008538_RF_Filter_Technologies_Qorvo.pdf"
+      },
+      {
+        "name": "Analysis of XBAR resonance and higher order.pdf",
+        "path": "04-MEMS/05-Filter/BAW Resonator/Analysis of XBAR resonance and higher order.pdf"
+      },
+      {
+        "name": "s41378-025-01039-6.pdf",
+        "path": "04-MEMS/Acc/s41378-025-01039-6.pdf"
+      },
+      {
+        "name": "s41378-024-00826-x.pdf",
+        "path": "04-MEMS/Acc/s41378-024-00826-x.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "MEMS (Micro-Electro-Mechanical Systems)",
+        "path": "04-MEMS/04-MEMS.md"
+      }
+    ],
+    "total_pdfs": 70
+  },
+  "05-Memory": {
+    "code": "05-Memory",
+    "name": "存储器件",
+    "desc": "DRAM、3D NAND、新型存储器",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "CFM Report_2026Q1全球存储市场报告与Q2展望.pdf",
+        "path": "05-Memory/CFM Report_2026Q1全球存储市场报告与Q2展望.pdf"
+      },
+      {
+        "name": "DRAM Forecast 1Q26 Update_Gartner.pdf",
+        "path": "05-Memory/DRAM Forecast 1Q26 Update_Gartner.pdf"
+      },
+      {
+        "name": "SK hynix_HBM3E_Introduction.pdf",
+        "path": "05-Memory/SK hynix_HBM3E_Introduction.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Memory Devices",
+        "path": "05-Memory/05-Memory Devices.md"
+      }
+    ],
+    "total_pdfs": 3
+  },
+  "10-epitaxy": {
+    "code": "10-epitaxy",
+    "name": "外延",
+    "desc": "MOCVD、MBE 晶体层生长",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "MOCVDÉú³¤AlNµ¥¾§±¡Ä¤µÄÆøÏàºÍ±íÃæ»¯Ñ§·´Ó¦×ÛÊö.pdf",
+        "path": "10-Epitaxy/MOCVDÉú³¤AlNµ¥¾§±¡Ä¤µÄÆøÏàºÍ±íÃæ»¯Ñ§·´Ó¦×ÛÊö.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Epitaxy",
+        "path": "10-Epitaxy/10-Epitaxy.md"
+      }
+    ],
+    "total_pdfs": 1
+  },
+  "11-thin-film": {
+    "code": "11-thin-film",
+    "name": "薄膜沉积",
+    "desc": "PVD、CVD、ALD 纳米级镀膜",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "AlN薄膜制备与表征研究型实验设计.pdf",
+        "path": "11-Thin film/AlN薄膜制备与表征研究型实验设计.pdf"
+      },
+      {
+        "name": "micromachines-14-00700.pdf",
+        "path": "11-Thin film/micromachines-14-00700.pdf"
+      },
+      {
+        "name": "1.3501117.pdf",
+        "path": "11-Thin film/1.3501117.pdf"
+      },
+      {
+        "name": "JMEMS.2017.2712101.pdf",
+        "path": "11-Thin film/JMEMS.2017.2712101.pdf"
+      },
+      {
+        "name": "25853273.pdf",
+        "path": "11-Thin film/25853273.pdf"
+      },
+      {
+        "name": "j.mee.2021.111530.pdf",
+        "path": "11-Thin film/j.mee.2021.111530.pdf"
+      },
+      {
+        "name": "crystals-13-00910-v2.pdf",
+        "path": "11-Thin film/crystals-13-00910-v2.pdf"
+      },
+      {
+        "name": "ArcingDetection_Siegert_apcm2018.pdf",
+        "path": "11-Thin film/ArcingDetection_Siegert_apcm2018.pdf"
+      },
+      {
+        "name": "micromachines-13-01066-v2.pdf",
+        "path": "11-Thin film/micromachines-13-01066-v2.pdf"
+      },
+      {
+        "name": "tuffc.2019.2921983.pdf",
+        "path": "11-Thin film/tuffc.2019.2921983.pdf"
+      },
+      {
+        "name": "CVD.pdf",
+        "path": "11-Thin film/CVD.pdf"
+      },
+      {
+        "name": "PVD Process Introduction.pdf",
+        "path": "11-Thin film/PVD Process Introduction.pdf"
+      },
+      {
+        "name": "145301_1_5.0219167.pdf",
+        "path": "11-Thin film/145301_1_5.0219167.pdf"
+      },
+      {
+        "name": "1.4804575.pdf",
+        "path": "11-Thin film/1.4804575.pdf"
+      },
+      {
+        "name": "micromachines-13-01561.pdf",
+        "path": "11-Thin film/micromachines-13-01561.pdf"
+      },
+      {
+        "name": "CVD introduction.pdf",
+        "path": "11-Thin film/CVD introduction.pdf"
+      },
+      {
+        "name": "mems51782.2021.9375464.pdf",
+        "path": "11-Thin film/mems51782.2021.9375464.pdf"
+      },
+      {
+        "name": "nanomaterials-12-03963.pdf",
+        "path": "11-Thin film/nanomaterials-12-03963.pdf"
+      },
+      {
+        "name": "TRANSDUCERS.2015.7181383.pdf",
+        "path": "11-Thin film/TRANSDUCERS.2015.7181383.pdf"
+      },
+      {
+        "name": "Chemical_Vapor.pdf",
+        "path": "11-Thin film/Chemical_Vapor.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Thin Film Deposition",
+        "path": "11-Thin film/11-Thin Film Deposition.md"
+      }
+    ],
+    "total_pdfs": 20
+  },
+  "13-photolithography": {
+    "code": "13-photolithography",
+    "name": "光刻",
+    "desc": "DUV、EUV、光刻胶、OPC",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "OPC roadmap.pdf",
+        "path": "13-photolithography/OPC roadmap.pdf"
+      },
+      {
+        "name": "2023光刻机产业发展简析报告.pdf",
+        "path": "13-photolithography/2023光刻机产业发展简析报告.pdf"
+      },
+      {
+        "name": "Evolving Source Demands and Requirements for EUV Lithography in Manufacturing.pdf",
+        "path": "13-photolithography/Evolving Source Demands and Requirements for EUV Lithography in Manufacturing.pdf"
+      },
+      {
+        "name": "ch08.pdf",
+        "path": "13-photolithography/ch08.pdf"
+      },
+      {
+        "name": "optics for EUV Lithography.pdf",
+        "path": "13-photolithography/optics for EUV Lithography.pdf"
+      },
+      {
+        "name": "Optical Proximity Correction with Hierarchical Bayes Model.pdf",
+        "path": "13-photolithography/Optical Proximity Correction with Hierarchical Bayes Model.pdf"
+      },
+      {
+        "name": "全球光刻机行业概览.pdf",
+        "path": "13-photolithography/全球光刻机行业概览.pdf"
+      },
+      {
+        "name": "光刻机技术全景报告-37页.pdf",
+        "path": "13-photolithography/光刻机技术全景报告-37页.pdf"
+      },
+      {
+        "name": "先进制程中OCD测量技术.pdf",
+        "path": "13-photolithography/先进制程中OCD测量技术.pdf"
+      },
+      {
+        "name": "High NA introduction a sustainable choice.pdf",
+        "path": "13-photolithography/High NA introduction a sustainable choice.pdf"
+      },
+      {
+        "name": "Darc process.pdf",
+        "path": "13-photolithography/Darc process.pdf"
+      },
+      {
+        "name": "Optical Proximity Correction with Linear regression.pdf",
+        "path": "13-photolithography/Optical Proximity Correction with Linear regression.pdf"
+      },
+      {
+        "name": "EUV mask 3D effects.pdf",
+        "path": "13-photolithography/EUV mask 3D effects.pdf"
+      },
+      {
+        "name": "Recent Progress in Dry Deposited and Dry Developed EUV Photoresist System.pdf",
+        "path": "13-photolithography/Recent Progress in Dry Deposited and Dry Developed EUV Photoresist System.pdf"
+      },
+      {
+        "name": "ch05.pdf",
+        "path": "13-photolithography/ch05.pdf"
+      },
+      {
+        "name": "Optical Lithography Here is Why, Second Edition (Burn J. Lin).pdf",
+        "path": "13-photolithography/Optical Lithography Here is Why, Second Edition (Burn J. Lin).pdf"
+      },
+      {
+        "name": "ch06 (1).pdf",
+        "path": "13-photolithography/ch06 (1).pdf"
+      },
+      {
+        "name": "中国光刻胶行业研究报告-37页.pdf",
+        "path": "13-photolithography/中国光刻胶行业研究报告-37页.pdf"
+      },
+      {
+        "name": "Yong-Sun.pdf",
+        "path": "13-photolithography/Yong-Sun.pdf"
+      },
+      {
+        "name": "HiTACHI Current and Future  CD Metrology.pdf",
+        "path": "13-photolithography/HiTACHI Current and Future  CD Metrology.pdf"
+      },
+      {
+        "name": "Asml_abbreviations.pdf",
+        "path": "13-photolithography/Asml_abbreviations.pdf"
+      },
+      {
+        "name": "Optical and EUV Lithography A Modeling Perspective.pdf",
+        "path": "13-photolithography/Optical and EUV Lithography A Modeling Perspective.pdf"
+      },
+      {
+        "name": "怎么去制作mask.pdf",
+        "path": "13-photolithography/怎么去制作mask.pdf"
+      },
+      {
+        "name": "Optical Proximity Correction (OPC) Under Immersion lithography.pdf",
+        "path": "13-photolithography/Optical Proximity Correction (OPC) Under Immersion lithography.pdf"
+      },
+      {
+        "name": "Grigorescu-Hagen-2009-Resists-for-sub-20nm-EBL.pdf",
+        "path": "13-photolithography/EBL/Grigorescu-Hagen-2009-Resists-for-sub-20nm-EBL.pdf"
+      },
+      {
+        "name": "Pavkovich-1986-PEC-calculations.pdf",
+        "path": "13-photolithography/EBL/Pavkovich-1986-PEC-calculations.pdf"
+      },
+      {
+        "name": "Vieu-etal-2000-EBL-resolution-limits-and-applications.pdf",
+        "path": "13-photolithography/EBL/Vieu-etal-2000-EBL-resolution-limits-and-applications.pdf"
+      },
+      {
+        "name": "Manfrinato-etal-2013-Resolution-limits-of-EBL-toward-atomic-scale.pdf",
+        "path": "13-photolithography/EBL/Manfrinato-etal-2013-Resolution-limits-of-EBL-toward-atomic-scale.pdf"
+      },
+      {
+        "name": "UMN-EBL-Basics.pdf",
+        "path": "13-photolithography/EBL/UMN-EBL-Basics.pdf"
+      },
+      {
+        "name": "Matsumoto-etal-2014-MBM-1000-multibeam.pdf",
+        "path": "13-photolithography/EBL/Matsumoto-etal-2014-MBM-1000-multibeam.pdf"
+      },
+      {
+        "name": "Chen-2015-Nanofabrication-by-EBL.pdf",
+        "path": "13-photolithography/EBL/Chen-2015-Nanofabrication-by-EBL.pdf"
+      },
+      {
+        "name": "Yang-etal-2007-HSQ-resist-sub-5nm.pdf",
+        "path": "13-photolithography/EBL/Yang-etal-2007-HSQ-resist-sub-5nm.pdf"
+      },
+      {
+        "name": "Owen-Rissman-1983-PEC.pdf",
+        "path": "13-photolithography/EBL/Owen-Rissman-1983-PEC.pdf"
+      },
+      {
+        "name": "Platzgummer-etal-2013-eMET-multibeam.pdf",
+        "path": "13-photolithography/EBL/Platzgummer-etal-2013-eMET-multibeam.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Photolithography",
+        "path": "13-photolithography/13-Photolithography.md"
+      },
+      {
+        "name": "EBL 参考资料索引",
+        "path": "13-photolithography/EBL/EBL-参考资料.md"
+      },
+      {
+        "name": "EBL 邻近效应校正 (Proximity Effect Correction, PEC)",
+        "path": "13-photolithography/EBL/EBL-邻近效应校正-PEC.md"
+      },
+      {
+        "name": "EBL 在化合物半导体中的应用",
+        "path": "13-photolithography/EBL/EBL-化合物半导体应用.md"
+      },
+      {
+        "name": "EBL — 电子束光刻 (Electron Beam Lithography)",
+        "path": "13-photolithography/EBL/EBL-电子束光刻总览.md"
+      },
+      {
+        "name": "EBL 资料下载记录",
+        "path": "13-photolithography/EBL/EBL-下载记录.md"
+      },
+      {
+        "name": "EBL 写入时间与成本模型",
+        "path": "13-photolithography/EBL/EBL-写入时间与成本模型.md"
+      },
+      {
+        "name": "EBL 知识索引",
+        "path": "13-photolithography/EBL/00-Index.md"
+      },
+      {
+        "name": "EBL 数据准备与图形断裂 (Data Preparation & Fracturing)",
+        "path": "13-photolithography/EBL/EBL-数据准备与图形断裂.md"
+      }
+    ],
+    "total_pdfs": 34
+  },
+  "14-dry-etch": {
+    "code": "14-dry-etch",
+    "name": "干法刻蚀",
+    "desc": "RIE、ICP、ALE 等离子刻蚀",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "Dry Etch Chemistry -Si, SiO,& SiN.pdf",
+        "path": "14-dry etch/Dry Etch Chemistry -Si, SiO,& SiN.pdf"
+      },
+      {
+        "name": "Plasma etch challenges with new EUV lithography material introduction for patterning for MOL and BEOL.pdf",
+        "path": "14-dry etch/Plasma etch challenges with new EUV lithography material introduction for patterning for MOL and BEOL.pdf"
+      },
+      {
+        "name": "043006_1_online.pdf",
+        "path": "14-dry etch/043006_1_online.pdf"
+      },
+      {
+        "name": "Overview of atomic layer etching in the semiconductor.pdf",
+        "path": "14-dry etch/Overview of atomic layer etching in the semiconductor.pdf"
+      },
+      {
+        "name": "An Introduction to Plasma and Feature Scale Modeling in the Semiconductor Industry.pdf",
+        "path": "14-dry etch/An Introduction to Plasma and Feature Scale Modeling in the Semiconductor Industry.pdf"
+      },
+      {
+        "name": "Improved control of chamber condition through new Waferless Auto Clean.pdf",
+        "path": "14-dry etch/Improved control of chamber condition through new Waferless Auto Clean.pdf"
+      },
+      {
+        "name": "Etch and Materials Innovations for Advanced Logic and Memory Applications.pdf",
+        "path": "14-dry etch/Etch and Materials Innovations for Advanced Logic and Memory Applications.pdf"
+      },
+      {
+        "name": "Highly selective silicon nitride to silicon oxide process-Cornell-V.Genova-NNCI Etch Workshop 2016.pdf",
+        "path": "14-dry etch/Highly selective silicon nitride to silicon oxide process-Cornell-V.Genova-NNCI Etch Workshop 2016.pdf"
+      },
+      {
+        "name": "jap_101_113307_2007.pdf",
+        "path": "14-dry etch/jap_101_113307_2007.pdf"
+      },
+      {
+        "name": "Cryogenic Etching in Advanced Electronics Manufacturing Applications and Challenges.pdf",
+        "path": "14-dry etch/Cryogenic Etching in Advanced Electronics Manufacturing Applications and Challenges.pdf"
+      },
+      {
+        "name": "Dry etch introduction.pdf",
+        "path": "14-dry etch/Dry etch introduction.pdf"
+      },
+      {
+        "name": "Enhancing Etching Processes at Lower Wafer Temperatures New Insights into Chemical and Physical Mechanisms.pdf",
+        "path": "14-dry etch/Enhancing Etching Processes at Lower Wafer Temperatures New Insights into Chemical and Physical Mechanisms.pdf"
+      },
+      {
+        "name": "Mini Solution of TGV Inspections.pdf",
+        "path": "14-dry etch/Mini Solution of TGV Inspections.pdf"
+      },
+      {
+        "name": "韩国TGV板级设备清单.pdf",
+        "path": "14-dry etch/韩国TGV板级设备清单.pdf"
+      },
+      {
+        "name": "Etching.pdf",
+        "path": "14-dry etch/Etching.pdf"
+      },
+      {
+        "name": "Dry Etching of Advanced Semiconductor Devices with and without Plasma.pdf",
+        "path": "14-dry etch/Dry Etching of Advanced Semiconductor Devices with and without Plasma.pdf"
+      },
+      {
+        "name": "B004_210610_Loading effect and microloading effect in Si deep RIE-en.pdf",
+        "path": "14-dry etch/B004_210610_Loading effect and microloading effect in Si deep RIE-en.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Dry Etch",
+        "path": "14-dry etch/14-Dry Etch.md"
+      }
+    ],
+    "total_pdfs": 17
+  },
+  "15-metrology": {
+    "code": "15-metrology",
+    "name": "计量与检测",
+    "desc": "SEM、TEM、AFM、AOI、椭偏仪",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "Measuring Contact Hole Distributions for Use in Predicting Missing Contact Hole Ratesl.pdf",
+        "path": "15-metrology/Measuring Contact Hole Distributions for Use in Predicting Missing Contact Hole Ratesl.pdf"
+      },
+      {
+        "name": "Advanced Metrology for Next Generations of Stacked Devices and Systems_ Challenges and Opportunities - from ASML.pdf",
+        "path": "15-metrology/Advanced Metrology for Next Generations of Stacked Devices and Systems_ Challenges and Opportunities - from ASML.pdf"
+      },
+      {
+        "name": "The Role and the Challenge of Metrology and Inspection in Advanced Packaging of.pdf",
+        "path": "15-metrology/The Role and the Challenge of Metrology and Inspection in Advanced Packaging of.pdf"
+      },
+      {
+        "name": "3D (in-line) metrology challenges and solutions.pdf",
+        "path": "15-metrology/3D (in-line) metrology challenges and solutions.pdf"
+      },
+      {
+        "name": "HXRDStrain_2010 (002).pdf",
+        "path": "15-metrology/XRD/HXRDStrain_2010 (002).pdf"
+      },
+      {
+        "name": "D8A操作指南.pdf",
+        "path": "15-metrology/XRD/D8A操作指南.pdf"
+      },
+      {
+        "name": "XRD-reading-material.pdf",
+        "path": "15-metrology/XRD/XRD-reading-material.pdf"
+      },
+      {
+        "name": "X射线衍射及晶体学基础.pdf",
+        "path": "15-metrology/XRD/X射线衍射及晶体学基础.pdf"
+      },
+      {
+        "name": "X射线衍射实验技术4-数据采集及参数选择.pdf",
+        "path": "15-metrology/XRD/X射线衍射实验技术4-数据采集及参数选择.pdf"
+      },
+      {
+        "name": "牛津仪器PFM测试.pdf",
+        "path": "15-metrology/AFM/Oxford/牛津仪器PFM测试.pdf"
+      },
+      {
+        "name": "Jupiter AFM Demo Report.pdf",
+        "path": "15-metrology/AFM/Oxford/Jupiter AFM Demo Report.pdf"
+      },
+      {
+        "name": "History,?Principle?and?Basic?modes?.pdf",
+        "path": "15-metrology/AFM/Bruker/History,?Principle?and?Basic?modes?.pdf"
+      },
+      {
+        "name": "BNS+Service+FAQ_V3.pdf",
+        "path": "15-metrology/AFM/Bruker/BNS+Service+FAQ_V3.pdf"
+      },
+      {
+        "name": "Dimension Icon-中文彩页.pdf",
+        "path": "15-metrology/AFM/Bruker/Dimension Icon-中文彩页.pdf"
+      },
+      {
+        "name": "Advanced?AFM?Applications?Training?Class_PFM.pdf",
+        "path": "15-metrology/AFM/Bruker/Advanced?AFM?Applications?Training?Class_PFM.pdf"
+      },
+      {
+        "name": "Dimension?Icon?中文操作手册?Rev.?D.pdf",
+        "path": "15-metrology/AFM/Bruker/Dimension?Icon?中文操作手册?Rev.?D.pdf"
+      },
+      {
+        "name": "Dimension Edge with ScanAsyst-中文彩页.pdf",
+        "path": "15-metrology/AFM/Bruker/Dimension Edge with ScanAsyst-中文彩页.pdf"
+      },
+      {
+        "name": "YXMC ECHO (ECHO206) Hardware Installation Report_20221118.pdf",
+        "path": "15-metrology/MPG&Echo/YXMC ECHO (ECHO206) Hardware Installation Report_20221118.pdf"
+      },
+      {
+        "name": "Echo Footprint.pdf",
+        "path": "15-metrology/MPG&Echo/Echo Footprint.pdf"
+      },
+      {
+        "name": "Echo在PVD AlN 量测应用.pdf",
+        "path": "15-metrology/MPG&Echo/Echo在PVD AlN 量测应用.pdf"
+      },
+      {
+        "name": "Echo?Jobs?Creation.pdf",
+        "path": "15-metrology/MPG&Echo/Echo?Jobs?Creation.pdf"
+      },
+      {
+        "name": "ONTO official acquisition letter of Inspectrology.pdf",
+        "path": "15-metrology/MPG&Echo/ONTO official acquisition letter of Inspectrology.pdf"
+      },
+      {
+        "name": "Onto Innovation Inc Overview 2024.pdf",
+        "path": "15-metrology/MPG&Echo/Onto Innovation Inc Overview 2024.pdf"
+      },
+      {
+        "name": "MPG?and?ECHO?issue?Summary.pdf",
+        "path": "15-metrology/MPG&Echo/MPG?and?ECHO?issue?Summary.pdf"
+      },
+      {
+        "name": "4-Echo-Filmstack Development introduction.pdf",
+        "path": "15-metrology/MPG&Echo/4-Echo-Filmstack Development introduction.pdf"
+      },
+      {
+        "name": "Echo Introduction-Yanxi.pdf",
+        "path": "15-metrology/MPG&Echo/Echo Introduction-Yanxi.pdf"
+      },
+      {
+        "name": "[1989]Picosecond ultrasonics.pdf",
+        "path": "15-metrology/MPG&Echo/[1989]Picosecond ultrasonics.pdf"
+      },
+      {
+        "name": "2_Echo OJT training material.pdf",
+        "path": "15-metrology/MPG&Echo/2_Echo OJT training material.pdf"
+      },
+      {
+        "name": "5_MPG?Product?Recipe?Creation_Win10_v1.pdf",
+        "path": "15-metrology/MPG&Echo/5_MPG?Product?Recipe?Creation_Win10_v1.pdf"
+      },
+      {
+        "name": "Change?the?Offset.pdf",
+        "path": "15-metrology/MPG&Echo/Change?the?Offset.pdf"
+      },
+      {
+        "name": "武汉衍熙初步测样结果_无锡卓海ZH-LA设备.pdf",
+        "path": "15-metrology/MPG&Echo/武汉衍熙初步测样结果_无锡卓海ZH-LA设备.pdf"
+      },
+      {
+        "name": "Echo在Trim Mo量测应用.pdf",
+        "path": "15-metrology/MPG&Echo/Echo在Trim Mo量测应用.pdf"
+      },
+      {
+        "name": "1-Echo Introduction.pdf",
+        "path": "15-metrology/MPG&Echo/1-Echo Introduction.pdf"
+      },
+      {
+        "name": "[for润芯]MPG数据初步分析251024.pdf",
+        "path": "15-metrology/MPG&Echo/[for润芯]MPG数据初步分析251024.pdf"
+      },
+      {
+        "name": "Echo量测与应用介绍.pdf",
+        "path": "15-metrology/MPG&Echo/Echo量测与应用介绍.pdf"
+      },
+      {
+        "name": "YXMC?ECHO?(ECHO206)?Final?Acceptance?Report_20221118.pdf",
+        "path": "15-metrology/MPG&Echo/YXMC?ECHO?(ECHO206)?Final?Acceptance?Report_20221118.pdf"
+      },
+      {
+        "name": "Onto Innovation Inc Certification Letter.pdf",
+        "path": "15-metrology/MPG&Echo/Onto Innovation Inc Certification Letter.pdf"
+      },
+      {
+        "name": "Onto Innovation Inc Overview for RF filter.pdf",
+        "path": "15-metrology/MPG&Echo/Onto Innovation Inc Overview for RF filter.pdf"
+      },
+      {
+        "name": "武汉光矩微PALM-500 Demo报告_20241217.pdf",
+        "path": "15-metrology/MPG&Echo/武汉光矩微PALM-500 Demo报告_20241217.pdf"
+      },
+      {
+        "name": "Echo Introduction-for RF filter application Yanxi 03152021.pdf",
+        "path": "15-metrology/MPG&Echo/Echo Introduction-for RF filter application Yanxi 03152021.pdf"
+      },
+      {
+        "name": "3_Spectrum collection.pdf",
+        "path": "15-metrology/MPG&Echo/3_Spectrum collection.pdf"
+      },
+      {
+        "name": "MPG&amp;ECHO?simulator?guidance.pdf",
+        "path": "15-metrology/MPG&Echo/MPG&amp;ECHO?simulator?guidance.pdf"
+      },
+      {
+        "name": "Echo在Egun Pad Ti Al量测应用 .pdf",
+        "path": "15-metrology/MPG&Echo/Echo在Egun Pad Ti Al量测应用 .pdf"
+      },
+      {
+        "name": "SPADE-_Sub-Image_Anomaly_Detection.pdf",
+        "path": "15-metrology/AOI/SPADE-_Sub-Image_Anomaly_Detection.pdf"
+      },
+      {
+        "name": "Automated_Visual_Inspection_Deep_Learning_Review.pdf",
+        "path": "15-metrology/AOI/Automated_Visual_Inspection_Deep_Learning_Review.pdf"
+      },
+      {
+        "name": "Industrial_Anomaly_Detection-_A_Survey.pdf",
+        "path": "15-metrology/AOI/Industrial_Anomaly_Detection-_A_Survey.pdf"
+      },
+      {
+        "name": "Few-Shot_Defect_Segmentation_for_Industrial_Applications.pdf",
+        "path": "15-metrology/AOI/Few-Shot_Defect_Segmentation_for_Industrial_Applications.pdf"
+      },
+      {
+        "name": "Anomaly_Detection_in_Industrial_Images.pdf",
+        "path": "15-metrology/AOI/Anomaly_Detection_in_Industrial_Images.pdf"
+      },
+      {
+        "name": "A_deep_learning_approach_for_automated_visual_inspection_of_PCB_defects.pdf",
+        "path": "15-metrology/AOI/A_deep_learning_approach_for_automated_visual_inspection_of_PCB_defects.pdf"
+      },
+      {
+        "name": "Deep_Learning_for_Industrial_Defect_Detection-_A_Survey.pdf",
+        "path": "15-metrology/AOI/Deep_Learning_for_Industrial_Defect_Detection-_A_Survey.pdf"
+      },
+      {
+        "name": "Automated_Defect_Recognition_for_Semiconductor_Wafers.pdf",
+        "path": "15-metrology/AOI/Automated_Defect_Recognition_for_Semiconductor_Wafers.pdf"
+      },
+      {
+        "name": "Computational_Imaging_for_Semiconductor_Inspection.pdf",
+        "path": "15-metrology/AOI/Computational_Imaging_for_Semiconductor_Inspection.pdf"
+      },
+      {
+        "name": "Self-Supervised_Learning_for_Industrial_Inspection.pdf",
+        "path": "15-metrology/AOI/Self-Supervised_Learning_for_Industrial_Inspection.pdf"
+      },
+      {
+        "name": "DRAEM-_Discriminative_Anomaly_Detection.pdf",
+        "path": "15-metrology/AOI/DRAEM-_Discriminative_Anomaly_Detection.pdf"
+      },
+      {
+        "name": "PCB_Defect_Detection_Using_Deep_Learning_Methods.pdf",
+        "path": "15-metrology/AOI/PCB_Defect_Detection_Using_Deep_Learning_Methods.pdf"
+      },
+      {
+        "name": "Automated_Visual_Inspection_A_Survey_Classic.pdf",
+        "path": "15-metrology/AOI/Automated_Visual_Inspection_A_Survey_Classic.pdf"
+      },
+      {
+        "name": "LDFD_Learned_Defect_Detection_Framework.pdf",
+        "path": "15-metrology/AOI/LDFD_Learned_Defect_Detection_Framework.pdf"
+      },
+      {
+        "name": "CFA-_Coupled-hypersphere_Feature_Adaptation_for_Anomaly_Detection.pdf",
+        "path": "15-metrology/AOI/CFA-_Coupled-hypersphere_Feature_Adaptation_for_Anomaly_Detection.pdf"
+      },
+      {
+        "name": "Transformer-based_Anomaly_Detection_in_Manufacturing.pdf",
+        "path": "15-metrology/AOI/Transformer-based_Anomaly_Detection_in_Manufacturing.pdf"
+      },
+      {
+        "name": "Deep_Learning-Based_Semiconductor_Defect_Inspection.pdf",
+        "path": "15-metrology/AOI/Deep_Learning-Based_Semiconductor_Defect_Inspection.pdf"
+      },
+      {
+        "name": "Wafer_Map_Defect_Pattern_Recognition_Deep_Learning.pdf",
+        "path": "15-metrology/AOI/Wafer_Map_Defect_Pattern_Recognition_Deep_Learning.pdf"
+      },
+      {
+        "name": "Wafer_Defect_Pattern_Recognition.pdf",
+        "path": "15-metrology/AOI/Wafer_Defect_Pattern_Recognition.pdf"
+      },
+      {
+        "name": "PatchCore-_Industrial_Anomaly_Detection.pdf",
+        "path": "15-metrology/AOI/PatchCore-_Industrial_Anomaly_Detection.pdf"
+      },
+      {
+        "name": "Synthetic_Defect_Generation_for_AOI_Training.pdf",
+        "path": "15-metrology/AOI/Synthetic_Defect_Generation_for_AOI_Training.pdf"
+      },
+      {
+        "name": "Machine_Vision_for_Semiconductor_Wafer_Inspection.pdf",
+        "path": "15-metrology/AOI/Machine_Vision_for_Semiconductor_Wafer_Inspection.pdf"
+      },
+      {
+        "name": "Multi-Scale_Defect_Detection_in_Wafer_Maps.pdf",
+        "path": "15-metrology/AOI/Multi-Scale_Defect_Detection_in_Wafer_Maps.pdf"
+      },
+      {
+        "name": "Efficient_Defect_Detection_Edge_Computing.pdf",
+        "path": "15-metrology/AOI/Efficient_Defect_Detection_Edge_Computing.pdf"
+      },
+      {
+        "name": "Semiconductor_Wafer_Defect_Recognition_CNN.pdf",
+        "path": "15-metrology/AOI/Semiconductor_Wafer_Defect_Recognition_CNN.pdf"
+      },
+      {
+        "name": "PaDiM-_Patch_Distribution_Modeling_for_Anomaly_Detection.pdf",
+        "path": "15-metrology/AOI/PaDiM-_Patch_Distribution_Modeling_for_Anomaly_Detection.pdf"
+      },
+      {
+        "name": "Lightweight_CNN_for_Real-time_Semiconductor_Defect_Classification.pdf",
+        "path": "15-metrology/AOI/Lightweight_CNN_for_Real-time_Semiconductor_Defect_Classification.pdf"
+      },
+      {
+        "name": "An_Image_is_Worth_16x16_Words_ViT.pdf",
+        "path": "15-metrology/AOI/An_Image_is_Worth_16x16_Words_ViT.pdf"
+      },
+      {
+        "name": "Vision_Transformer_Industrial_Defect_Detection.pdf",
+        "path": "15-metrology/AOI/Vision_Transformer_Industrial_Defect_Detection.pdf"
+      },
+      {
+        "name": "Defect_Detection_Semiconductor_Manufacturing_Review.pdf",
+        "path": "15-metrology/AOI/Defect_Detection_Semiconductor_Manufacturing_Review.pdf"
+      },
+      {
+        "name": "Visual_Defect_Detection_in_Manufacturing-_Survey.pdf",
+        "path": "15-metrology/AOI/Visual_Defect_Detection_in_Manufacturing-_Survey.pdf"
+      },
+      {
+        "name": "Deep-Learning_Semiconductor_Wafer_Defect_Classification.pdf",
+        "path": "15-metrology/AOI/Deep-Learning_Semiconductor_Wafer_Defect_Classification.pdf"
+      },
+      {
+        "name": "CNN-based_defect_inspection_for_semiconductor_wafers.pdf",
+        "path": "15-metrology/AOI/CNN-based_defect_inspection_for_semiconductor_wafers.pdf"
+      },
+      {
+        "name": "BKM For New HMHD Rev 3.pdf",
+        "path": "15-metrology/AOI/Camtek/BKM For New HMHD Rev 3.pdf"
+      },
+      {
+        "name": "TD4M20000 Surface Classification Usage Example.pdf",
+        "path": "15-metrology/AOI/Camtek/TD4M20000 Surface Classification Usage Example.pdf"
+      },
+      {
+        "name": "Camtek TYPE-C防震脚孔位图.pdf",
+        "path": "15-metrology/AOI/Camtek/Camtek TYPE-C防震脚孔位图.pdf"
+      },
+      {
+        "name": "Concept for flipped cassette_Yanxi.pdf",
+        "path": "15-metrology/AOI/Camtek/Concept for flipped cassette_Yanxi.pdf"
+      },
+      {
+        "name": "Camtek TYPE-C水泥座图.pdf",
+        "path": "15-metrology/AOI/Camtek/Camtek TYPE-C水泥座图.pdf"
+      },
+      {
+        "name": "TD4M12400 New Surface Classification Scheme.pdf",
+        "path": "15-metrology/AOI/Camtek/TD4M12400 New Surface Classification Scheme.pdf"
+      },
+      {
+        "name": "TD4M04900 The Surface Algorithms SW version 7.2.pdf",
+        "path": "15-metrology/AOI/Camtek/TD4M04900 The Surface Algorithms SW version 7.2.pdf"
+      },
+      {
+        "name": "TD5M01700 Solder Bump Metrology Advanced Parameters_7_3_RD.pdf",
+        "path": "15-metrology/AOI/Camtek/TD5M01700 Solder Bump Metrology Advanced Parameters_7_3_RD.pdf"
+      },
+      {
+        "name": "TD3M17200C Dicing Inspection Algorithm.pdf",
+        "path": "15-metrology/AOI/Camtek/TD3M17200C Dicing Inspection Algorithm.pdf"
+      },
+      {
+        "name": "Camtek TYPE-C尺寸放大图.pdf",
+        "path": "15-metrology/AOI/Camtek/Camtek TYPE-C尺寸放大图.pdf"
+      },
+      {
+        "name": "AT0445100_01 Eagle without BSI.pdf",
+        "path": "15-metrology/AOI/Camtek/AT0445100_01 Eagle without BSI.pdf"
+      },
+      {
+        "name": "Camtek Inspection and Metrology solution - Master Presentation.pdf",
+        "path": "15-metrology/AOI/Camtek/Camtek Inspection and Metrology solution - Master Presentation.pdf"
+      },
+      {
+        "name": "AT0463101E Maintenance Manual for Eagle-T with CAL 2.pdf",
+        "path": "15-metrology/AOI/Camtek/AT0463101E Maintenance Manual for Eagle-T with CAL 2.pdf"
+      },
+      {
+        "name": "TD4M18500 Statistical Process Control SPC.pdf",
+        "path": "15-metrology/AOI/Camtek/TD4M18500 Statistical Process Control SPC.pdf"
+      },
+      {
+        "name": "AT9003907 Customer Software Release Notes Version 5.9.4-509.pdf",
+        "path": "15-metrology/AOI/Camtek/AT9003907 Customer Software Release Notes Version 5.9.4-509.pdf"
+      },
+      {
+        "name": "TD4M00000  Probe Mark  RTP Defin...I Advanced Engine from 5.6.1.0_T.pdf",
+        "path": "15-metrology/AOI/Camtek/TD4M00000  Probe Mark  RTP Defin...I Advanced Engine from 5.6.1.0_T.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Metrology & Inspection",
+        "path": "15-metrology/15-Metrology & Inspection.md"
+      },
+      {
+        "name": "AOI 文献下载记录",
+        "path": "15-metrology/AOI/下载记录.md"
+      },
+      {
+        "name": "AOI — 自动光学缺陷检测",
+        "path": "15-metrology/AOI/AOI-自动光学缺陷检测.md"
+      }
+    ],
+    "total_pdfs": 92
+  },
+  "16-CMP": {
+    "code": "16-CMP",
+    "name": "CMP",
+    "desc": "化学机械抛光 平坦化",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "CMP Process Developments for Emerging Microelectronics Device Fabrication.pdf",
+        "path": "16-CMP/CMP Process Developments for Emerging Microelectronics Device Fabrication.pdf"
+      },
+      {
+        "name": "CMP 半导体硅材料研磨液研究进展.pdf",
+        "path": "16-CMP/CMP 半导体硅材料研磨液研究进展.pdf"
+      },
+      {
+        "name": "CMP 化学机械抛光技术的研究进展.pdf",
+        "path": "16-CMP/CMP 化学机械抛光技术的研究进展.pdf"
+      },
+      {
+        "name": "Fill for Shallow Trench Isolation CMP.pdf",
+        "path": "16-CMP/Fill for Shallow Trench Isolation CMP.pdf"
+      },
+      {
+        "name": "CMP  铜互连CMP工艺技术分析.pdf",
+        "path": "16-CMP/CMP  铜互连CMP工艺技术分析.pdf"
+      },
+      {
+        "name": "BESI 2025_CMD_Presentation.pdf",
+        "path": "16-CMP/BESI 2025_CMD_Presentation.pdf"
+      },
+      {
+        "name": "CMP 化学机械抛光CMP技术的发展应用及存在问题.pdf",
+        "path": "16-CMP/CMP 化学机械抛光CMP技术的发展应用及存在问题.pdf"
+      },
+      {
+        "name": "chap10 of adv in cmp.pdf",
+        "path": "16-CMP/chap10 of adv in cmp.pdf"
+      },
+      {
+        "name": "CMP 半导体硅材料研磨液研究进展2.pdf",
+        "path": "16-CMP/CMP 半导体硅材料研磨液研究进展2.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "CMP (Chemical Mechanical Planarization)",
+        "path": "16-CMP/16-CMP.md"
+      }
+    ],
+    "total_pdfs": 9
+  },
+  "17-bonding": {
+    "code": "17-bonding",
+    "name": "晶圆键合",
+    "desc": "熔融、粘合、共晶键合",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "20250917_Semi_EMG_Beyne (1).pdf",
+        "path": "17-bonding/20250917_Semi_EMG_Beyne (1).pdf"
+      },
+      {
+        "name": "2026-3-4-Morrissey.pdf",
+        "path": "17-bonding/2026-3-4-Morrissey.pdf"
+      },
+      {
+        "name": "2026-3-2-Workman.pdf",
+        "path": "17-bonding/2026-3-2-Workman.pdf"
+      },
+      {
+        "name": "2026-2-6-Alexeev.pdf",
+        "path": "17-bonding/2026-2-6-Alexeev.pdf"
+      },
+      {
+        "name": "EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf",
+        "path": "17-bonding/EV Group - Recent Advances in Bonding and Related Processes for Photonics Applications.pdf"
+      },
+      {
+        "name": "AMAT Die-to-Wafer 混合键合技术process flow.pdf",
+        "path": "17-bonding/AMAT Die-to-Wafer 混合键合技术process flow.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Wafer Bonding",
+        "path": "17-bonding/17-Wafer Bonding.md"
+      }
+    ],
+    "total_pdfs": 6
+  },
+  "18-IMP": {
+    "code": "18-IMP",
+    "name": "离子注入",
+    "desc": "掺杂 注入+退火",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "IMP.pdf",
+        "path": "18-IMP/IMP.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Ion Implantation",
+        "path": "18-IMP/18-Ion Implantation.md"
+      }
+    ],
+    "total_pdfs": 1
+  },
+  "20-PKG": {
+    "code": "20-PKG",
+    "name": "先进封装",
+    "desc": "WLP、Fan-Out、2.5D/3D、Chiplet",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "Global-Memory-Market-Trend-White-Paper-2026.pdf",
+        "path": "20-PKG/Global-Memory-Market-Trend-White-Paper-2026.pdf"
+      },
+      {
+        "name": "KS-8028PPS线弧参数解析-a2a9e697f01dc281e43af032.pdf",
+        "path": "20-PKG/KS-8028PPS线弧参数解析-a2a9e697f01dc281e43af032.pdf"
+      },
+      {
+        "name": "GBT 51198-2016 微组装生产线工艺设计规范.pdf",
+        "path": "20-PKG/GBT 51198-2016 微组装生产线工艺设计规范.pdf"
+      },
+      {
+        "name": "3.2.2021-Wafer-level-packaging_Humidity-testing_submitted-on-210401.pdf",
+        "path": "20-PKG/3.2.2021-Wafer-level-packaging_Humidity-testing_submitted-on-210401.pdf"
+      },
+      {
+        "name": "04_1120_poenninger.pdf",
+        "path": "20-PKG/04_1120_poenninger.pdf"
+      },
+      {
+        "name": "微波组件大面积焊接阻焊技术_王雪冬.pdf",
+        "path": "20-PKG/微波组件大面积焊接阻焊技术_王雪冬.pdf"
+      },
+      {
+        "name": "759012-1.pdf",
+        "path": "20-PKG/759012-1.pdf"
+      },
+      {
+        "name": "CSTIC.2018.8369175.pdf",
+        "path": "20-PKG/CSTIC.2018.8369175.pdf"
+      },
+      {
+        "name": "Reliability_Assessment_and_Activation_Energy_Study.pdf",
+        "path": "20-PKG/Reliability_Assessment_and_Activation_Energy_Study.pdf"
+      },
+      {
+        "name": "科技行业专题研究：化圆为方_CoPoS突破先进封装横向发展极限.pdf",
+        "path": "20-PKG/科技行业专题研究：化圆为方_CoPoS突破先进封装横向发展极限.pdf"
+      },
+      {
+        "name": "design-innovations-in-mmwave-mmics-ebook-mwj.pdf",
+        "path": "20-PKG/design-innovations-in-mmwave-mmics-ebook-mwj.pdf"
+      },
+      {
+        "name": "强力焊料宣传册.pdf",
+        "path": "20-PKG/强力焊料宣传册.pdf"
+      },
+      {
+        "name": "hdp.2007.4283573 2.pdf",
+        "path": "20-PKG/hdp.2007.4283573 2.pdf"
+      },
+      {
+        "name": "T00_00_Karklin_Broz_Mann_SWTW2008.pdf",
+        "path": "20-PKG/T00_00_Karklin_Broz_Mann_SWTW2008.pdf"
+      },
+      {
+        "name": "GJB 899A-2009 可靠性鉴定和验收试验.pdf",
+        "path": "20-PKG/GJB 899A-2009 可靠性鉴定和验收试验.pdf"
+      },
+      {
+        "name": "EclipseXRM ナノX線CT装置.pdf",
+        "path": "20-PKG/EclipseXRM ナノX線CT装置.pdf"
+      },
+      {
+        "name": "s0167-8442%2898%2900066-4.pdf",
+        "path": "20-PKG/s0167-8442%2898%2900066-4.pdf"
+      },
+      {
+        "name": "av02-2436en.pdf",
+        "path": "20-PKG/av02-2436en.pdf"
+      },
+      {
+        "name": "j.envpol.2016.08.064.pdf",
+        "path": "20-PKG/j.envpol.2016.08.064.pdf"
+      },
+      {
+        "name": "micromachines-14-01695.pdf",
+        "path": "20-PKG/micromachines-14-01695.pdf"
+      },
+      {
+        "name": "KS焊线机生产流程及参数控制.pdf",
+        "path": "20-PKG/KS焊线机生产流程及参数控制.pdf"
+      },
+      {
+        "name": "Thermal_management_and_packaging_of_wide_and_ultra.pdf",
+        "path": "20-PKG/Thermal_management_and_packaging_of_wide_and_ultra.pdf"
+      },
+      {
+        "name": "li2004.pdf",
+        "path": "20-PKG/li2004.pdf"
+      },
+      {
+        "name": "GJB150.4A-2009军用装备实验室环境试验方法 低温试验.pdf",
+        "path": "20-PKG/GJB150.4A-2009军用装备实验室环境试验方法 低温试验.pdf"
+      },
+      {
+        "name": "ASTM B117-25-中文版（后附英文原版）.pdf",
+        "path": "20-PKG/ASTM B117-25-中文版（后附英文原版）.pdf"
+      },
+      {
+        "name": "倒装芯片的底部填充工艺研究_李圣贤.pdf",
+        "path": "20-PKG/倒装芯片的底部填充工艺研究_李圣贤.pdf"
+      },
+      {
+        "name": "322-333.pdf",
+        "path": "20-PKG/322-333.pdf"
+      },
+      {
+        "name": "Clip bond 特點說明.pdf",
+        "path": "20-PKG/Clip bond 特點說明.pdf"
+      },
+      {
+        "name": "预镀镍层对抑制Sn-Ag-Cu合金镀层锡须生长的作用.pdf",
+        "path": "20-PKG/预镀镍层对抑制Sn-Ag-Cu合金镀层锡须生长的作用.pdf"
+      },
+      {
+        "name": "Qin_2023_J._Phys._D__Appl._Phys._56_093001.pdf",
+        "path": "20-PKG/Qin_2023_J._Phys._D__Appl._Phys._56_093001.pdf"
+      },
+      {
+        "name": "ElMelBJNano2015.pdf",
+        "path": "20-PKG/ElMelBJNano2015.pdf"
+      },
+      {
+        "name": "高频芯片技术中心 (HFTC).pdf",
+        "path": "20-PKG/高频芯片技术中心 (HFTC).pdf"
+      },
+      {
+        "name": "台灣銅箔基板產業報告摘要.pdf",
+        "path": "20-PKG/台灣銅箔基板產業報告摘要.pdf"
+      },
+      {
+        "name": "ES1-2.pdf",
+        "path": "20-PKG/ES1-2.pdf"
+      },
+      {
+        "name": "GB-T 5095.4-1997.pdf",
+        "path": "20-PKG/GB-T 5095.4-1997.pdf"
+      },
+      {
+        "name": "Embedded-Silicon-Chip-Capacitors-in-Glass-Package-for-Vertical-Power-Delivery.pdf",
+        "path": "20-PKG/Embedded-Silicon-Chip-Capacitors-in-Glass-Package-for-Vertical-Power-Delivery.pdf"
+      },
+      {
+        "name": "玻璃載板_FOPLP產業技術研究報告-V3.1_v.pdf",
+        "path": "20-PKG/玻璃載板_FOPLP產業技術研究報告-V3.1_v.pdf"
+      },
+      {
+        "name": "Material Property Simulation for Advanced Packaging.pdf",
+        "path": "20-PKG/Material Property Simulation for Advanced Packaging.pdf"
+      },
+      {
+        "name": "JP-42-93-791.pdf",
+        "path": "20-PKG/JP-42-93-791.pdf"
+      },
+      {
+        "name": "封裝基板的翹曲控制與解決 Call memo_Fubon 20260408.pdf",
+        "path": "20-PKG/封裝基板的翹曲控制與解決 Call memo_Fubon 20260408.pdf"
+      },
+      {
+        "name": "40042-wafer-level-packaging-of-compound-semiconductors.pdf",
+        "path": "20-PKG/40042-wafer-level-packaging-of-compound-semiconductors.pdf"
+      },
+      {
+        "name": "Yole_-_High-End_Performance_Packaging_2024.pdf",
+        "path": "20-PKG/Yole_-_High-End_Performance_Packaging_2024.pdf"
+      },
+      {
+        "name": "IC-technologies-3Dx3Dx3D.pdf",
+        "path": "20-PKG/IC-technologies-3Dx3Dx3D.pdf"
+      },
+      {
+        "name": "SRC-MAPT-Roadmap-2023-v4.pdf",
+        "path": "20-PKG/SRC-MAPT-Roadmap-2023-v4.pdf"
+      },
+      {
+        "name": "Ji_HJ_MaterialsScienceandEngineeringA4472007111118.pdf",
+        "path": "20-PKG/Ji_HJ_MaterialsScienceandEngineeringA4472007111118.pdf"
+      },
+      {
+        "name": "MSE-THESES_80.pdf",
+        "path": "20-PKG/MSE-THESES_80.pdf"
+      },
+      {
+        "name": "TSMC 3DFabricTM-Advanced packaging technologies and design ecosystem collaboration2024.pdf",
+        "path": "20-PKG/TSMC 3DFabricTM-Advanced packaging technologies and design ecosystem collaboration2024.pdf"
+      },
+      {
+        "name": "New_mechanisms_of_void_growth_in_Au_Al_w.pdf",
+        "path": "20-PKG/New_mechanisms_of_void_growth_in_Au_Al_w.pdf"
+      },
+      {
+        "name": "hdp.2007.4283573.pdf",
+        "path": "20-PKG/hdp.2007.4283573.pdf"
+      },
+      {
+        "name": "双腔结构器件的下层腔体的PIND方法研究_李菁萱.pdf",
+        "path": "20-PKG/双腔结构器件的下层腔体的PIND方法研究_李菁萱.pdf"
+      },
+      {
+        "name": "The_role_of_bonding_duration_in_wire_bond_formatio.pdf",
+        "path": "20-PKG/The_role_of_bonding_duration_in_wire_bond_formatio.pdf"
+      },
+      {
+        "name": "IPC-6921-2025.pdf",
+        "path": "20-PKG/IPC-6921-2025.pdf"
+      },
+      {
+        "name": "j.scriptamat.2011.06.050.pdf",
+        "path": "20-PKG/j.scriptamat.2011.06.050.pdf"
+      },
+      {
+        "name": "GB∕T 40564-2021 电子封装用环氧塑封料测试方法.pdf",
+        "path": "20-PKG/GB∕T 40564-2021 电子封装用环氧塑封料测试方法.pdf"
+      },
+      {
+        "name": "High Frequency Tech Center.pdf",
+        "path": "20-PKG/High Frequency Tech Center.pdf"
+      },
+      {
+        "name": "LOCTITE-ABLESTIK-84-1LMI-en_GL.pdf",
+        "path": "20-PKG/LOCTITE-ABLESTIK-84-1LMI-en_GL.pdf"
+      },
+      {
+        "name": "基于热压超声的倒装芯片双层金凸点工艺研究_王子伊.pdf",
+        "path": "20-PKG/基于热压超声的倒装芯片双层金凸点工艺研究_王子伊.pdf"
+      },
+      {
+        "name": "The Evolution of Electronics Packaging to Chiplet Architecture.pdf",
+        "path": "20-PKG/The Evolution of Electronics Packaging to Chiplet Architecture.pdf"
+      },
+      {
+        "name": "E8&S33_01.pdf",
+        "path": "20-PKG/E8&S33_01.pdf"
+      },
+      {
+        "name": "heterogeneous-integration-technology-2x1tmjppmv.pdf",
+        "path": "20-PKG/WLP for GaAs/heterogeneous-integration-technology-2x1tmjppmv.pdf"
+      },
+      {
+        "name": "3.2.2021-Wafer-level-packaging_Humidity-testing_submitted-on-210401.pdf",
+        "path": "20-PKG/WLP for GaAs/3.2.2021-Wafer-level-packaging_Humidity-testing_submitted-on-210401.pdf"
+      },
+      {
+        "name": "04_1120_poenninger.pdf",
+        "path": "20-PKG/WLP for GaAs/04_1120_poenninger.pdf"
+      },
+      {
+        "name": "design-innovations-in-mmwave-mmics-ebook-mwj.pdf",
+        "path": "20-PKG/WLP for GaAs/design-innovations-in-mmwave-mmics-ebook-mwj.pdf"
+      },
+      {
+        "name": "Flip Chip, Hybrid Bonding, Fan-In, and Fan-Out Technology.pdf",
+        "path": "20-PKG/WLP for GaAs/Flip Chip, Hybrid Bonding, Fan-In, and Fan-Out Technology.pdf"
+      },
+      {
+        "name": "av02-2436en.pdf",
+        "path": "20-PKG/WLP for GaAs/av02-2436en.pdf"
+      },
+      {
+        "name": "energies-19-01752.pdf",
+        "path": "20-PKG/WLP for GaAs/energies-19-01752.pdf"
+      },
+      {
+        "name": "Thermal_management_and_packaging_of_wide_and_ultra.pdf",
+        "path": "20-PKG/WLP for GaAs/Thermal_management_and_packaging_of_wide_and_ultra.pdf"
+      },
+      {
+        "name": "023106.pdf",
+        "path": "20-PKG/WLP for GaAs/023106.pdf"
+      },
+      {
+        "name": "322-333.pdf",
+        "path": "20-PKG/WLP for GaAs/322-333.pdf"
+      },
+      {
+        "name": "GaN-Power-Device-Tutorial-Part1-GaN-Basics.pdf",
+        "path": "20-PKG/WLP for GaAs/GaN-Power-Device-Tutorial-Part1-GaN-Basics.pdf"
+      },
+      {
+        "name": "Qin_2023_J._Phys._D__Appl._Phys._56_093001.pdf",
+        "path": "20-PKG/WLP for GaAs/Qin_2023_J._Phys._D__Appl._Phys._56_093001.pdf"
+      },
+      {
+        "name": "ES1-2.pdf",
+        "path": "20-PKG/WLP for GaAs/ES1-2.pdf"
+      },
+      {
+        "name": "008.4_S8_P4_MiguelUrteaga.pdf",
+        "path": "20-PKG/WLP for GaAs/008.4_S8_P4_MiguelUrteaga.pdf"
+      },
+      {
+        "name": "40042-wafer-level-packaging-of-compound-semiconductors.pdf",
+        "path": "20-PKG/WLP for GaAs/40042-wafer-level-packaging-of-compound-semiconductors.pdf"
+      },
+      {
+        "name": "hemt-processing-flow-chart.pdf",
+        "path": "20-PKG/WLP for GaAs/hemt-processing-flow-chart.pdf"
+      },
+      {
+        "name": "09021709.pdf",
+        "path": "20-PKG/WLP for GaAs/09021709.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Advanced Packaging",
+        "path": "20-PKG/20-Advanced Packaging.md"
+      },
+      {
+        "name": "WLP Process Overview",
+        "path": "20-PKG/WLP 工艺总览.md"
+      }
+    ],
+    "total_pdfs": 76
+  },
+  "21-RF": {
+    "code": "21-RF",
+    "name": "RF 器件",
+    "desc": "GaAs、GaN HEMT、mmWave",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "华为——硬件工程师手册（全159页PDF）.pdf",
+        "path": "21-RF/华为——硬件工程师手册（全159页PDF）.pdf"
+      },
+      {
+        "name": "高质量PCB设计入门 (电子与嵌入式系统设计丛书) (（美）斯卡皮诺（Scarpino, M.） 著).pdf",
+        "path": "21-RF/高质量PCB设计入门 (电子与嵌入式系统设计丛书) (（美）斯卡皮诺（Scarpino, M.） 著).pdf"
+      },
+      {
+        "name": "Module_1_2_Tech.pdf",
+        "path": "21-RF/Module_1_2_Tech.pdf"
+      },
+      {
+        "name": "32.visual.pdf",
+        "path": "21-RF/32.visual.pdf"
+      },
+      {
+        "name": "163 页苹果 iPhone 16e 原理图_A3212-A3408-A3409-A3410-System-Electrical-Schematics-V1-0-8024509.pdf",
+        "path": "21-RF/163 页苹果 iPhone 16e 原理图_A3212-A3408-A3409-A3410-System-Electrical-Schematics-V1-0-8024509.pdf"
+      },
+      {
+        "name": "基于标准CMOS工艺的低功耗射频电路设计.pdf",
+        "path": "21-RF/基于标准CMOS工艺的低功耗射频电路设计.pdf"
+      },
+      {
+        "name": "Lecture07_Grounding.pdf",
+        "path": "21-RF/Lecture07_Grounding.pdf"
+      },
+      {
+        "name": "RFConcepts.pdf",
+        "path": "21-RF/RFConcepts.pdf"
+      },
+      {
+        "name": "Module_3_2B_Example.pdf",
+        "path": "21-RF/Module_3_2B_Example.pdf"
+      },
+      {
+        "name": "intro_to_bluetooth_test.pdf",
+        "path": "21-RF/intro_to_bluetooth_test.pdf"
+      },
+      {
+        "name": "RF Front-End  World Class Designs.pdf",
+        "path": "21-RF/RF Front-End  World Class Designs.pdf"
+      },
+      {
+        "name": "Module_3_3_noise.pdf",
+        "path": "21-RF/Module_3_3_noise.pdf"
+      },
+      {
+        "name": "微波射频电路板设计指南.pdf",
+        "path": "21-RF/微波射频电路板设计指南.pdf"
+      },
+      {
+        "name": "微带天线.pdf",
+        "path": "21-RF/微带天线.pdf"
+      },
+      {
+        "name": "grounding.pdf",
+        "path": "21-RF/grounding.pdf"
+      },
+      {
+        "name": "HFSS中文手册_568页.pdf",
+        "path": "21-RF/HFSS中文手册_568页.pdf"
+      },
+      {
+        "name": "WIFI技术介绍.pdf",
+        "path": "21-RF/WIFI技术介绍.pdf"
+      },
+      {
+        "name": "Module_4_3_bjtdisto.pdf",
+        "path": "21-RF/Module_4_3_bjtdisto.pdf"
+      },
+      {
+        "name": "Mobile-Terminal-Rx-Design-LTE.pdf",
+        "path": "21-RF/Mobile-Terminal-Rx-Design-LTE.pdf"
+      },
+      {
+        "name": "nonlinear-microwave-circuit-design_compress.pdf",
+        "path": "21-RF/nonlinear-microwave-circuit-design_compress.pdf"
+      },
+      {
+        "name": "听慧智微聊射频_共享版_2025.pdf",
+        "path": "21-RF/听慧智微聊射频_共享版_2025.pdf"
+      },
+      {
+        "name": "Lecture09_RFIC and SOC.pdf",
+        "path": "21-RF/Lecture09_RFIC and SOC.pdf"
+      },
+      {
+        "name": "Transmission Line Workshop.pdf",
+        "path": "21-RF/Transmission Line Workshop.pdf"
+      },
+      {
+        "name": "锁相环性能仿真与设计中文版.pdf",
+        "path": "21-RF/锁相环性能仿真与设计中文版.pdf"
+      },
+      {
+        "name": "Kevin McClaning - Wireless Receiver Design for Digital Communications-SciTech Publishing.pdf",
+        "path": "21-RF/Kevin McClaning - Wireless Receiver Design for Digital Communications-SciTech Publishing.pdf"
+      },
+      {
+        "name": "s41467-024-54178-1 (2).pdf",
+        "path": "21-RF/s41467-024-54178-1 (2).pdf"
+      },
+      {
+        "name": "Advanced Packaging for 5G in RF and Analog Mixed Signal.pdf",
+        "path": "21-RF/Advanced Packaging for 5G in RF and Analog Mixed Signal.pdf"
+      },
+      {
+        "name": "微波电子线路.pdf",
+        "path": "21-RF/微波电子线路.pdf"
+      },
+      {
+        "name": "Module_7_4_IL.pdf",
+        "path": "21-RF/Module_7_4_IL.pdf"
+      },
+      {
+        "name": "Module_5_4_AdvMixer.pdf",
+        "path": "21-RF/Module_5_4_AdvMixer.pdf"
+      },
+      {
+        "name": "Module_3_4_AmpsBroad.pdf",
+        "path": "21-RF/Module_3_4_AmpsBroad.pdf"
+      },
+      {
+        "name": "Module_7_1_XTAL.pdf",
+        "path": "21-RF/Module_7_1_XTAL.pdf"
+      },
+      {
+        "name": "s-parameters-hp.pdf",
+        "path": "21-RF/s-parameters-hp.pdf"
+      },
+      {
+        "name": "RF_Design_Lecture_Notes.pdf",
+        "path": "21-RF/RF_Design_Lecture_Notes.pdf"
+      },
+      {
+        "name": "Module_6_2_PA_Classes.pdf",
+        "path": "21-RF/Module_6_2_PA_Classes.pdf"
+      },
+      {
+        "name": "_lecture08.pdf",
+        "path": "21-RF/_lecture08.pdf"
+      },
+      {
+        "name": "Modern Receiver Front-Ends_ Systems, Circuits, and Integration.pdf",
+        "path": "21-RF/Modern Receiver Front-Ends_ Systems, Circuits, and Integration.pdf"
+      },
+      {
+        "name": "PA_notes1.pdf",
+        "path": "21-RF/PA_notes1.pdf"
+      },
+      {
+        "name": "Module_3_1_Sparam.pdf",
+        "path": "21-RF/Module_3_1_Sparam.pdf"
+      },
+      {
+        "name": "_lecture09.pdf",
+        "path": "21-RF/_lecture09.pdf"
+      },
+      {
+        "name": "Module_7_3_PLL.pdf",
+        "path": "21-RF/Module_7_3_PLL.pdf"
+      },
+      {
+        "name": "Module_6_1_PA_Sys.pdf",
+        "path": "21-RF/Module_6_1_PA_Sys.pdf"
+      },
+      {
+        "name": "5.visual.pdf",
+        "path": "21-RF/5.visual.pdf"
+      },
+      {
+        "name": "中兴_滤波器指南.pdf",
+        "path": "21-RF/中兴_滤波器指南.pdf"
+      },
+      {
+        "name": "IM3.pdf",
+        "path": "21-RF/IM3.pdf"
+      },
+      {
+        "name": "rf_design_guidelines_semtech.pdf",
+        "path": "21-RF/rf_design_guidelines_semtech.pdf"
+      },
+      {
+        "name": "Module_7_2_PhaseNoise.pdf",
+        "path": "21-RF/Module_7_2_PhaseNoise.pdf"
+      },
+      {
+        "name": "Software Receiver Design Build Your Own Digital Communication System.pdf",
+        "path": "21-RF/Software Receiver Design Build Your Own Digital Communication System.pdf"
+      },
+      {
+        "name": "射频调试方法.pdf",
+        "path": "21-RF/射频调试方法.pdf"
+      },
+      {
+        "name": "射频基础知识讲座.pdf",
+        "path": "21-RF/射频基础知识讲座.pdf"
+      },
+      {
+        "name": "CMOS射频集成电路设计.pdf",
+        "path": "21-RF/CMOS射频集成电路设计.pdf"
+      },
+      {
+        "name": "gan-power-amplifier-design-solutions-ebook-mwj.pdf",
+        "path": "21-RF/gan-power-amplifier-design-solutions-ebook-mwj.pdf"
+      },
+      {
+        "name": "_lecture02.pdf",
+        "path": "21-RF/_lecture02.pdf"
+      },
+      {
+        "name": "Module_7_1_MEMS_XTAL.pdf",
+        "path": "21-RF/Module_7_1_MEMS_XTAL.pdf"
+      },
+      {
+        "name": "242148799-rf-dsp-pdf.pdf",
+        "path": "21-RF/242148799-rf-dsp-pdf.pdf"
+      },
+      {
+        "name": "Module_4_5_NoiseDistoCancel.pdf",
+        "path": "21-RF/Module_4_5_NoiseDistoCancel.pdf"
+      },
+      {
+        "name": "_lecture03.pdf",
+        "path": "21-RF/_lecture03.pdf"
+      },
+      {
+        "name": "900MHz 低噪声放大器设计.pdf",
+        "path": "21-RF/900MHz 低噪声放大器设计.pdf"
+      },
+      {
+        "name": "_lecture01.pdf",
+        "path": "21-RF/_lecture01.pdf"
+      },
+      {
+        "name": "Digital Modulations using Python_Mathuranathan Viswanathan_2019.pdf",
+        "path": "21-RF/Digital Modulations using Python_Mathuranathan Viswanathan_2019.pdf"
+      },
+      {
+        "name": "NONLINEAR MICROWAVE AND RF CIRCUITS, 2ND EDITION.pdf",
+        "path": "21-RF/NONLINEAR MICROWAVE AND RF CIRCUITS, 2ND EDITION.pdf"
+      },
+      {
+        "name": "Module_5_2_MixerNoise.pdf",
+        "path": "21-RF/Module_5_2_MixerNoise.pdf"
+      },
+      {
+        "name": "Cadence高速电路板设计与仿真(第3版).pdf",
+        "path": "21-RF/Cadence高速电路板设计与仿真(第3版).pdf"
+      },
+      {
+        "name": "台湾高人图文解说S参数（基础篇）.pdf",
+        "path": "21-RF/台湾高人图文解说S参数（基础篇）.pdf"
+      },
+      {
+        "name": "最新培训资料Si9000的使用.pdf",
+        "path": "21-RF/最新培训资料Si9000的使用.pdf"
+      },
+      {
+        "name": "ADI培训课集锦_射频篇.pdf",
+        "path": "21-RF/ADI培训课集锦_射频篇.pdf"
+      },
+      {
+        "name": "802.11无线网络权威指南+第二版（中文版）.pdf",
+        "path": "21-RF/802.11无线网络权威指南+第二版（中文版）.pdf"
+      },
+      {
+        "name": "Lecture01_Different RF and digital design methodology.pdf",
+        "path": "21-RF/Lecture01_Different RF and digital design methodology.pdf"
+      },
+      {
+        "name": "_lecture04.pdf",
+        "path": "21-RF/_lecture04.pdf"
+      },
+      {
+        "name": "EMI Troubleshooting Cookbook for Product Designers.pdf",
+        "path": "21-RF/EMI Troubleshooting Cookbook for Product Designers.pdf"
+      },
+      {
+        "name": "Module_2_1_RxArch.pdf",
+        "path": "21-RF/Module_2_1_RxArch.pdf"
+      },
+      {
+        "name": "_lecture05.pdf",
+        "path": "21-RF/_lecture05.pdf"
+      },
+      {
+        "name": "常用控制电路设计及应用 (周润景  谢亚楠).pdf",
+        "path": "21-RF/常用控制电路设计及应用 (周润景  谢亚楠).pdf"
+      },
+      {
+        "name": "_lecture07.pdf",
+        "path": "21-RF/_lecture07.pdf"
+      },
+      {
+        "name": "understanding_rf_mixers_638887530748359073.pdf",
+        "path": "21-RF/understanding_rf_mixers_638887530748359073.pdf"
+      },
+      {
+        "name": "硅基模拟波束赋形芯片综述.pdf",
+        "path": "21-RF/硅基模拟波束赋形芯片综述.pdf"
+      },
+      {
+        "name": "Wireless Communication Systems in MATLAB_2ed_Mathuranathan Viswanathan_2020.pdf",
+        "path": "21-RF/Wireless Communication Systems in MATLAB_2ed_Mathuranathan Viswanathan_2020.pdf"
+      },
+      {
+        "name": "功率放大器调试及相关的指标.pdf",
+        "path": "21-RF/功率放大器调试及相关的指标.pdf"
+      },
+      {
+        "name": "tdrwshop.pdf",
+        "path": "21-RF/tdrwshop.pdf"
+      },
+      {
+        "name": "Radio Receiver Technology Principles, Architectures, and Applications.pdf",
+        "path": "21-RF/Radio Receiver Technology Principles, Architectures, and Applications.pdf"
+      },
+      {
+        "name": "中兴_射频微波设计指南.pdf",
+        "path": "21-RF/中兴_射频微波设计指南.pdf"
+      },
+      {
+        "name": "_lecture06.pdf",
+        "path": "21-RF/_lecture06.pdf"
+      },
+      {
+        "name": "Module_5_1_MixerOverview.pdf",
+        "path": "21-RF/Module_5_1_MixerOverview.pdf"
+      },
+      {
+        "name": "Module_4_2_Volterra.pdf",
+        "path": "21-RF/Module_4_2_Volterra.pdf"
+      },
+      {
+        "name": "Lecture03_Impedance matching for narrow band block.pdf",
+        "path": "21-RF/Lecture03_Impedance matching for narrow band block.pdf"
+      },
+      {
+        "name": "gan-power-amplifier-design-solutions-ebook-mwj (1).pdf",
+        "path": "21-RF/gan-power-amplifier-design-solutions-ebook-mwj (1).pdf"
+      },
+      {
+        "name": "cadence菜单中英文对照.pdf",
+        "path": "21-RF/cadence菜单中英文对照.pdf"
+      },
+      {
+        "name": "Lecture08_Equipotentiality and current coupling.pdf",
+        "path": "21-RF/Lecture08_Equipotentiality and current coupling.pdf"
+      },
+      {
+        "name": "77617492-Techday-Introduction-to-RF-Design.pdf",
+        "path": "21-RF/77617492-Techday-Introduction-to-RF-Design.pdf"
+      },
+      {
+        "name": "ISM RF产品的无线链路计算.pdf",
+        "path": "21-RF/ISM RF产品的无线链路计算.pdf"
+      },
+      {
+        "name": "Module_4_1_PowerSeries.pdf",
+        "path": "21-RF/Module_4_1_PowerSeries.pdf"
+      },
+      {
+        "name": "skyworks_overview.pdf",
+        "path": "21-RF/skyworks_overview.pdf"
+      },
+      {
+        "name": "Lecture00_Introduction.pdf",
+        "path": "21-RF/Lecture00_Introduction.pdf"
+      },
+      {
+        "name": "Cadence电路图设计百例.pdf",
+        "path": "21-RF/Cadence电路图设计百例.pdf"
+      },
+      {
+        "name": "罗德与施瓦茨  高校测试技术与应用论文集.pdf",
+        "path": "21-RF/罗德与施瓦茨  高校测试技术与应用论文集.pdf"
+      },
+      {
+        "name": "Module_1_3_Passives.pdf",
+        "path": "21-RF/Module_1_3_Passives.pdf"
+      },
+      {
+        "name": "rf-basics-guide.pdf",
+        "path": "21-RF/rf-basics-guide.pdf"
+      },
+      {
+        "name": "RF Applications.pdf",
+        "path": "21-RF/RF Applications.pdf"
+      },
+      {
+        "name": "Receiver-Topologies Fundamentals and Properties.pdf",
+        "path": "21-RF/Receiver-Topologies Fundamentals and Properties.pdf"
+      },
+      {
+        "name": "射频电路与芯片设计要点（中文版）.pdf",
+        "path": "21-RF/射频电路与芯片设计要点（中文版）.pdf"
+      },
+      {
+        "name": "Module_6_3_PowerComb.pdf",
+        "path": "21-RF/Module_6_3_PowerComb.pdf"
+      },
+      {
+        "name": "深入浅出电源设计 (吴祥兴).pdf",
+        "path": "21-RF/深入浅出电源设计 (吴祥兴).pdf"
+      },
+      {
+        "name": "Module_5_3_MixerDesign.pdf",
+        "path": "21-RF/Module_5_3_MixerDesign.pdf"
+      },
+      {
+        "name": "Lecture02_Voltage and power transportaion.pdf",
+        "path": "21-RF/Lecture02_Voltage and power transportaion.pdf"
+      },
+      {
+        "name": "Module_3_2_GainStability.pdf",
+        "path": "21-RF/Module_3_2_GainStability.pdf"
+      },
+      {
+        "name": "改善網路分析儀量測精準度和穩定性.pdf",
+        "path": "21-RF/改善網路分析儀量測精準度和穩定性.pdf"
+      },
+      {
+        "name": "Lecture06_Impedance measurement.pdf",
+        "path": "21-RF/Lecture06_Impedance measurement.pdf"
+      },
+      {
+        "name": "华为公司内部 无线传播理论.pdf",
+        "path": "21-RF/华为公司内部 无线传播理论.pdf"
+      },
+      {
+        "name": "Lecture04_Impedance matching for wide band block.pdf",
+        "path": "21-RF/Lecture04_Impedance matching for wide band block.pdf"
+      },
+      {
+        "name": "ESP32物联网智能硬件开发实战 (Chinese User).pdf",
+        "path": "21-RF/ESP32物联网智能硬件开发实战 (Chinese User).pdf"
+      },
+      {
+        "name": "EMI Troubleshooting, Measurements and Common problems.pdf",
+        "path": "21-RF/EMI Troubleshooting, Measurements and Common problems.pdf"
+      },
+      {
+        "name": "基于标准CMOS工艺的低功耗射频电路设计 (1).pdf",
+        "path": "21-RF/基于标准CMOS工艺的低功耗射频电路设计 (1).pdf"
+      },
+      {
+        "name": "GaN-SSPAs-2018-03.pdf",
+        "path": "21-RF/GaN-SSPAs-2018-03.pdf"
+      },
+      {
+        "name": "4.visual.pdf",
+        "path": "21-RF/4.visual.pdf"
+      },
+      {
+        "name": "Andreas Schwarzinger - Digital Signal Processing in Modern Communication Systems(2022).pdf",
+        "path": "21-RF/Andreas Schwarzinger - Digital Signal Processing in Modern Communication Systems(2022).pdf"
+      },
+      {
+        "name": "Module_4_4_MosDisto.pdf",
+        "path": "21-RF/Module_4_4_MosDisto.pdf"
+      },
+      {
+        "name": "Nonlinear Microwave Circuit Design.pdf",
+        "path": "21-RF/Nonlinear Microwave Circuit Design.pdf"
+      },
+      {
+        "name": "华为射频培训讲义.pdf",
+        "path": "21-RF/华为射频培训讲义.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "RF Devices",
+        "path": "21-RF/21-RF Devices.md"
+      }
+    ],
+    "total_pdfs": 118
+  },
+  "30-Metal": {
+    "code": "30-Metal",
+    "name": "金属化与互连",
+    "desc": "Cu、Al、Co、Ru 互连金属",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "JAP9320033886.pdf",
+        "path": "30-Metal/JAP9320033886.pdf"
+      },
+      {
+        "name": "Guo-2024-Selecting-Alternative-Metals-Advanced-Interconnects.pdf",
+        "path": "30-Metal/Guo-2024-Selecting-Alternative-Metals-Advanced-Interconnects.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Metallization & Interconnect",
+        "path": "30-Metal/30-Metallization & Interconnect.md"
+      }
+    ],
+    "total_pdfs": 2
+  },
+  "31-Piezo": {
+    "code": "31-Piezo",
+    "name": "压电器件",
+    "desc": "PZT、AlN 压电材料",
+    "level": 400,
+    "pdfs": [
+      {
+        "name": "PEM-2025-Piezo-MEMS-Phase-Modulator-SiN.pdf",
+        "path": "31-Piezo/PEM-2025-Piezo-MEMS-Phase-Modulator-SiN.pdf"
+      },
+      {
+        "name": "Enabling piezoMEMS applications for today and tomorrow.pdf",
+        "path": "31-Piezo/Enabling piezoMEMS applications for today and tomorrow.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Piezoelectric Devices",
+        "path": "31-Piezo/31-Piezoelectric Devices.md"
+      }
+    ],
+    "total_pdfs": 2
+  },
+  "40-Mask": {
+    "code": "40-Mask",
+    "name": "掩模设计",
+    "desc": "光罩、OPC、ILT",
+    "level": 300,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "FBAR WLP Mask Design — 设计规则与版图 V1",
+        "path": "40-Mask design/FBAR WLP Mask Design.md"
+      },
+      {
+        "name": "Mask Design",
+        "path": "40-Mask design/40-Mask Design.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "41-DTCO": {
+    "code": "41-DTCO",
+    "name": "DTCO",
+    "desc": "设计-技术协同优化",
+    "level": 400,
+    "pdfs": [
+      {
+        "name": "DTCO_Web-V1.0.pdf",
+        "path": "41-DTCO/DTCO_Web-V1.0.pdf"
+      },
+      {
+        "name": "Yuehang_Xu_MOS-AK_Guangzhou_2022.pdf",
+        "path": "41-DTCO/Yuehang_Xu_MOS-AK_Guangzhou_2022.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "DTCO (Design-Technology Co-Optimization)",
+        "path": "41-DTCO/41-DTCO.md"
+      }
+    ],
+    "total_pdfs": 2
+  },
+  "90-English": {
+    "code": "90-English",
+    "name": "技术英语",
+    "desc": "半导体工程师英语",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "pdf_download_23915A80-5B11-438B-BCC6-29B5C95A7067.pdf",
+        "path": "90-English/pdf_download_23915A80-5B11-438B-BCC6-29B5C95A7067.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "English Learning",
+        "path": "90-English/90-English Learning.md"
+      }
+    ],
+    "total_pdfs": 1
+  },
+  "91-general": {
+    "code": "91-general",
+    "name": "半导体通识",
+    "desc": "行业概览、供应链、基础",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "2162-8777%2Fab8d93.pdf",
+        "path": "91-general/2162-8777%2Fab8d93.pdf"
+      },
+      {
+        "name": "Rebar_Fabrication_Plan_to_Enhance_Production_Effic.pdf",
+        "path": "91-general/Rebar_Fabrication_Plan_to_Enhance_Production_Effic.pdf"
+      },
+      {
+        "name": "创始人手册-构建AI原生创业公司-中文版.pdf",
+        "path": "91-general/创始人手册-构建AI原生创业公司-中文版.pdf"
+      },
+      {
+        "name": "micromachines-11-00864.pdf",
+        "path": "91-general/micromachines-11-00864.pdf"
+      },
+      {
+        "name": "富爸爸穷爸爸 (全球最佳财商教育系列) (〔美〕罗伯特·清崎；〔美〕莎伦·莱希特) (Z-Library).pdf",
+        "path": "91-general/富爸爸穷爸爸 (全球最佳财商教育系列) (〔美〕罗伯特·清崎；〔美〕莎伦·莱希特) (Z-Library).pdf"
+      },
+      {
+        "name": "JMP培训笔记（汇总）.pdf",
+        "path": "91-general/JMP培训笔记（汇总）.pdf"
+      },
+      {
+        "name": "XRD-reading-material.pdf",
+        "path": "91-general/XRD-reading-material.pdf"
+      },
+      {
+        "name": "AI for Materials 报告.pdf",
+        "path": "91-general/AI for Materials 报告.pdf"
+      },
+      {
+        "name": "时间游戏 (周洛华) (3).pdf",
+        "path": "91-general/时间游戏 (周洛华) (3).pdf"
+      },
+      {
+        "name": "小狗钱钱（套装全2册） (博多·舍费尔) (Z-Library).pdf",
+        "path": "91-general/小狗钱钱（套装全2册） (博多·舍费尔) (Z-Library).pdf"
+      },
+      {
+        "name": "s00339-023-06797-6.pdf",
+        "path": "91-general/s00339-023-06797-6.pdf"
+      },
+      {
+        "name": "BACUS-Newsletter-March-2015.pdf",
+        "path": "91-general/BACUS-Newsletter-March-2015.pdf"
+      },
+      {
+        "name": "69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3 (1).pdf",
+        "path": "91-general/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3 (1).pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "General Semiconductor Knowledge",
+        "path": "91-general/91-General Semiconductor.md"
+      }
+    ],
+    "total_pdfs": 13
+  },
+  "92-scrum": {
+    "code": "92-scrum",
+    "name": "Scrum 敏捷",
+    "desc": "制造业敏捷项目管理",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "Ebook_Basics_of_Scrum_en-2.pdf",
+        "path": "92-scrum/Ebook_Basics_of_Scrum_en-2.pdf"
+      },
+      {
+        "name": "小米创业思考.pdf",
+        "path": "92-scrum/小米创业思考.pdf"
+      },
+      {
+        "name": "改变：2025雷军年度演讲全文.pdf",
+        "path": "92-scrum/改变：2025雷军年度演讲全文.pdf"
+      },
+      {
+        "name": "The-Scrum-Handbook.pdf",
+        "path": "92-scrum/The-Scrum-Handbook.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Scrum & Agile",
+        "path": "92-scrum/92-Scrum & Agile.md"
+      }
+    ],
+    "total_pdfs": 4
+  },
+  "93-IE": {
+    "code": "93-IE",
+    "name": "工业工程",
+    "desc": "OEE、精益、运营优化",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "工业工程改善手册.pdf",
+        "path": "93-IE/工业工程改善手册.pdf"
+      },
+      {
+        "name": "IE-15-IE知识手册-富士康.pdf",
+        "path": "93-IE/IE-15-IE知识手册-富士康.pdf"
+      },
+      {
+        "name": "An application of Little's Law in Microns supply chain.pdf",
+        "path": "93-IE/An application of Little's Law in Microns supply chain.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Industrial Engineering",
+        "path": "93-IE/93-Industrial Engineering.md"
+      }
+    ],
+    "total_pdfs": 3
+  },
+  "94-clean-room": {
+    "code": "94-clean-room",
+    "name": "洁净室与设施",
+    "desc": "ISO 等级、HVAC、AMC、EHS",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "电子行业洁净厂房净化空调系统设计.pdf",
+        "path": "94-clean room/电子行业洁净厂房净化空调系统设计.pdf"
+      },
+      {
+        "name": "半导体洁净室AMC控制过程的管理-钱刚.pdf",
+        "path": "94-clean room/半导体洁净室AMC控制过程的管理-钱刚.pdf"
+      },
+      {
+        "name": "暖通空调设计通病分析(第二版).pdf",
+        "path": "94-clean room/暖通空调设计通病分析(第二版).pdf"
+      },
+      {
+        "name": "电子厂房洁净室空调设计-李欣煜.pdf",
+        "path": "94-clean room/电子厂房洁净室空调设计-李欣煜.pdf"
+      },
+      {
+        "name": "全球半导体制造类EDA行业白皮书(1).pdf",
+        "path": "94-clean room/全球半导体制造类EDA行业白皮书(1).pdf"
+      },
+      {
+        "name": "BIM技术在上海中芯大型电子厂房钢桁架滚装施工中的应用-刘江帆.pdf",
+        "path": "94-clean room/BIM技术在上海中芯大型电子厂房钢桁架滚装施工中的应用-刘江帆.pdf"
+      },
+      {
+        "name": "工艺、技术与建筑的整合——电子高科技芯片厂房设计实践_晁阳.pdf",
+        "path": "94-clean room/工艺、技术与建筑的整合——电子高科技芯片厂房设计实践_晁阳.pdf"
+      },
+      {
+        "name": "电子洁净工厂新风机组MAU控制策略优化检讨.pdf",
+        "path": "94-clean room/电子洁净工厂新风机组MAU控制策略优化检讨.pdf"
+      },
+      {
+        "name": "电子芯片厂房华夫板奇氏筒施工技术应用-吴德艮.pdf",
+        "path": "94-clean room/电子芯片厂房华夫板奇氏筒施工技术应用-吴德艮.pdf"
+      },
+      {
+        "name": "半导体集成电路封装项目可研报告环评用(评审版).pdf",
+        "path": "94-clean room/半导体集成电路封装项目可研报告环评用(评审版).pdf"
+      },
+      {
+        "name": "半导体晶圆厂房的微震控制技术-王晋元.pdf",
+        "path": "94-clean room/半导体晶圆厂房的微震控制技术-王晋元.pdf"
+      },
+      {
+        "name": "高级别电子半导体厂房洁净室施工关键技术-于良.pdf",
+        "path": "94-clean room/高级别电子半导体厂房洁净室施工关键技术-于良.pdf"
+      },
+      {
+        "name": "钢管壁厚.pdf",
+        "path": "94-clean room/钢管壁厚.pdf"
+      },
+      {
+        "name": "电子厂房防微振响应分析及优化研究-胡艳飞.pdf",
+        "path": "94-clean room/电子厂房防微振响应分析及优化研究-胡艳飞.pdf"
+      },
+      {
+        "name": "半导体洁净厂房FFU与高架地板布置对气流流形影响的分析-陶森龙.pdf",
+        "path": "94-clean room/半导体洁净厂房FFU与高架地板布置对气流流形影响的分析-陶森龙.pdf"
+      },
+      {
+        "name": "高级别电子半导体厂房洁净室施工关键技术-于良 (1).pdf",
+        "path": "94-clean room/高级别电子半导体厂房洁净室施工关键技术-于良 (1).pdf"
+      },
+      {
+        "name": "2023水暖、通风空调精品工程施工质量控制要118页.pdf",
+        "path": "94-clean room/2023水暖、通风空调精品工程施工质量控制要118页.pdf"
+      },
+      {
+        "name": "某大科学装置项目工艺冷却水系统设计-朱喆.pdf",
+        "path": "94-clean room/某大科学装置项目工艺冷却水系统设计-朱喆.pdf"
+      },
+      {
+        "name": "电子工业生产设备二次配管配线技术规范.pdf",
+        "path": "94-clean room/电子工业生产设备二次配管配线技术规范.pdf"
+      },
+      {
+        "name": "设备机台二次配技术要求.pdf",
+        "path": "94-clean room/设备机台二次配技术要求.pdf"
+      },
+      {
+        "name": "某芯片生产厂房净化空调设计-马海龙.pdf",
+        "path": "94-clean room/某芯片生产厂房净化空调设计-马海龙.pdf"
+      },
+      {
+        "name": "解析高精度恒温恒湿洁净室的空调设计.pdf",
+        "path": "94-clean room/解析高精度恒温恒湿洁净室的空调设计.pdf"
+      },
+      {
+        "name": "电子特气柜_架_VMB_VMP简介.pdf",
+        "path": "94-clean room/电子特气柜_架_VMB_VMP简介.pdf"
+      },
+      {
+        "name": "抗爆、泄爆门窗及屋盖、墙体建筑构造.pdf",
+        "path": "94-clean room/抗爆、泄爆门窗及屋盖、墙体建筑构造.pdf"
+      },
+      {
+        "name": "净化空调系统的简化设计.pdf",
+        "path": "94-clean room/净化空调系统的简化设计.pdf"
+      },
+      {
+        "name": "NOA半导体事业部2025.pdf",
+        "path": "94-clean room/NOA半导体事业部2025.pdf"
+      },
+      {
+        "name": "BIM技术在某半导体厂房二次配设计中的应用_赵越盛.pdf",
+        "path": "94-clean room/BIM技术在某半导体厂房二次配设计中的应用_赵越盛.pdf"
+      },
+      {
+        "name": "空调与洁净技术基础知识讲座.pdf",
+        "path": "94-clean room/空调与洁净技术基础知识讲座.pdf"
+      },
+      {
+        "name": "机电安装工程施工典型做法图集(完美版).pdf",
+        "path": "94-clean room/机电安装工程施工典型做法图集(完美版).pdf"
+      },
+      {
+        "name": "GB 50809-2012 硅集成电路芯片工厂设计规范(1).pdf",
+        "path": "94-clean room/GB 50809-2012 硅集成电路芯片工厂设计规范(1).pdf"
+      },
+      {
+        "name": "洁净芯片厂房动力中心功能布局与施工部署深度结合的探索_李银飞.pdf",
+        "path": "94-clean room/洁净芯片厂房动力中心功能布局与施工部署深度结合的探索_李银飞.pdf"
+      },
+      {
+        "name": "全固态电池生产工艺分析.pdf",
+        "path": "94-clean room/全固态电池生产工艺分析.pdf"
+      },
+      {
+        "name": "新版综合产品手册-欧博.pdf",
+        "path": "94-clean room/新版综合产品手册-欧博.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Clean Room & Facility",
+        "path": "94-clean room/94-Clean Room & Facility.md"
+      }
+    ],
+    "total_pdfs": 33
+  },
+  "95-Q": {
+    "code": "95-Q",
+    "name": "品质管理",
+    "desc": "SPC、六西格玛、FMEA、8D",
+    "level": 200,
+    "pdfs": [
+      {
+        "name": "8D培训.pdf",
+        "path": "95-Q/8D培训.pdf"
+      },
+      {
+        "name": "DMAIC-培训.pdf",
+        "path": "95-Q/DMAIC-培训.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Quality Management",
+        "path": "95-Q/95-Quality Management.md"
+      }
+    ],
+    "total_pdfs": 2
+  },
+  "998-company": {
+    "code": "998-company",
+    "name": "企业档案",
+    "desc": "AMAT、LAM、TEL、ASML 设备生态",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "先导科技战略版简介2026版-中英文版-0429.pdf",
+        "path": "998-company introduce/先导科技战略版简介2026版-中英文版-0429.pdf"
+      },
+      {
+        "name": "【中文】吉姆西半导体科技（无锡）股份有限公司介绍2025Q1V2.pdf",
+        "path": "998-company introduce/【中文】吉姆西半导体科技（无锡）股份有限公司介绍2025Q1V2.pdf"
+      },
+      {
+        "name": "先导极星概况介绍(N).pdf",
+        "path": "998-company introduce/先导极星概况介绍(N).pdf"
+      },
+      {
+        "name": "半导体过滤解决方案24A.pdf",
+        "path": "998-company introduce/半导体过滤解决方案24A.pdf"
+      },
+      {
+        "name": "先导科技战略版简介2026版-英文版-0429.pdf",
+        "path": "998-company introduce/先导科技战略版简介2026版-英文版-0429.pdf"
+      },
+      {
+        "name": "尚积PlasMerits Etch软件用户手册.pdf",
+        "path": "998-company introduce/尚积PlasMerits Etch软件用户手册.pdf"
+      },
+      {
+        "name": "吉姆西半导体科技（无锡）股份有限公司介绍20240801更新.pdf",
+        "path": "998-company introduce/吉姆西半导体科技（无锡）股份有限公司介绍20240801更新.pdf"
+      },
+      {
+        "name": "ZHT-300 产品介绍 2025.pdf",
+        "path": "998-company introduce/ZHT-300 产品介绍 2025.pdf"
+      },
+      {
+        "name": "创达晖跃电子版.pdf",
+        "path": "998-company introduce/创达晖跃电子版.pdf"
+      },
+      {
+        "name": "矢量集团-半导体全栈解决方案.pdf",
+        "path": "998-company introduce/矢量集团-半导体全栈解决方案.pdf"
+      },
+      {
+        "name": "武汉光矩微电子有限公司介绍-202403-2.pdf",
+        "path": "998-company introduce/武汉光矩微电子有限公司介绍-202403-2.pdf"
+      },
+      {
+        "name": "青禾晶元公司和产品介绍-20251021.pdf",
+        "path": "998-company introduce/青禾晶元公司和产品介绍-20251021.pdf"
+      },
+      {
+        "name": "轻小型合成孔径雷达(Mini SAR).pdf",
+        "path": "998-company introduce/轻小型合成孔径雷达(Mini SAR).pdf"
+      },
+      {
+        "name": "新硅聚合-声学产品-外发.pdf",
+        "path": "998-company introduce/新硅聚合-声学产品-外发.pdf"
+      },
+      {
+        "name": "南智光电宣传册.pdf",
+        "path": "998-company introduce/南智光电宣传册.pdf"
+      },
+      {
+        "name": "先导极星产品手册-有源阵面产品(1).pdf",
+        "path": "998-company introduce/先导极星产品手册-有源阵面产品(1).pdf"
+      },
+      {
+        "name": "敦锋科技宣传册@2024.pdf",
+        "path": "998-company introduce/敦锋科技宣传册@2024.pdf"
+      },
+      {
+        "name": "SJI-SEMI PVD VOx Applications for MEMS 2025-6-26.pdf",
+        "path": "998-company introduce/SJI-SEMI PVD VOx Applications for MEMS 2025-6-26.pdf"
+      },
+      {
+        "name": "上海汉钟真空泵产品介绍2025-3-18.pdf",
+        "path": "998-company introduce/上海汉钟真空泵产品介绍2025-3-18.pdf"
+      },
+      {
+        "name": "深圳清力技术有限公司介绍.pdf",
+        "path": "998-company introduce/深圳清力技术有限公司介绍.pdf"
+      },
+      {
+        "name": "富力天晟科技（武汉）有限公司资料（20230420）.pdf",
+        "path": "998-company introduce/富力天晟科技（武汉）有限公司资料（20230420）.pdf"
+      },
+      {
+        "name": "晶通科技MST Fan out封装.pdf",
+        "path": "998-company introduce/晶通科技MST Fan out封装.pdf"
+      },
+      {
+        "name": "武汉承远电子公司简介_202503 -解密.pdf",
+        "path": "998-company introduce/武汉承远电子公司简介_202503 -解密.pdf"
+      },
+      {
+        "name": "上海歆立渚信息科技简介2023.pdf",
+        "path": "998-company introduce/上海歆立渚信息科技简介2023.pdf"
+      },
+      {
+        "name": "微研波纹管样本.pdf",
+        "path": "998-company introduce/微研波纹管样本.pdf"
+      },
+      {
+        "name": "<<封装平台产品手册>>.pdf",
+        "path": "998-company introduce/<<封装平台产品手册>>.pdf"
+      },
+      {
+        "name": "上海新微技术研发中心有限公司公司介绍2025.3.pdf",
+        "path": "998-company introduce/上海新微技术研发中心有限公司公司介绍2025.3.pdf"
+      },
+      {
+        "name": "冠乾科技 主营产品 2026.pdf",
+        "path": "998-company introduce/冠乾科技 主营产品 2026.pdf"
+      },
+      {
+        "name": "松下SAW Dry etcher introduction20221104.pdf",
+        "path": "998-company introduce/松下SAW Dry etcher introduction20221104.pdf"
+      },
+      {
+        "name": "苏纳光电官方介绍.pdf",
+        "path": "998-company introduce/苏纳光电官方介绍.pdf"
+      },
+      {
+        "name": "先导科技战略版简介2026版-中文版-0429.pdf",
+        "path": "998-company introduce/先导科技战略版简介2026版-中文版-0429.pdf"
+      },
+      {
+        "name": "20250321华鑫微纳介绍PPT.pdf",
+        "path": "998-company introduce/20250321华鑫微纳介绍PPT.pdf"
+      },
+      {
+        "name": "新凯来装备介绍.pdf",
+        "path": "998-company introduce/新凯来装备介绍.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Company Profiles",
+        "path": "998-company introduce/998-Company Profiles.md"
+      }
+    ],
+    "total_pdfs": 33
+  },
+  "999-industry": {
+    "code": "999-industry",
+    "name": "行业报告",
+    "desc": "Yole、IC Insights、SEMI 市场报告",
+    "level": 100,
+    "pdfs": [
+      {
+        "name": "科技下游產業 - 4Q25財報檢視：4Q25受惠AI伺服器需求強勁，1Q26 GB300放量帶動供應鏈營.pdf",
+        "path": "999-industry report/科技下游產業 - 4Q25財報檢視：4Q25受惠AI伺服器需求強勁，1Q26 GB300放量帶動供應鏈營.pdf"
+      },
+      {
+        "name": "YOLE-Silicon-Photonics-2021-Sample.pdf",
+        "path": "999-industry report/YOLE-Silicon-Photonics-2021-Sample.pdf"
+      },
+      {
+        "name": "PHO002D-Global Markets for Laser Systems, Components and Materials 2025年全球激光系统、元器件及材料市场报告.pdf",
+        "path": "999-industry report/PHO002D-Global Markets for Laser Systems, Components and Materials 2025年全球激光系统、元器件及材料市场报告.pdf"
+      },
+      {
+        "name": "仕佳光子-横纵分析报告.pdf",
+        "path": "999-industry report/仕佳光子-横纵分析报告.pdf"
+      },
+      {
+        "name": "66、半导体深度研究报告之模拟电路-27页.pdf",
+        "path": "999-industry report/66、半导体深度研究报告之模拟电路-27页.pdf"
+      },
+      {
+        "name": "国信证券_数据中心互联技术专题三：AI变革推动硅光模块快速发展.pdf",
+        "path": "999-industry report/国信证券_数据中心互联技术专题三：AI变革推动硅光模块快速发展.pdf"
+      },
+      {
+        "name": "汽车行业：Robotaxi，开启万亿级城市出行新纪元-260323.pdf",
+        "path": "999-industry report/汽车行业：Robotaxi，开启万亿级城市出行新纪元-260323.pdf"
+      },
+      {
+        "name": "Marvell Corporate Overview.pdf",
+        "path": "999-industry report/Marvell Corporate Overview.pdf"
+      },
+      {
+        "name": "YOLE-2.5D&3D.pdf",
+        "path": "999-industry report/YOLE-2.5D&3D.pdf"
+      },
+      {
+        "name": "翱捷科技-横纵分析报告.pdf",
+        "path": "999-industry report/翱捷科技-横纵分析报告.pdf"
+      },
+      {
+        "name": "31、半导体深度报告：第三代半导体之GaN研究框架-54页.pdf",
+        "path": "999-industry report/31、半导体深度报告：第三代半导体之GaN研究框架-54页.pdf"
+      },
+      {
+        "name": "Global AI in Data Quality Market 2025-2029 全球数据质量领域人工智能市场报告（2025-2029）.pdf",
+        "path": "999-industry report/Global AI in Data Quality Market 2025-2029 全球数据质量领域人工智能市场报告（2025-2029）.pdf"
+      },
+      {
+        "name": "128、半导体设备专题：半导体设备零部件--小而美子赛道组成数百亿美元市场-47页.pdf",
+        "path": "999-industry report/128、半导体设备专题：半导体设备零部件--小而美子赛道组成数百亿美元市场-47页.pdf"
+      },
+      {
+        "name": "Yole2024-Memory Report Next_Generation_DRAM_2024_Focus_on_HBM_and_3D_DRAM.pdf",
+        "path": "999-industry report/Yole2024-Memory Report Next_Generation_DRAM_2024_Focus_on_HBM_and_3D_DRAM.pdf"
+      },
+      {
+        "name": "预见2026_中国行业趋势报告.pdf",
+        "path": "999-industry report/预见2026_中国行业趋势报告.pdf"
+      },
+      {
+        "name": "64、半导体行业系列专题：存储60年：观历史，聊兴衰-60页.pdf",
+        "path": "999-industry report/64、半导体行业系列专题：存储60年：观历史，聊兴衰-60页.pdf"
+      },
+      {
+        "name": "北方华创-横纵分析报告.pdf",
+        "path": "999-industry report/北方华创-横纵分析报告.pdf"
+      },
+      {
+        "name": "Yole-Power_GaN_2025.pdf",
+        "path": "999-industry report/Yole-Power_GaN_2025.pdf"
+      },
+      {
+        "name": "半导体材料：光刻胶投资宝典-59页.pdf",
+        "path": "999-industry report/半导体材料：光刻胶投资宝典-59页.pdf"
+      },
+      {
+        "name": "TER-横纵分析报告.pdf",
+        "path": "999-industry report/TER-横纵分析报告.pdf"
+      },
+      {
+        "name": "半导体-深析协议.pdf",
+        "path": "999-industry report/半导体-深析协议.pdf"
+      },
+      {
+        "name": "2026H1 福邦PCB.pdf",
+        "path": "999-industry report/2026H1 福邦PCB.pdf"
+      },
+      {
+        "name": "长川科技-横纵分析报告.pdf",
+        "path": "999-industry report/长川科技-横纵分析报告.pdf"
+      },
+      {
+        "name": "Yole- status of the wafer fab equipment industry2024.pdf",
+        "path": "999-industry report/Yole- status of the wafer fab equipment industry2024.pdf"
+      },
+      {
+        "name": "GF - FORM.pdf",
+        "path": "999-industry report/GF - FORM.pdf"
+      },
+      {
+        "name": "通富微电-投资决策报告.pdf",
+        "path": "999-industry report/通富微电-投资决策报告.pdf"
+      },
+      {
+        "name": "GS-Americas Technology_ Decoding the Agentic Economy - The Coming Inflection in AI Usage and Margins-260505.pdf",
+        "path": "999-industry report/GS-Americas Technology_ Decoding the Agentic Economy - The Coming Inflection in AI Usage and Margins-260505.pdf"
+      },
+      {
+        "name": "nvidia-gtc-2026-keynote-deck.pdf",
+        "path": "999-industry report/nvidia-gtc-2026-keynote-deck.pdf"
+      },
+      {
+        "name": "98、气体传感器篇：物联网感知层—传感器-58页.pdf",
+        "path": "999-industry report/98、气体传感器篇：物联网感知层—传感器-58页.pdf"
+      },
+      {
+        "name": "1 英文 MS-Investor Presentation Asia Pacific AI Hardware Trends_ General-Purpose and Accelerated Computing, Optical and Electrical Signals — TSMC Earnings 4.16.pdf",
+        "path": "999-industry report/1 英文 MS-Investor Presentation Asia Pacific AI Hardware Trends_ General-Purpose and Accelerated Computing, Optical and Electrical Signals — TSMC Earnings 4.16.pdf"
+      },
+      {
+        "name": "69、中国半导体设备行业研究报告-147页.pdf",
+        "path": "999-industry report/69、中国半导体设备行业研究报告-147页.pdf"
+      },
+      {
+        "name": "光器件行业深度报告：激光上游赋能千行百业，算力时代网络底座基石.pdf",
+        "path": "999-industry report/光器件行业深度报告：激光上游赋能千行百业，算力时代网络底座基石.pdf"
+      },
+      {
+        "name": "半导体键合设备行业深度：先进封装高密度互联推动键合技术发展，国产设备持续突破 (2).pdf",
+        "path": "999-industry report/半导体键合设备行业深度：先进封装高密度互联推动键合技术发展，国产设备持续突破 (2).pdf"
+      },
+      {
+        "name": "YOLE-Fan-Out Wafer.pdf",
+        "path": "999-industry report/YOLE-Fan-Out Wafer.pdf"
+      },
+      {
+        "name": "MATCH 法案对产业的影响.pdf",
+        "path": "999-industry report/MATCH 法案对产业的影响.pdf"
+      },
+      {
+        "name": "鼎龙股份-横纵分析报告.pdf",
+        "path": "999-industry report/鼎龙股份-横纵分析报告.pdf"
+      },
+      {
+        "name": "玻璃基板-产业链研究.pdf",
+        "path": "999-industry report/玻璃基板-产业链研究.pdf"
+      },
+      {
+        "name": "YOLE-Market and technology trends for PICs-2023-public.pdf",
+        "path": "999-industry report/YOLE-Market and technology trends for PICs-2023-public.pdf"
+      },
+      {
+        "name": "2026中国新材料产业全景报告-材料汇投资群参考.pdf",
+        "path": "999-industry report/2026中国新材料产业全景报告-材料汇投资群参考.pdf"
+      },
+      {
+        "name": "电子行业存储系列报告2—从扩产瓶颈看存储景气持续性.pdf",
+        "path": "999-industry report/电子行业存储系列报告2—从扩产瓶颈看存储景气持续性.pdf"
+      },
+      {
+        "name": "YOLE-wafer-fab-equipment-status.pdf",
+        "path": "999-industry report/YOLE-wafer-fab-equipment-status.pdf"
+      },
+      {
+        "name": "91、中国芯片半导体投融资报告.pdf",
+        "path": "999-industry report/91、中国芯片半导体投融资报告.pdf"
+      },
+      {
+        "name": "1_Prismark 2026 Q1 PCB and Substrate Market Overview and Outlook (3_15_26).pdf",
+        "path": "999-industry report/1_Prismark 2026 Q1 PCB and Substrate Market Overview and Outlook (3_15_26).pdf"
+      },
+      {
+        "name": "Global AI for Sales Market 2025-2029 全球销售领域人工智能市场报告（2025-2029）.pdf",
+        "path": "999-industry report/Global AI for Sales Market 2025-2029 全球销售领域人工智能市场报告（2025-2029）.pdf"
+      },
+      {
+        "name": "輝達GTC：黃仁勳演講重點與綜合看法_20260316.pdf",
+        "path": "999-industry report/輝達GTC：黃仁勳演講重點與綜合看法_20260316.pdf"
+      },
+      {
+        "name": "B2B Vibe Marketing：AI内容+GEO实战白皮书.pdf",
+        "path": "999-industry report/B2B Vibe Marketing：AI内容+GEO实战白皮书.pdf"
+      },
+      {
+        "name": "Virtual Schools Market In North America 2026-2030 北美虚拟学校市场报告（2026–2030年）.pdf",
+        "path": "999-industry report/Virtual Schools Market In North America 2026-2030 北美虚拟学校市场报告（2026–2030年）.pdf"
+      },
+      {
+        "name": "Global AI in Electronics and Sensors Market 2025-2029 全球电子与传感器领域人工智能市场报告（2025-2029）.pdf",
+        "path": "999-industry report/Global AI in Electronics and Sensors Market 2025-2029 全球电子与传感器领域人工智能市场报告（2025-2029）.pdf"
+      },
+      {
+        "name": "9、半导体深度报告：全球半导体产业研究框架-71页.pdf",
+        "path": "999-industry report/9、半导体深度报告：全球半导体产业研究框架-71页.pdf"
+      },
+      {
+        "name": "中芯国际-横纵分析报告.pdf",
+        "path": "999-industry report/中芯国际-横纵分析报告.pdf"
+      },
+      {
+        "name": "半导体材料：国产化湿电子化学品.pdf",
+        "path": "999-industry report/半导体材料：国产化湿电子化学品.pdf"
+      },
+      {
+        "name": "pdf_083087bd8169d8b7c7c2dcffaa416b5a_061d46ce1f7fa80bfe039a5e1514dc887361931962772768.pdf",
+        "path": "999-industry report/pdf_083087bd8169d8b7c7c2dcffaa416b5a_061d46ce1f7fa80bfe039a5e1514dc887361931962772768.pdf"
+      },
+      {
+        "name": "Rubidium Market Research Report by Production Forecast till 2035 铷市场研究报告（产量预测至2035年）.pdf",
+        "path": "999-industry report/Rubidium Market Research Report by Production Forecast till 2035 铷市场研究报告（产量预测至2035年）.pdf"
+      },
+      {
+        "name": "YINTR23353-Status_of_the_MEMS_Industry_2023.pdf",
+        "path": "999-industry report/YINTR23353-Status_of_the_MEMS_Industry_2023.pdf"
+      },
+      {
+        "name": "34、半导体深度报告：含氟半导体化学品行业分析框架-106页.pdf",
+        "path": "999-industry report/34、半导体深度报告：含氟半导体化学品行业分析框架-106页.pdf"
+      },
+      {
+        "name": "3、集成芯片与芯粒技术白皮书.pdf",
+        "path": "999-industry report/3、集成芯片与芯粒技术白皮书.pdf"
+      },
+      {
+        "name": "YOLE-advanced-packaging-market-and-technology-trend.pdf",
+        "path": "999-industry report/YOLE-advanced-packaging-market-and-technology-trend.pdf"
+      },
+      {
+        "name": "Yole Power_SiC-Manufacturing_2024.pdf",
+        "path": "999-industry report/Yole Power_SiC-Manufacturing_2024.pdf"
+      },
+      {
+        "name": "2026年45月月半導體、IP、IC設計、醫材產業.pdf",
+        "path": "999-industry report/2026年45月月半導體、IP、IC設計、醫材產業.pdf"
+      },
+      {
+        "name": "2026-03-18_国投证券_富创精密(688409)平台化龙头乘国产化东风，产能释放在即有望带来增量.pdf",
+        "path": "999-industry report/2026-03-18_国投证券_富创精密(688409)平台化龙头乘国产化东风，产能释放在即有望带来增量.pdf"
+      },
+      {
+        "name": "Marinissen-The Impact of Hybrid Bonding on Testing 3D-Stacked Dies.pdf",
+        "path": "999-industry report/Marinissen-The Impact of Hybrid Bonding on Testing 3D-Stacked Dies.pdf"
+      },
+      {
+        "name": "Global Weight Management Market 2025-2029.pdf",
+        "path": "999-industry report/Global Weight Management Market 2025-2029.pdf"
+      },
+      {
+        "name": "IBKR_content_8453118756100224869.pdf",
+        "path": "999-industry report/IBKR_content_8453118756100224869.pdf"
+      },
+      {
+        "name": "小摩：2025年从芯片到汽车：深入探讨ADAS与Robotaxi报告.pdf",
+        "path": "999-industry report/小摩：2025年从芯片到汽车：深入探讨ADAS与Robotaxi报告.pdf"
+      },
+      {
+        "name": "YOLE-Glass Substrate.pdf",
+        "path": "999-industry report/YOLE-Glass Substrate.pdf"
+      },
+      {
+        "name": "2604-China PCB Materials APAC Focus：Copper foil – Battery pain to AI gain-UBS.pdf",
+        "path": "999-industry report/2604-China PCB Materials APAC Focus：Copper foil – Battery pain to AI gain-UBS.pdf"
+      },
+      {
+        "name": "Morgan Stanley-AI： Mapping the AI Ecosystem.pdf",
+        "path": "999-industry report/Morgan Stanley-AI： Mapping the AI Ecosystem.pdf"
+      },
+      {
+        "name": "Aquabolt-XL Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond.pdf",
+        "path": "999-industry report/Aquabolt-XL Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond.pdf"
+      },
+      {
+        "name": "中国电科-计算机行业暨信创工程研究框架.pdf",
+        "path": "999-industry report/中国电科-计算机行业暨信创工程研究框架.pdf"
+      },
+      {
+        "name": "2026全球量子传感产业发展展望.pdf",
+        "path": "999-industry report/2026全球量子传感产业发展展望.pdf"
+      },
+      {
+        "name": "Global AI in Branding Market 2025-2029 全球品牌营销领域人工智能市场报告（2025-2029）.pdf",
+        "path": "999-industry report/Global AI in Branding Market 2025-2029 全球品牌营销领域人工智能市场报告（2025-2029）.pdf"
+      },
+      {
+        "name": "260319_sws_CCL-PCB.pdf",
+        "path": "999-industry report/260319_sws_CCL-PCB.pdf"
+      },
+      {
+        "name": "YOLE-Co-packaged optics and silicon photonics.pdf",
+        "path": "999-industry report/YOLE-Co-packaged optics and silicon photonics.pdf"
+      },
+      {
+        "name": "Improving 3D Integration with High-Speed AFM.pdf",
+        "path": "999-industry report/Improving 3D Integration with High-Speed AFM.pdf"
+      },
+      {
+        "name": "通富微电-投资立项门.pdf",
+        "path": "999-industry report/通富微电-投资立项门.pdf"
+      },
+      {
+        "name": "99、半导体代工行业投资机会分析-35页.pdf",
+        "path": "999-industry report/99、半导体代工行业投资机会分析-35页.pdf"
+      },
+      {
+        "name": "Global Memory Tech.pdf",
+        "path": "999-industry report/Global Memory Tech.pdf"
+      },
+      {
+        "name": "33、半导体深度报告：封测行业研究框架-103页.pdf",
+        "path": "999-industry report/33、半导体深度报告：封测行业研究框架-103页.pdf"
+      },
+      {
+        "name": "高盛認為AI將迎來拐點？CPU繼續狂歡？Anthropic OAI加速AI應用？- KP思考筆記(第41期).pdf",
+        "path": "999-industry report/高盛認為AI將迎來拐點？CPU繼續狂歡？Anthropic OAI加速AI應用？- KP思考筆記(第41期).pdf"
+      },
+      {
+        "name": "沪硅产业-横纵分析报告.pdf",
+        "path": "999-industry report/沪硅产业-横纵分析报告.pdf"
+      },
+      {
+        "name": "YOLE-generative Al Memory market.pdf",
+        "path": "999-industry report/YOLE-generative Al Memory market.pdf"
+      },
+      {
+        "name": "2026年晶圆代工行业投资策略：AI进阶与再全球化【公众号：半导体行业前沿】.pdf",
+        "path": "999-industry report/2026年晶圆代工行业投资策略：AI进阶与再全球化【公众号：半导体行业前沿】.pdf"
+      },
+      {
+        "name": "精智达-横纵分析报告.pdf",
+        "path": "999-industry report/精智达-横纵分析报告.pdf"
+      },
+      {
+        "name": "2026年中国半导体制造行业研究报告.pdf",
+        "path": "999-industry report/2026年中国半导体制造行业研究报告.pdf"
+      },
+      {
+        "name": "Global Wellness Tourism Market - Focused Insights 2025-2030 全球健康旅游市场—聚焦洞察报告2025-2030年.pdf",
+        "path": "999-industry report/Global Wellness Tourism Market - Focused Insights 2025-2030 全球健康旅游市场—聚焦洞察报告2025-2030年.pdf"
+      },
+      {
+        "name": "63、集成电路行业发展简析报告-17页.pdf",
+        "path": "999-industry report/63、集成电路行业发展简析报告-17页.pdf"
+      },
+      {
+        "name": "Global Millimeter Wave and Microwave RF Transceiver Market 2025-2029.pdf",
+        "path": "999-industry report/Global Millimeter Wave and Microwave RF Transceiver Market 2025-2029.pdf"
+      },
+      {
+        "name": "通富微电-横纵分析报告.pdf",
+        "path": "999-industry report/通富微电-横纵分析报告.pdf"
+      },
+      {
+        "name": "卓胜微-横纵分析报告.pdf",
+        "path": "999-industry report/卓胜微-横纵分析报告.pdf"
+      },
+      {
+        "name": "RF Front-End Module for Mobile 2025-YOLE.pdf",
+        "path": "999-industry report/RF Front-End Module for Mobile 2025-YOLE.pdf"
+      },
+      {
+        "name": "天孚通信-横纵分析报告.pdf",
+        "path": "999-industry report/天孚通信-横纵分析报告.pdf"
+      },
+      {
+        "name": "Private Tutoring Market in US 2025-2029 美国私人辅导市场报告（2025–2029年）.pdf",
+        "path": "999-industry report/Private Tutoring Market in US 2025-2029 美国私人辅导市场报告（2025–2029年）.pdf"
+      },
+      {
+        "name": "japan_semiconductor_materials_report.pdf",
+        "path": "999-industry report/japan_semiconductor_materials_report.pdf"
+      },
+      {
+        "name": "一本书读懂芯片制程设备.pdf",
+        "path": "999-industry report/一本书读懂芯片制程设备.pdf"
+      },
+      {
+        "name": "2026H1 PCB 載版_福邦投顧_202603.pdf",
+        "path": "999-industry report/2026H1 PCB 載版_福邦投顧_202603.pdf"
+      },
+      {
+        "name": "YOLE-Next-Generation DRAM.pdf",
+        "path": "999-industry report/YOLE-Next-Generation DRAM.pdf"
+      },
+      {
+        "name": "芯原股份-横纵分析报告.pdf",
+        "path": "999-industry report/芯原股份-横纵分析报告.pdf"
+      },
+      {
+        "name": "20260410-J.P. Morgan-Asia PCB， CCL， Substrate， Testing， and Passive Components.pdf",
+        "path": "999-industry report/20260410-J.P. Morgan-Asia PCB， CCL， Substrate， Testing， and Passive Components.pdf"
+      },
+      {
+        "name": "IFT178B-Cloud Computing Technologies A Global Outlook 2025年云计算技术全球展望.pdf",
+        "path": "999-industry report/IFT178B-Cloud Computing Technologies A Global Outlook 2025年云计算技术全球展望.pdf"
+      },
+      {
+        "name": "玻璃基板-行业裁决框架.pdf",
+        "path": "999-industry report/玻璃基板-行业裁决框架.pdf"
+      },
+      {
+        "name": "诺珩手册-玻璃封接8.0(2).pdf",
+        "path": "999-industry report/诺珩手册-玻璃封接8.0(2).pdf"
+      },
+      {
+        "name": "彤程新材-横纵分析报告.pdf",
+        "path": "999-industry report/彤程新材-横纵分析报告.pdf"
+      },
+      {
+        "name": "tsmc北美論壇_官方文宣2026.pdf",
+        "path": "999-industry report/tsmc北美論壇_官方文宣2026.pdf"
+      },
+      {
+        "name": "2026 IO资本中国算力半导体产业图谱20260109.pdf",
+        "path": "999-industry report/2026 IO资本中国算力半导体产业图谱20260109.pdf"
+      },
+      {
+        "name": "半导体材料：薄膜铌酸锂技术突破，调制器国产化.pdf",
+        "path": "999-industry report/半导体材料：薄膜铌酸锂技术突破，调制器国产化.pdf"
+      },
+      {
+        "name": "YOLE-Chiplet Market Update.pdf",
+        "path": "999-industry report/YOLE-Chiplet Market Update.pdf"
+      },
+      {
+        "name": "强一股份-横纵分析报告.pdf",
+        "path": "999-industry report/强一股份-横纵分析报告.pdf"
+      },
+      {
+        "name": "IFT103C-Data Center Networking Technologies Global Markets 2025年全球数据中心网络技术市场报告.pdf",
+        "path": "999-industry report/IFT103C-Data Center Networking Technologies Global Markets 2025年全球数据中心网络技术市场报告.pdf"
+      },
+      {
+        "name": "20250917_Semi_EMG_Beyne.pdf",
+        "path": "999-industry report/20250917_Semi_EMG_Beyne.pdf"
+      },
+      {
+        "name": "YOLE- Status of the semiconductor industry.pdf",
+        "path": "999-industry report/YOLE- Status of the semiconductor industry.pdf"
+      },
+      {
+        "name": "IFT149D-Quantum Computing Technologies and Global Markets to 2030 至 2030 年全球量子计算技术及市场报告.pdf",
+        "path": "999-industry report/IFT149D-Quantum Computing Technologies and Global Markets to 2030 至 2030 年全球量子计算技术及市场报告.pdf"
+      },
+      {
+        "name": "英伟达2026 GTC大会演讲PPT.pdf",
+        "path": "999-industry report/英伟达2026 GTC大会演讲PPT.pdf"
+      },
+      {
+        "name": "天赐材料-横纵分析报告.pdf",
+        "path": "999-industry report/天赐材料-横纵分析报告.pdf"
+      },
+      {
+        "name": "IFT320A-Global Data Center Market 2025年全球数据中心市场报告.pdf",
+        "path": "999-industry report/IFT320A-Global Data Center Market 2025年全球数据中心市场报告.pdf"
+      },
+      {
+        "name": "半导体材料：硅片投资宝典-47页.pdf",
+        "path": "999-industry report/半导体材料：硅片投资宝典-47页.pdf"
+      },
+      {
+        "name": "TSMC (2330.TW)_ AI to power multi-year growth with higher structural GM; reiterate Buy (on CL); TP up to NT$2,750.pdf",
+        "path": "999-industry report/TSMC (2330.TW)_ AI to power multi-year growth with higher structural GM; reiterate Buy (on CL); TP up to NT$2,750.pdf"
+      },
+      {
+        "name": "Leveraging AI to Revolutionize Semiconductor Manufacturing.pdf",
+        "path": "999-industry report/Leveraging AI to Revolutionize Semiconductor Manufacturing.pdf"
+      },
+      {
+        "name": "8、半导体深度报告：全球半导体产业框架与投资机遇-80页.pdf",
+        "path": "999-industry report/8、半导体深度报告：全球半导体产业框架与投资机遇-80页.pdf"
+      },
+      {
+        "name": "北方华创-投资决策报告.pdf",
+        "path": "999-industry report/北方华创-投资决策报告.pdf"
+      },
+      {
+        "name": "半导体-叙事场景推演.pdf",
+        "path": "999-industry report/半导体-叙事场景推演.pdf"
+      },
+      {
+        "name": "机器人产业具身智能产业发展现状与趋势调研报告2025.pdf",
+        "path": "999-industry report/机器人产业具身智能产业发展现状与趋势调研报告2025.pdf"
+      },
+      {
+        "name": "Directions, Challenges and Opportunities in Heterogeneous Integration (HI).pdf",
+        "path": "999-industry report/Directions, Challenges and Opportunities in Heterogeneous Integration (HI).pdf"
+      },
+      {
+        "name": "YOLE-Status of the semiconductor.pdf",
+        "path": "999-industry report/YOLE-Status of the semiconductor.pdf"
+      },
+      {
+        "name": "半导体分析手册系列：AI驱动下的晶圆代工新纪元：2025投产股份格局、技术突破与中国力量.pdf",
+        "path": "999-industry report/半导体分析手册系列：AI驱动下的晶圆代工新纪元：2025投产股份格局、技术突破与中国力量.pdf"
+      },
+      {
+        "name": "YOLE-Status of the advanced packaging industry.pdf",
+        "path": "999-industry report/YOLE-Status of the advanced packaging industry.pdf"
+      },
+      {
+        "name": "多氟多-横纵分析报告.pdf",
+        "path": "999-industry report/多氟多-横纵分析报告.pdf"
+      },
+      {
+        "name": "甬矽电子-投资决策报告.pdf",
+        "path": "999-industry report/甬矽电子-投资决策报告.pdf"
+      },
+      {
+        "name": "20260326-Goldman Sachs-China Semis： SEMICON China Booth Tour 2026： SPE， components， SiC CW laser， ma.pdf",
+        "path": "999-industry report/20260326-Goldman Sachs-China Semis： SEMICON China Booth Tour 2026： SPE， components， SiC CW laser， ma.pdf"
+      },
+      {
+        "name": "20260326-Morgan Stanley-Semiconductors：A defense of US memory stocks.pdf",
+        "path": "999-industry report/20260326-Morgan Stanley-Semiconductors：A defense of US memory stocks.pdf"
+      },
+      {
+        "name": "4、中国生物芯片白皮书.pdf",
+        "path": "999-industry report/4、中国生物芯片白皮书.pdf"
+      },
+      {
+        "name": "YOLE-Market briefing From system to wafer.pdf",
+        "path": "999-industry report/YOLE-Market briefing From system to wafer.pdf"
+      },
+      {
+        "name": "8 英文个股 JPM-TSMC Leading edge supply tightness through 2027 should drive continued EPS upgrades; Raise PT to NT$2500 4.17.pdf",
+        "path": "999-industry report/8 英文个股 JPM-TSMC Leading edge supply tightness through 2027 should drive continued EPS upgrades; Raise PT to NT$2500 4.17.pdf"
+      },
+      {
+        "name": "澜起科技-横纵分析报告.pdf",
+        "path": "999-industry report/澜起科技-横纵分析报告.pdf"
+      },
+      {
+        "name": "AI芯片基础知识-67页.pdf",
+        "path": "999-industry report/AI芯片基础知识-67页.pdf"
+      },
+      {
+        "name": "罗博特科-投资决策报告.pdf",
+        "path": "999-industry report/罗博特科-投资决策报告.pdf"
+      },
+      {
+        "name": "芯碁微装-投资决策报告.pdf",
+        "path": "999-industry report/芯碁微装-投资决策报告.pdf"
+      },
+      {
+        "name": "东威科技-横纵分析报告.pdf",
+        "path": "999-industry report/东威科技-横纵分析报告.pdf"
+      },
+      {
+        "name": "半导体-产业链研究.pdf",
+        "path": "999-industry report/半导体-产业链研究.pdf"
+      },
+      {
+        "name": "玻璃基板：产业步入工程攻坚阶段，静待未来商业化落地.pdf",
+        "path": "999-industry report/玻璃基板：产业步入工程攻坚阶段，静待未来商业化落地.pdf"
+      },
+      {
+        "name": "2026年全球汽车行业展望报告直面行业变局  Heading for a shake-up Automotive outlook 2026.pdf",
+        "path": "999-industry report/2026年全球汽车行业展望报告直面行业变局  Heading for a shake-up Automotive outlook 2026.pdf"
+      },
+      {
+        "name": "谷歌云：2026年AI智能体趋势报告：医疗与生命科学篇（42页）.pdf",
+        "path": "999-industry report/谷歌云：2026年AI智能体趋势报告：医疗与生命科学篇（42页）.pdf"
+      },
+      {
+        "name": "Outreach：2026年智能体生产力影响报告（15页）.pdf",
+        "path": "999-industry report/Outreach：2026年智能体生产力影响报告（15页）.pdf"
+      },
+      {
+        "name": "2026年光通讯产业展望-800G主流、1.6T出量、CPO蓄势待发.pdf",
+        "path": "999-industry report/2026年光通讯产业展望-800G主流、1.6T出量、CPO蓄势待发.pdf"
+      },
+      {
+        "name": "YOLE-atomic-layer-deposition-for-more-than-moore-devices-in-a-perspective-of-the-wafer-fab-equipment-market-presentation.pdf",
+        "path": "999-industry report/YOLE-atomic-layer-deposition-for-more-than-moore-devices-in-a-perspective-of-the-wafer-fab-equipment-market-presentation.pdf"
+      },
+      {
+        "name": "存储行业专题报告：需求爆发、供给刚性，存储超级成长周期-西南证券【新研报 xinyanbao.cn】.pdf",
+        "path": "999-industry report/存储行业专题报告：需求爆发、供给刚性，存储超级成长周期-西南证券【新研报 xinyanbao.cn】.pdf"
+      },
+      {
+        "name": "半导体材料：电子气体投资宝典-60页.pdf",
+        "path": "999-industry report/半导体材料：电子气体投资宝典-60页.pdf"
+      },
+      {
+        "name": "92、中国MCU市场独立研究报告.pdf",
+        "path": "999-industry report/92、中国MCU市场独立研究报告.pdf"
+      },
+      {
+        "name": "IFT309A-Global Satellite Internet Market 2025年全球卫星互联网市场.pdf",
+        "path": "999-industry report/IFT309A-Global Satellite Internet Market 2025年全球卫星互联网市场.pdf"
+      },
+      {
+        "name": "260501_VLSI_AI DRAM Stacking.pdf",
+        "path": "999-industry report/260501_VLSI_AI DRAM Stacking.pdf"
+      },
+      {
+        "name": "2026年晶圆代工行业投资策略(半导体中游系列研究之十)：AI进阶与再全球化-251217-申万宏源-34页.pdf",
+        "path": "999-industry report/2026年晶圆代工行业投资策略(半导体中游系列研究之十)：AI进阶与再全球化-251217-申万宏源-34页.pdf"
+      },
+      {
+        "name": "Yole_-_PiezoMEMS_Technologies_2025.pdf",
+        "path": "999-industry report/Yole_-_PiezoMEMS_Technologies_2025.pdf"
+      },
+      {
+        "name": "半导体产业链图谱_完整版.pdf",
+        "path": "999-industry report/半导体产业链图谱_完整版.pdf"
+      },
+      {
+        "name": "盛合晶微-横纵分析报告.pdf",
+        "path": "999-industry report/盛合晶微-横纵分析报告.pdf"
+      },
+      {
+        "name": "152、半导体材料：铌酸锂：薄膜铌酸锂技术突破，调制器国产化浪潮将至.pdf",
+        "path": "999-industry report/152、半导体材料：铌酸锂：薄膜铌酸锂技术突破，调制器国产化浪潮将至.pdf"
+      },
+      {
+        "name": "1 英文图 Jefferies-Datacenters Power Hyperscalers 1Q Joint Analyst Recap Call - What We've Heard 5.7.pdf",
+        "path": "999-industry report/1 英文图 Jefferies-Datacenters Power Hyperscalers 1Q Joint Analyst Recap Call - What We've Heard 5.7.pdf"
+      },
+      {
+        "name": "7、半导体深度报告：半导体材料行业研究框架总论—80页.pdf",
+        "path": "999-industry report/7、半导体深度报告：半导体材料行业研究框架总论—80页.pdf"
+      },
+      {
+        "name": "2026 TSMC NA Symposium Press Briefing Presentation Embargoed.pdf",
+        "path": "999-industry report/2026 TSMC NA Symposium Press Briefing Presentation Embargoed.pdf"
+      },
+      {
+        "name": "化学机械抛光行业：先进工艺及原材料自给打开市场空间.pdf",
+        "path": "999-industry report/化学机械抛光行业：先进工艺及原材料自给打开市场空间.pdf"
+      },
+      {
+        "name": "Yole2024-Overview of the Semiconductor Foundry Industry.pdf",
+        "path": "999-industry report/Yole2024-Overview of the Semiconductor Foundry Industry.pdf"
+      },
+      {
+        "name": "Global Online Tutoring Market 2026-2030 全球在线辅导市场报告（2026-2030）.pdf",
+        "path": "999-industry report/Global Online Tutoring Market 2026-2030 全球在线辅导市场报告（2026-2030）.pdf"
+      },
+      {
+        "name": "20250814-高盛-中国半导体行业：首次覆盖SPE组件，RTP和OSAT股，买入珂玛科技，屹唐和长电评为中性；下调唯捷创芯至卖出（摘要）.pdf",
+        "path": "999-industry report/20250814-高盛-中国半导体行业：首次覆盖SPE组件，RTP和OSAT股，买入珂玛科技，屹唐和长电评为中性；下调唯捷创芯至卖出（摘要）.pdf"
+      },
+      {
+        "name": "半导体-行业裁决框架.pdf",
+        "path": "999-industry report/半导体-行业裁决框架.pdf"
+      },
+      {
+        "name": "宁德时代-横纵分析报告.pdf",
+        "path": "999-industry report/宁德时代-横纵分析报告.pdf"
+      },
+      {
+        "name": "pwc-semiconductor-and-beyond-2026-full-report.pdf",
+        "path": "999-industry report/pwc-semiconductor-and-beyond-2026-full-report.pdf"
+      },
+      {
+        "name": "IAS135B-Hyperspectral Imaging Technologies and Global Markets 2025年高光谱成像技术及全球市场报告.pdf",
+        "path": "999-industry report/IAS135B-Hyperspectral Imaging Technologies and Global Markets 2025年高光谱成像技术及全球市场报告.pdf"
+      },
+      {
+        "name": "39056d5bf2c5412f93d58026c146308c.pdf",
+        "path": "999-industry report/39056d5bf2c5412f93d58026c146308c.pdf"
+      },
+      {
+        "name": "Yole_250602_CPO_Co-Packaged Optics for Data Centers.pdf",
+        "path": "999-industry report/Yole_250602_CPO_Co-Packaged Optics for Data Centers.pdf"
+      },
+      {
+        "name": "Gartner2031年数据分析与AI百大预测报告.pdf",
+        "path": "999-industry report/Gartner2031年数据分析与AI百大预测报告.pdf"
+      },
+      {
+        "name": "半导体海外并购_韩利杰_20241210.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/半导体海外并购_韩利杰_20241210.pdf"
+      },
+      {
+        "name": "半导体过滤技术知识讲座_飞潮科技郑章坚_20250702.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/半导体过滤技术知识讲座_飞潮科技郑章坚_20250702.pdf"
+      },
+      {
+        "name": "EDA科普：国产DFT-助力芯片良率提升_玖熠钱静洁_20241203.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/EDA科普：国产DFT-助力芯片良率提升_玖熠钱静洁_20241203.pdf"
+      },
+      {
+        "name": "垂直探针卡的沿革、技术、市场与未来_刘俊良_20250820.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/垂直探针卡的沿革、技术、市场与未来_刘俊良_20250820.pdf"
+      },
+      {
+        "name": "静电卡盘类型和原理略讲_宜恰高费珂_20260204.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/静电卡盘类型和原理略讲_宜恰高费珂_20260204.pdf"
+      },
+      {
+        "name": "全球半导体存储器市场趋势交流会(密码见社区)_20251210.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/全球半导体存储器市场趋势交流会(密码见社区)_20251210.pdf"
+      },
+      {
+        "name": "真空泵介绍及其应用_张琛_20250520.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/真空泵介绍及其应用_张琛_20250520.pdf"
+      },
+      {
+        "name": "从T公司泄密事件解析信息保密现状_20250902.pdf",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/外部专家课程资料/从T公司泄密事件解析信息保密现状_20250902.pdf"
+      },
+      {
+        "name": "2026年03月22日：研究一下暴涨的存储器市场.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年03月22日：研究一下暴涨的存储器市场.pdf"
+      },
+      {
+        "name": "2026年04月12日：全球半导体设备市场趋势研究.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年04月12日：全球半导体设备市场趋势研究.pdf"
+      },
+      {
+        "name": "2026年03月08日：半导体设备公司科普-北方华创.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年03月08日：半导体设备公司科普-北方华创.pdf"
+      },
+      {
+        "name": "2026年04月26号：从ASML财报数据看几年半导体行业变化.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年04月26号：从ASML财报数据看几年半导体行业变化.pdf"
+      },
+      {
+        "name": "2026年5月10日：国内7大半导体设备公司财务数据盘点.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年5月10日：国内7大半导体设备公司财务数据盘点.pdf"
+      },
+      {
+        "name": "2026年04月05日：半导体设备公司科普-中微公司.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年04月05日：半导体设备公司科普-中微公司.pdf"
+      },
+      {
+        "name": "2026年04月19号：半导体行业景气度原理及分析.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年04月19号：半导体行业景气度原理及分析.pdf"
+      },
+      {
+        "name": "2026年03月15日：全球半导体市场趋势分析-器件与设备.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年03月15日：全球半导体市场趋势分析-器件与设备.pdf"
+      },
+      {
+        "name": "2026年03月01日：中国台湾的半导体产值看全球趋势.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年03月01日：中国台湾的半导体产值看全球趋势.pdf"
+      },
+      {
+        "name": "2026年03月29日：2026SemiconCHINA展会见闻和感受.pdf",
+        "path": "999-industry report/半导体综研 VIP/5. 直播回放视频/2026年03月29日：2026SemiconCHINA展会见闻和感受.pdf"
+      },
+      {
+        "name": "新凯来装备介绍.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/新凯来装备介绍.pdf"
+      },
+      {
+        "name": "hynix海力士 Tech Seminar_HBM（2023年）.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/HBM/hynix海力士 Tech Seminar_HBM（2023年）.pdf"
+      },
+      {
+        "name": "全球硅晶圆市场调研报告 第一章 大硅片产业概览 0601.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/大硅片行业报告/全球硅晶圆市场调研报告 第一章 大硅片产业概览 0601.pdf"
+      },
+      {
+        "name": "全球硅晶圆市场调研报告 第四章 晶圆市场及主要供应商经营状况分析 0913.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/大硅片行业报告/全球硅晶圆市场调研报告 第四章 晶圆市场及主要供应商经营状况分析 0913.pdf"
+      },
+      {
+        "name": "全球硅晶圆市场调研报告 第二章 大硅片工厂分布统计 0616.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/大硅片行业报告/全球硅晶圆市场调研报告 第二章 大硅片工厂分布统计 0616.pdf"
+      },
+      {
+        "name": "全球硅晶圆市场调研报告 第三章 全球硅晶圆市场发展历程 0619.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/大硅片行业报告/全球硅晶圆市场调研报告 第三章 全球硅晶圆市场发展历程 0619.pdf"
+      },
+      {
+        "name": "Hybrid_Bonding_Presentation__March_2022.pdf",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/先进封装/Hybrid_Bonding_Presentation__March_2022.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "Industry Reports",
+        "path": "999-industry report/999-Industry Reports.md"
+      },
+      {
+        "name": "半导体综研 VIP 数据索引",
+        "path": "999-industry report/半导体综研 VIP/00-半导体综研VIP数据索引.md"
+      },
+      {
+        "name": "半导体综研VIP 线上课程资料 — 内容摘要",
+        "path": "999-industry report/半导体综研 VIP/4. 线上课程资料/00-课程内容摘要.md"
+      },
+      {
+        "name": "半导体行业景气度研究 — 数据摘要",
+        "path": "999-industry report/半导体综研 VIP/1. 行业景气度研究/00-景气度研究数据摘要.md"
+      },
+      {
+        "name": "半导体器件公司财报摘要",
+        "path": "999-industry report/半导体综研 VIP/2. 企业财报数据/00-器件产品财报摘要.md"
+      },
+      {
+        "name": "晶圆代工厂财报摘要",
+        "path": "999-industry report/半导体综研 VIP/2. 企业财报数据/00-晶圆代工厂财报摘要.md"
+      },
+      {
+        "name": "半导体设备厂商财报摘要",
+        "path": "999-industry report/半导体综研 VIP/2. 企业财报数据/设备/00-设备厂商财报摘要.md"
+      },
+      {
+        "name": "半导体材料与封装测试供应商数据摘要",
+        "path": "999-industry report/半导体综研 VIP/3. 企业产品数据/00-材料与封测供应商数据摘要.md"
+      },
+      {
+        "name": "设备与软件供应商数据摘要",
+        "path": "999-industry report/半导体综研 VIP/3. 企业产品数据/00-设备与软件供应商数据摘要.md"
+      },
+      {
+        "name": "半导体综研VIP — 第6类：杂项资料摘要",
+        "path": "999-industry report/半导体综研 VIP/6. 其它/00-杂项资料摘要.md"
+      }
+    ],
+    "total_pdfs": 193
+  }
+}
