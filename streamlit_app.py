@@ -59,6 +59,38 @@ if "quiz_score" not in st.session_state:
     st.session_state.quiz_score = 0
 if "quiz_module" not in st.session_state:
     st.session_state.quiz_module = ""
+if "answer_result" not in st.session_state:
+    st.session_state.answer_result = None  # None | {"is_correct": bool, "correct_answer": str}
+if "course_module" not in st.session_state:
+    st.session_state.course_module = None  # 当前查看的模块代码
+
+# ────── Module Learning Frameworks ──────
+MODULE_FRAMEWORK = {
+    "00-fabrication": {
+        "objectives": ["理解硅晶体生长(CZ/FZ)与晶圆制备流程","掌握Fab基本术语与洁净室概念","了解CMOS工艺全流程概览","理解半导体产业链分工"],
+        "topics": [{"name":"半导体物理基础","subs":["能带理论","掺杂原理","载流子输运"]},{"name":"硅材料与晶圆","subs":["CZ法单晶生长","FZ法","晶圆规格参数","SOI衬底"]},{"name":"CMOS工艺流程","subs":["前段FEOL","后段BEOL","工艺流程概览"]},{"name":"Fab运营基础","subs":["洁净室ISO等级","WIP与Little定律","设备利用率OEE"]}]
+    },
+    "13-photolithography": {
+        "objectives": ["掌握光刻基本原理与衍射极限公式","理解DUV/EUV光刻光源系统差异","了解光刻胶化学与涂布显影工艺","理解OPC/RET分辨率增强技术","掌握关键光刻参数(CD/Overlay/DOF)"],
+        "topics": [{"name":"光刻基本原理","subs":["衍射极限 R=k1·λ/NA","曝光系统光学","焦深DOF"]},{"name":"光源系统","subs":["DUV 193nm ArF","EUV 13.5nm","浸没式光刻"]},{"name":"光刻胶","subs":["正胶/负胶","化学放大胶CAR","涂布与软烘","显影工艺"]},{"name":"分辨率增强","subs":["OPC光学邻近修正","相移掩模PSM","离轴照明OAI","多重曝光"]},{"name":"先进光刻","subs":["EUV掩模","High-NA EUV","DSA导向自组装","纳米压印NIL"]}]
+    },
+    "11-thin-film": {
+        "objectives": ["区分PVD/CVD/ALD三种沉积技术原理","掌握溅射与蒸发的基本工艺参数","理解ALD自限制反应机制","了解薄膜应力控制与附着力"],
+        "topics": [{"name":"PVD物理气相沉积","subs":["磁控溅射","电子束蒸发","离子束沉积","台阶覆盖率"]},{"name":"CVD化学气相沉积","subs":["LPCVD","PECVD","MOCVD","前驱体化学"]},{"name":"ALD原子层沉积","subs":["自限制反应","TMA/H2O Al2O3","PEALD","前驱体选择"]},{"name":"薄膜表征","subs":["椭偏仪测厚","XRR","应力测量","附着力测试"]}]
+    },
+    "14-dry-etch": {
+        "objectives": ["理解等离子体刻蚀基本原理","区分各向同性/各向异性刻蚀","掌握RIE/ICP/DRIE工艺特点","了解刻蚀选择比与终点检测"],
+        "topics": [{"name":"等离子体基础","subs":["DC/RF辉光放电","离子轰击效应","电子温度与离子能量"]},{"name":"RIE反应离子刻蚀","subs":["CCP电容耦合","RIE滞后效应","侧壁钝化"]},{"name":"ICP deep etch","subs":["Bosch工艺","深硅刻蚀","ARDE宽高比相关刻蚀"]},{"name":"刻蚀表征","subs":["刻蚀速率","选择比","均匀性","终点检测OES"]}]
+    },
+    "15-metrology": {
+        "objectives": ["掌握半导体量测基本方法","理解CD-SEM与光学CD测量原理","了解薄膜厚度测量技术","了解缺陷检测与分类"],
+        "topics": [{"name":"CD量测","subs":["CD-SEM","光学CD OCD","散射测量"]},{"name":"薄膜量测","subs":["椭偏仪","反射仪","XRR"]},{"name":"Overlay测量","subs":["IBO成像法","DBO衍射法"]},{"name":"缺陷检测","subs":["明场/暗场检测","电子束检测","缺陷分类ADC"]}]
+    },
+    "16-CMP": {
+        "objectives": ["理解CMP基本原理与Preston方程","掌握CMP工艺参数(压力/转速/浆料)","了解CMP后清洗与缺陷控制","了解STI/铜互联CMP特点"],
+        "topics": [{"name":"CMP机理","subs":["Preston方程","机械与化学协同","材料去除率"]},{"name":"工艺参数","subs":["下压力","转速","浆料化学","抛光垫"]},{"name":"CMP应用","subs":["STI CMP","W CMP","Cu CMP","ILD CMP"]},{"name":"CMP缺陷","subs":["划痕Scratch","碟形Dishing","腐蚀Erosion","后清洗"]}]
+    },
+}
 
 def api(path, method="GET", data=None):
     url = f"{API}{path}"
@@ -383,20 +415,27 @@ def sidebar():
             st.caption(f"工种: {role_map.get(st.session_state.user['role'], '未知')}")
             st.divider()
             
-            if st.button("🏠 首页", use_container_width=True):
-                st.session_state.page = "home"; st.rerun()
-            if st.button("📖 课程中心", use_container_width=True):
-                st.session_state.page = "courses"; st.rerun()
-            if st.button("✏️ 练习答题", use_container_width=True):
-                st.session_state.page = "quiz_select"; st.rerun()
-            if st.button("📈 我的进度", use_container_width=True):
-                st.session_state.page = "progress"; st.rerun()
-            if st.button("📕 错题本", use_container_width=True):
-                st.session_state.page = "mistakes"; st.rerun()
-            if st.button("📊 我的成绩", use_container_width=True):
-                st.session_state.page = "stats"; st.rerun()
-            if st.button("🔍 知识搜索", use_container_width=True):
-                st.session_state.page = "search"; st.rerun()
+            # 在模块详情页时只显示返回按钮
+            if st.session_state.page == "module_detail":
+                if st.button("← 返回课程中心", use_container_width=True):
+                    st.session_state.course_module = None
+                    st.session_state.page = "courses"
+                    st.rerun()
+            else:
+                if st.button("🏠 首页", use_container_width=True):
+                    st.session_state.page = "home"; st.rerun()
+                if st.button("📖 课程中心", use_container_width=True):
+                    st.session_state.page = "courses"; st.rerun()
+                if st.button("✏️ 练习答题", use_container_width=True):
+                    st.session_state.page = "quiz_select"; st.rerun()
+                if st.button("📈 我的进度", use_container_width=True):
+                    st.session_state.page = "progress"; st.rerun()
+                if st.button("📕 错题本", use_container_width=True):
+                    st.session_state.page = "mistakes"; st.rerun()
+                if st.button("📊 我的成绩", use_container_width=True):
+                    st.session_state.page = "stats"; st.rerun()
+                if st.button("🔍 知识搜索", use_container_width=True):
+                    st.session_state.page = "search"; st.rerun()
             st.divider()
             if st.button("🚪 退出", use_container_width=True):
                 st.session_state.user = None; st.rerun()
@@ -472,15 +511,17 @@ def courses_page():
                     <p style="font-size:12px;color:#8b949e;">📄 {m['total_pdfs']} 篇文献 · 📝 {len(m.get('notes',[]))} 篇笔记</p>
                 </div>
                 """, unsafe_allow_html=True)
-                if m.get("notes"):
-                    for note in m["notes"]:
-                        col1, col2 = st.columns([8,1])
-                        with col1:
-                            st.caption(f"📝 {note['name'][:60]}")
-                        with col2:
-                            if st.button("阅读", key=f"read_{note['path'][:20]}"):
-                                log_reading(st.session_state.user['user_id'], 
-                                           m.get('code', ''), note['name'])
+                col1, col2, col3 = st.columns([5, 2, 2])
+                with col2:
+                    if st.button("📖 进入模块", key=f"enter_{m.get('code','')}", use_container_width=True):
+                        st.session_state.course_module = m.get("code", "")
+                        st.session_state.page = "module_detail"
+                        st.rerun()
+                with col3:
+                    if m.get("notes"):
+                        for note in m["notes"][:1]:
+                            if st.button("阅读", key=f"read_{m.get('code','')}_{note['name'][:10]}", use_container_width=True):
+                                log_reading(st.session_state.user['user_id'], m.get('code', ''), note['name'])
                                 st.toast("已记录阅读")
     
     with tab2:
@@ -494,9 +535,85 @@ def courses_page():
                 <p style="font-size:12px;color:#8b949e;">📄 {m['total_pdfs']} 篇文献</p>
             </div>
             """, unsafe_allow_html=True)
+            col1, col2 = st.columns([6, 3])
+            with col2:
+                if st.button("📖 进入模块", key=f"enter_e_{m.get('code','')}", use_container_width=True):
+                    st.session_state.course_module = m.get("code", "")
+                    st.session_state.page = "module_detail"
+                    st.rerun()
 
 def log_reading(user_id, module_code, title):
     api("/reading/log", "POST", {"user_id": user_id, "module_code": module_code, "entry_title": title})
+
+def module_detail_page():
+    from app.config import MODULE_META
+    module_code = st.session_state.course_module
+    if not module_code:
+        st.session_state.page = "courses"
+        st.rerun()
+    
+    meta = MODULE_META.get(module_code, {"name": module_code, "desc": "", "level": 200})
+    framework = MODULE_FRAMEWORK.get(module_code, {
+        "objectives": ["掌握本模块核心知识", "理解关键概念与应用", "能够独立分析相关问题"],
+        "topics": [{"name": "核心内容", "subs": ["待细化"]}]
+    })
+    
+    # 返回按钮
+    if st.button("← 返回课程中心", use_container_width=True):
+        st.session_state.course_module = None
+        st.session_state.page = "courses"
+        st.rerun()
+    
+    st.title(f"📖 {meta['name']}")
+    level_badge = {100: "🟢 L1 基础", 200: "🟡 L2 应用", 300: "🟠 L3 深入", 400: "🔴 L4 专家"}
+    st.caption(f"{level_badge.get(meta['level'], 'L2')} | {meta['desc']}")
+    
+    # 学习目标
+    st.subheader("🎯 学习目标")
+    objectives = framework.get("objectives", ["掌握本模块核心知识"])
+    for i, obj in enumerate(objectives, 1):
+        st.markdown(f"{i}. {obj}")
+    
+    st.divider()
+    
+    # 核心知识点
+    st.subheader("📚 知识框架")
+    topics = framework.get("topics", [])
+    for topic in topics:
+        with st.expander(f"📂 {topic['name']}", expanded=False):
+            for sub in topic.get("subs", []):
+                st.markdown(f"• {sub}  `📝 详细内容开发中`")
+    
+    st.divider()
+    
+    # 相关资源
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("📄 文献资源")
+        index = api("/knowledge/index")
+        if index and module_code in index:
+            mod_data = index[module_code]
+            for pdf in mod_data.get("pdfs", [])[:10]:
+                st.caption(f"📄 {pdf['name'][:70]}")
+            if len(mod_data.get("pdfs", [])) > 10:
+                st.caption(f"... 共 {len(mod_data['pdfs'])} 篇")
+    with col2:
+        st.subheader("✏️ 相关练习")
+        if st.button("🚀 开始练习", key=f"quiz_{module_code}", use_container_width=True):
+            quiz = api("/quiz/generate", "POST", {
+                "user_id": st.session_state.user["user_id"],
+                "module_code": module_code,
+                "count": 10,
+                "difficulty": None
+            })
+            if quiz and quiz.get("questions"):
+                st.session_state.quiz = quiz["questions"]
+                st.session_state.quiz_idx = 0
+                st.session_state.quiz_score = 0
+                st.session_state.quiz_module = module_code
+                st.session_state.answer_result = None
+                st.session_state.page = "quiz_active"
+                st.rerun()
 
 # ────── Quiz ──────
 def quiz_select_page():
@@ -625,12 +742,13 @@ def mistakes_page():
 def quiz_active_page():
     st.title("✏️ 答题中")
     if not st.session_state.quiz or st.session_state.quiz_idx >= len(st.session_state.quiz):
+        st.session_state.answer_result = None  # 重置状态
         st.session_state.page = "quiz_result"
         st.rerun()
     
     q = st.session_state.quiz[st.session_state.quiz_idx]
     progress = f"{st.session_state.quiz_idx + 1}/{len(st.session_state.quiz)}"
-    st.progress((st.session_state.quiz_idx) / len(st.session_state.quiz))
+    st.progress(st.session_state.quiz_idx / len(st.session_state.quiz))
     st.caption(f"📝 {progress} · 模块: {st.session_state.quiz_module}")
     
     diff_map = {"L1": "🟢 基础", "L2": "🟡 应用", "L3": "🔴 深入"}
@@ -643,31 +761,56 @@ def quiz_active_page():
     </div>
     """, unsafe_allow_html=True)
     
-    answer = None
-    if q.get("qtype") == "judge":
-        answer = st.radio("选择答案", ["正确", "错误"], key=f"q_{st.session_state.quiz_idx}", index=None)
-    else:
-        opts = q.get("options", [])
-        if opts:
-            answer = st.radio("选择答案", opts, key=f"q_{st.session_state.quiz_idx}", index=None)
-    
-    if st.button("✅ 提交答案", use_container_width=True) and answer:
-        result = api("/quiz/submit", "POST", {
-            "user_id": st.session_state.user["user_id"],
-            "question_id": q["id"],
-            "user_answer": answer[0] if answer[0] in "ABCDEFG" else ("正确" if answer == "正确" else "错误"),
-        })
+    # ── 模式 1: 未提交答案 → 显示题目 + 提交按钮 ──
+    if st.session_state.answer_result is None:
+        answer = None
+        if q.get("qtype") == "judge":
+            answer = st.radio("选择答案", ["正确", "错误"], key=f"q_{st.session_state.quiz_idx}", index=None)
+        else:
+            opts = q.get("options", [])
+            if opts:
+                answer = st.radio("选择答案", opts, key=f"q_{st.session_state.quiz_idx}", index=None)
         
-        if result:
-            if result["is_correct"]:
-                st.session_state.quiz_score += 1
-                st.success("✅ 正确！")
-            else:
-                st.error(f"❌ 错误！正确答案是: {result['correct_answer']}")
-            
-            if st.button("下一题 ➡️", use_container_width=True):
-                st.session_state.quiz_idx += 1
+        if st.button("✅ 提交答案", use_container_width=True) and answer:
+            result = api("/quiz/submit", "POST", {
+                "user_id": st.session_state.user["user_id"],
+                "question_id": q["id"],
+                "user_answer": answer[0] if answer[0] in "ABCDEFG" else ("正确" if answer == "正确" else "错误"),
+            })
+            if result:
+                if result["is_correct"]:
+                    st.session_state.quiz_score += 1
+                st.session_state.answer_result = result
                 st.rerun()
+    
+    # ── 模式 2: 已提交答案 → 显示结果 + 下一题按钮 ──
+    else:
+        result = st.session_state.answer_result
+        # 重新显示题目和选项（disabled）
+        if q.get("qtype") == "judge":
+            st.radio("选择答案", ["正确", "错误"], key=f"q_{st.session_state.quiz_idx}",
+                     index=0 if result.get("correct_answer") == "正确" else 1, disabled=True)
+        else:
+            opts = q.get("options", [])
+            if opts:
+                # 找到正确答案的索引
+                correct_letter = result.get("correct_answer", "A")
+                idx = ord(correct_letter) - ord("A") if correct_letter in "ABCDEFG" else 0
+                idx = max(0, min(idx, len(opts)-1))
+                st.radio("选择答案", opts, key=f"q_{st.session_state.quiz_idx}", index=idx, disabled=True)
+        
+        if result["is_correct"]:
+            st.success("✅ 正确！")
+        else:
+            st.error(f"❌ 错误！正确答案是: {result['correct_answer']}")
+            if result.get("explanation"):
+                st.info(f"💡 {result['explanation']}")
+        
+        # ★ 关键修复：下一题按钮独立渲染，不嵌套在任何条件内
+        if st.button("下一题 ➡️", use_container_width=True):
+            st.session_state.quiz_idx += 1
+            st.session_state.answer_result = None  # 重置为未提交状态
+            st.rerun()
 
 def quiz_result_page():
     st.title("📊 答题结果")
@@ -968,6 +1111,7 @@ def main():
             "mistakes": mistakes_page,
             "stats": stats_page,
             "search": search_page,
+            "module_detail": module_detail_page,
         }
         page_func = pages.get(st.session_state.page, home_page)
         page_func()

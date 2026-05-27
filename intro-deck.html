@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>半导体培训系统 — 介绍</title>
+<link rel="stylesheet" href="../../assets/fonts.css">
+<link rel="stylesheet" href="../../assets/base.css">
+<link rel="stylesheet" id="theme-link" href="../../assets/themes/tokyo-night.css">
+<link rel="stylesheet" href="../../assets/animations/animations.css">
+<style>
+/* ── process steps (4-col) ── */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:24px}
+.step{position:relative;padding:24px 18px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow)}
+.step .num{position:absolute;top:-22px;left:18px;width:44px;height:44px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;box-shadow:var(--shadow)}
+.step h4{margin:16px 0 6px;font-size:15px}
+.step p{font-size:12px;color:var(--text-2);line-height:1.6}
+.step .tag{display:inline-block;margin-top:8px;font-size:10px;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--text-3)}
+/* ── arch diagram ── */
+.arch{margin-top:20px;display:grid;grid-template-rows:auto auto auto;gap:18px}
+.arch .tier{display:grid;grid-template-columns:110px 1fr;align-items:stretch;gap:18px}
+.arch .tname{display:flex;align-items:center;justify-content:center;background:var(--surface-2);border-radius:var(--radius);padding:14px;font-weight:600;font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.1em;text-align:center}
+.arch .cells{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.arch .cells.three{grid-template-columns:repeat(3,1fr)}
+.arch .cells.five{grid-template-columns:repeat(5,1fr)}
+.arch .cell{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px;text-align:center;box-shadow:var(--shadow)}
+.arch .cell .ic{font-size:22px}
+.arch .cell h4{font-size:13px;margin:4px 0 2px}
+.arch .cell p{font-size:10px;color:var(--text-3);margin:0}
+.arch .tier.hl .cell{border-top:3px solid var(--accent)}
+/* ── comparison 2-col ── */
+.comp{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+.comp .col{border:1px solid var(--border);border-radius:var(--radius);padding:24px;background:var(--surface);box-shadow:var(--shadow)}
+.comp .col h3{font-size:20px;margin-bottom:12px}
+.comp .col ul{list-style:none;padding:0}
+.comp .col li{padding:6px 0;font-size:13px;color:var(--text-2);border-bottom:1px solid var(--border)}
+.comp .col.left h3{color:var(--accent)}
+.comp .col.right h3{color:var(--accent-2)}
+.comp .col.left{border-left:4px solid var(--accent)}
+.comp .col.right{border-left:4px solid var(--accent-2)}
+/* ── module grid 3×2 ── */
+.mod-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:20px}
+.mod-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+.mod-card .ic{font-size:28px}
+.mod-card h4{font-size:14px;margin:6px 0 2px}
+.mod-card p{font-size:11px;color:var(--text-3);line-height:1.5;margin:0}
+.mod-card .stat{display:inline-block;margin-top:6px;font-size:11px;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--accent)}
+/* ── cta btn ── */
+.cta .btn{display:inline-flex;align-items:center;gap:10px;padding:20px 32px;border-radius:999px;background:var(--accent);color:#0b1024;font-weight:700;font-size:20px;box-shadow:var(--shadow-lg);text-decoration:none;border:none;cursor:pointer}
+.cta .btn.outline{background:transparent;color:var(--text-1);border:1.5px solid var(--border)}
+/* ── stat callout ── */
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px}
+.stat-card{text-align:center;padding:20px 12px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+.stat-card .big{font-size:52px;font-weight:900;line-height:1.1;color:var(--accent)}
+.stat-card .label{font-size:12px;color:var(--text-2);margin-top:6px}
+</style>
+</head>
+<body data-themes="tokyo-night,dracula,catppuccin-mocha,blueprint,corporate-clean,engineering-whiteprint" data-theme-base="../../assets/themes/">
+<div class="deck">
+
+  <!-- ═══════════ 1. Cover ═══════════ -->
+  <section class="slide" data-title="封面">
+    <div class="deck-header"><span class="eyebrow">先导芯光 · 制程整合部</span><span class="eyebrow">2026</span></div>
+    <div class="anim-stagger-list">
+      <p class="kicker">培训系统 · v2.0</p>
+      <h1 class="h1" data-anim="rise-in">
+        半导体<span class="gradient-text">知识培训</span><br>系统介绍
+      </h1>
+      <p class="lede">541 道题库 · 27 个知识模块 · 学生+教师双端 · 5 个互动可视化</p>
+      <div class="row wrap mt-l">
+        <span class="pill pill-accent">📚 541 题</span>
+        <span class="pill">📦 27 模块</span>
+        <span class="pill">🎓 双角色</span>
+        <span class="pill">🔬 互动实验</span>
+      </div>
+    </div>
+    <div class="deck-footer"><span class="dim2">Erwinbo · 先导芯光 PIE</span><span class="slide-number" data-current="1" data-total="10"></span></div>
+    <div class="notes">大家好，今天给大家介绍我们内部搭建的半导体知识培训系统。这个系统服务于团队新人和在职工程师的持续学习。</div>
+  </section>
+
+  <!-- ═══════════ 2. Overview ═══════════ -->
+  <section class="slide" data-title="系统概览">
+    <p class="kicker">Overview · 系统定位</p>
+    <h2 class="h2">一套面向半导体工程师的<br><span class="gradient-text">知识培训与考核</span>平台</h2>
+    <div class="grid g2 mt-l anim-stagger-list" data-anim-target>
+      <div class="card">
+        <h4>🎯 目标</h4>
+        <p class="dim">为团队成员提供系统化的半导体知识学习路径，从晶圆制造基础到先进封装全覆盖。</p>
+      </div>
+      <div class="card">
+        <h4>👥 用户</h4>
+        <p class="dim">新人工程师（newbie）、工艺工程师（process）、设备工程师（equipment），按角色推荐学习模块。</p>
+      </div>
+      <div class="card">
+        <h4>📚 资源</h4>
+        <p class="dim">整合 Obsidian Library 中的 800+ PDF 文献，按模块关联，学完即可测验。</p>
+      </div>
+      <div class="card">
+        <h4>🔬 特色</h4>
+        <p class="dim">内置 5 个互动物理可视化（光刻衍射、CMP、薄膜光学、掺杂浓度、RC 延迟），直观理解工艺原理。</p>
+      </div>
+    </div>
+    <div class="notes">这个系统的核心价值是把散落在各个 PDF 和笔记里的知识，变成可学习、可测验、可追踪的体系。</div>
+  </section>
+
+  <!-- ═══════════ 3. Key Metrics ═══════════ -->
+  <section class="slide" data-title="核心数据">
+    <p class="kicker">Numbers · 核心数据</p>
+    <h2 class="h2">数字里的培训系统</h2>
+    <div class="stat-row anim-stagger-list" data-anim-target>
+      <div class="stat-card"><div class="big"><span class="counter" data-to="541">0</span></div><div class="label">题库总数</div></div>
+      <div class="stat-card"><div class="big"><span class="counter" data-to="27">0</span></div><div class="label">知识模块</div></div>
+      <div class="stat-card"><div class="big"><span class="counter" data-to="13">0</span></div><div class="label">API 端点</div></div>
+      <div class="stat-card"><div class="big"><span class="counter" data-to="5">0</span></div><div class="label">互动可视化</div></div>
+    </div>
+    <div class="grid g2 mt-l">
+      <div class="card"><h4>📖 文献库</h4><p class="dim">800+ PDF 文献，涵盖晶圆制造、光子学、功率半导体、先进封装、量测、行业报告 6 大领域</p></div>
+      <div class="card"><h4>🧠 智能出题</h4><p class="dim">按模块 + 难度 + 角色自动组卷；错题重练；每日推荐；进度追踪</p></div>
+    </div>
+    <div class="notes">541 道题覆盖所有 27 个模块。每道题都有正确答案和详细解析。13 个 API 端点支撑完整的学-练-测-评闭环。</div>
+  </section>
+
+  <!-- ═══════════ 4. Knowledge Modules ═══════════ -->
+  <section class="slide" data-title="知识体系">
+    <p class="kicker">Curriculum · 知识体系</p>
+    <h2 class="h2">6 大领域，27 个模块</h2>
+    <div class="mod-grid anim-stagger-list" data-anim-target>
+      <div class="mod-card"><div class="ic">🏭</div><h4>晶圆制造基础</h4><p>硅晶体生长、Fab 概念、CMOS 工艺流程</p><span class="stat">24 篇文献</span></div>
+      <div class="mod-card"><div class="ic">💡</div><h4>光子学与硅光</h4><p>激光器、调制器、波导、CPO 共封装光学</p><span class="stat">52 篇文献</span></div>
+      <div class="mod-card"><div class="ic">⚡</div><h4>功率半导体</h4><p>SiC、GaN HEMT、IGBT 高压电力电子</p><span class="stat">20+ 篇文献</span></div>
+      <div class="mod-card"><div class="ic">📐</div><h4>光刻工艺</h4><p>DUV/EUV、光刻胶、OPC、套刻精度</p><span class="stat">核心模块</span></div>
+      <div class="mod-card"><div class="ic">📦</div><h4>先进封装</h4><p>WLP、3D IC、Hybrid Bonding、TSV</p><span class="stat">核心模块</span></div>
+      <div class="mod-card"><div class="ic">📊</div><h4>行业报告</h4><p>Yole、TSMC、设备市场、半导体综研 VIP</p><span class="stat">193 篇文献</span></div>
+    </div>
+    <div class="notes">模块覆盖从 Level 100（基础）到 Level 400（专家）四级难度。每位学员根据角色获得必修+选修模块推荐。</div>
+  </section>
+
+  <!-- ═══════════ 5. Student Flow ═══════════ -->
+  <section class="slide" data-title="学习流程">
+    <p class="kicker">Workflow · 学习闭环</p>
+    <h2 class="h2">学 → 练 → 测 → 评 → 补</h2>
+    <div class="steps anim-stagger-list" data-anim-target>
+      <div class="step"><div class="num">1</div><h4>选模块</h4><p>按角色自动推荐必修+选修模块，或自由浏览全部 27 个模块。</p><span class="tag">个性化</span></div>
+      <div class="step"><div class="num">2</div><h4>读文献</h4><p>每个模块关联 PDF 文献，阅读后标记完成，系统记录学习轨迹。</p><span class="tag">知识输入</span></div>
+      <div class="step"><div class="num">3</div><h4>做测验</h4><p>按模块/难度生成 10 题测验，即时判分+解析。支持错题重练。</p><span class="tag">即时反馈</span></div>
+      <div class="step"><div class="num">4</div><h4>看进度</h4><p>各模块得分率、答题总数、正确率趋势，一目了然。</p><span class="tag">数据追踪</span></div>
+      <div class="step"><div class="num">5</div><h4>补短板</h4><p>系统自动识别薄弱模块，每日推荐针对性题目，错题本反复巩固。</p><span class="tag">智能推荐</span></div>
+    </div>
+    <div class="notes">这个五步闭环确保学习者不只是被动阅读，而是主动练习+检测+强化。下一步还会加入实验可视化模块，边看边学。</div>
+  </section>
+
+  <!-- ═══════════ 6. Student vs Teacher ═══════════ -->
+  <section class="slide" data-title="双端功能">
+    <p class="kicker">Features · 双端设计</p>
+    <h2 class="h2">学生端 + 教师端</h2>
+    <div class="comp anim-stagger-list" data-anim-target>
+      <div class="col left">
+        <h3>🎓 学生端</h3>
+        <ul>
+          <li>📋 系统介绍与快速入门</li>
+          <li>📚 知识模块浏览（必修+选修）</li>
+          <li>📖 文献阅读 + 学习记录</li>
+          <li>📝 智能组卷测验（10 题/轮）</li>
+          <li>📊 个人进度追踪 + 统计</li>
+          <li>🔄 错题重练 + 每日推荐</li>
+          <li>🔬 5 个互动物理可视化</li>
+        </ul>
+      </div>
+      <div class="col right">
+        <h3>👥 教师端</h3>
+        <ul>
+          <li>👀 学员学习进度总览</li>
+          <li>📊 班级正确率统计</li>
+          <li>📝 题库管理与扩充</li>
+          <li>📋 模块与文献关联管理</li>
+          <li>🎯 按角色配置必修模块</li>
+          <li>📈 学习数据导出</li>
+          <li>🏗️ 更多功能开发中...</li>
+        </ul>
+      </div>
+    </div>
+    <div class="notes">学生端已完整可用。教师端 Phase 3 正在开发中，将支持批量学员管理和数据分析。</div>
+  </section>
+
+  <!-- ═══════════ 7. Interactive Visualizations ═══════════ -->
+  <section class="slide" data-title="互动可视化">
+    <p class="kicker">Interactive · 互动实验</p>
+    <h2 class="h2">5 个物理可视化，<span class="gradient-text">直观理解</span>工艺原理</h2>
+    <div class="grid g3 mt-l anim-stagger-list" data-anim-target>
+      <div class="card"><div style="font-size:36px">☀️</div><h4 class="mt-s">光刻衍射</h4><p class="dim">调节波长/NA，观察艾里斑与分辨率极限。</p></div>
+      <div class="card"><div style="font-size:36px">🪞</div><h4 class="mt-s">CMP 抛光</h4><p class="dim">调节压力/转速，看材料去除率与均匀性变化。</p></div>
+      <div class="card"><div style="font-size:36px">🌈</div><h4 class="mt-s">薄膜光学</h4><p class="dim">Si/SiO₂/Si₃N₄ 的 n-k 色散曲线对比。</p></div>
+      <div class="card"><div style="font-size:36px">⚛️</div><h4 class="mt-s">掺杂浓度</h4><p class="dim">Irvin 曲线：电阻率 ↔ 掺杂浓度实时换算。</p></div>
+      <div class="card"><div style="font-size:36px">⚡</div><h4 class="mt-s">RC 延迟</h4><p class="dim">调节线宽/介电常数，观察互连延迟变化趋势。</p></div>
+      <div class="card"><div style="font-size:36px">🔜</div><h4 class="mt-s">更多...</h4><p class="dim">刻蚀速率、热氧化、扩散模拟等模块持续扩展中。</p></div>
+    </div>
+    <div class="notes">这 5 个可视化是目前已实现的。每个都用 matplotlib 后端实时渲染，学生可拖拽滑块观察物理参数变化，直观理解工艺窗口。</div>
+  </section>
+
+  <!-- ═══════════ 8. Tech Stack ═══════════ -->
+  <section class="slide" data-title="技术架构">
+    <p class="kicker">Architecture · 技术栈</p>
+    <h2 class="h2" style="font-size:30px">FastAPI + Streamlit + SQLite</h2>
+    <div class="arch anim-stagger-list" data-anim-target>
+      <div class="tier hl"><div class="tname">Frontend</div>
+        <div class="cells three">
+          <div class="cell"><div class="ic">🧩</div><h4>Streamlit</h4><p>学生端 + 教师端 UI</p></div>
+          <div class="cell"><div class="ic">🎨</div><h4>Matplotlib</h4><p>互动可视化后端</p></div>
+          <div class="cell"><div class="ic">🌐</div><h4>ngrok</h4><p>外网穿透</p></div>
+        </div>
+      </div>
+      <div class="tier"><div class="tname">Backend</div>
+        <div class="cells three">
+          <div class="cell"><div class="ic">⚡</div><h4>FastAPI</h4><p>13 API 端点</p></div>
+          <div class="cell"><div class="ic">🗄️</div><h4>SQLite</h4><p>用户+题库+进度</p></div>
+          <div class="cell"><div class="ic">🐍</div><h4>Python</h4><p>全栈 Python</p></div>
+        </div>
+      </div>
+      <div class="tier"><div class="tname">Data</div>
+        <div class="cells five">
+          <div class="cell"><div class="ic">📝</div><h4>题库 JSON</h4><p>541 题种子</p></div>
+          <div class="cell"><div class="ic">📋</div><h4>模块索引</h4><p>27 模块映射</p></div>
+          <div class="cell"><div class="ic">📖</div><h4>文献路径</h4><p>800+ PDF</p></div>
+          <div class="cell"><div class="ic">👤</div><h4>用户 DB</h4><p>角色+进度</p></div>
+          <div class="cell"><div class="ic">📊</div><h4>答题记录</h4><p>正确率+耗时</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="notes">技术栈极简：FastAPI 提供 REST API，Streamlit 做前端，SQLite 存储。部署只需两个进程，外网通过 ngrok 隧道访问。</div>
+  </section>
+
+  <!-- ═══════════ 9. CTA ═══════════ -->
+  <section class="slide center tc cta" data-title="开始使用">
+    <div style="max-width:800px">
+      <p class="kicker">Get Started · 开始使用</p>
+      <h1 class="h1" data-anim="rise-in" style="font-size:72px">
+        打开浏览器<br>即刻开始<span class="gradient-text">学习</span>
+      </h1>
+      <p class="lede" style="margin:16px auto 30px">
+        访问 <b>ngrok 公网地址</b> 或内网 <code>localhost:8502</code><br>
+        选择角色，开始你的半导体知识之旅。
+      </p>
+      <div class="row" style="justify-content:center">
+        <span class="pill pill-accent" style="font-size:16px;padding:12px 24px">🌐 unegregious-flouncily-mayra.ngrok-free.dev</span>
+      </div>
+      <p class="dim mt-l" style="font-size:14px">默认账号：student / 123456（新人） · engineer / 123456（工艺工程师）</p>
+    </div>
+    <div class="notes">最后给大家演示地址。可以直接扫码或输入 URL 访问。默认有两个测试账号，分别对应新人和工程师视角。</div>
+  </section>
+
+  <!-- ═══════════ 10. Thanks ═══════════ -->
+  <section class="slide center tc" data-title="Thanks">
+    <h1 class="h1" style="font-size:140px;line-height:1"><span class="gradient-text">Thanks</span></h1>
+    <p class="lede">Erwinbo · 先导芯光 PIE</p>
+    <p class="dim mt-s">GitHub: haolblvxff-collab/training-system</p>
+    <p class="dim mt-l" style="font-size:13px">← → 翻页 · T 换主题 · F 全屏 · O 概览 · S 演讲者模式</p>
+    <div class="notes">谢谢大家！欢迎试用并提出反馈。系统会根据大家的反馈持续迭代。有任何问题随时找我。</div>
+  </section>
+
+</div>
+<script src="../../assets/runtime.js"></script>
+</body>
+</html>
