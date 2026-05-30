@@ -90,6 +90,146 @@ MODULE_FRAMEWORK = {
         "objectives": ["理解CMP基本原理与Preston方程","掌握CMP工艺参数(压力/转速/浆料)","了解CMP后清洗与缺陷控制","了解STI/铜互联CMP特点"],
         "topics": [{"name":"CMP机理","subs":["Preston方程","机械与化学协同","材料去除率"]},{"name":"工艺参数","subs":["下压力","转速","浆料化学","抛光垫"]},{"name":"CMP应用","subs":["STI CMP","W CMP","Cu CMP","ILD CMP"]},{"name":"CMP缺陷","subs":["划痕Scratch","碟形Dishing","腐蚀Erosion","后清洗"]}]
     },
+    "01-Photonics": {
+        "objectives": ["理解硅基光子学基本原理与优势","掌握波导/调制器/探测器等核心器件工作原理","了解CPO共封装光学架构","了解激光器与光放大器基本类型"],
+        "topics": [{"name":"光波导基础","subs":["SOI脊形波导","有效折射率","单模条件","传播损耗"]},{"name":"光调制器","subs":["MZ干涉仪","载流子色散效应","PN/PN结调制器","微环谐振器"]},{"name":"光电探测器","subs":["Ge-on-Si探测器","PIN/APD结构","响应度与带宽"]},{"name":"激光器与集成","subs":["III-V/Si异质集成","微盘激光器","DFB激光器","CPO共封装"]}]
+    },
+    "02-Power": {
+        "objectives": ["了解功率半导体的分类与应用场景","掌握SiC与GaN宽禁带材料优势","理解MOSFET/IGBT器件结构与工作原理","了解功率模块封装与散热设计"],
+        "topics": [{"name":"宽禁带材料","subs":["SiC 4H/6H多型","GaN HEMT异质结","Baliga优值","临界电场"]},{"name":"功率MOSFET","subs":["VDMOS结构","Trench栅","SiC MOSFET","导通电阻Ron"]},{"name":"IGBT","subs":["PT/NPT结构","场截止FS-IGBT","闩锁效应","开关损耗"]},{"name":"封装与可靠性","subs":["功率模块DBC基板","银烧结","热阻Rth","短路耐受"]}]
+    },
+    "04-MEMS": {
+        "objectives": ["理解MEMS微机电系统基本原理","掌握体微加工与表面微加工工艺","了解常见MEMS传感器工作原理","了解MEMS与CMOS集成的技术路线"],
+        "topics": [{"name":"微加工工艺","subs":["体硅刻蚀KOH/TMAH","DRIE深硅刻蚀","牺牲层释放","晶圆键合"]},{"name":"惯性传感器","subs":["加速度计","陀螺仪Coriolis","梳齿驱动","IMU六轴集成"]},{"name":"压力与声学","subs":["压阻式压力传感器","电容式麦克风","PMUT超声换能器"]},{"name":"光学MEMS","subs":["DMD数字微镜","MOEMS扫描镜","微bolometer红外"]}]
+    },
+    "05-Memory": {
+        "objectives": ["掌握DRAM/3D NAND基本结构与工作原理","了解SRAM与新型非易失存储器","理解存储层级与性能指标","了解先进存储技术趋势"],
+        "topics": [{"name":"DRAM","subs":["1T1C单元","电容结构演进","刷新机制","DDR/LPDDR/HBM"]},{"name":"3D NAND","subs":["浮动栅vs电荷陷阱","3D堆叠工艺","QLC/PLC多比特","CMOS under Array"]},{"name":"SRAM","subs":["6T单元","读写Margin","漏电功耗","高速缓存"]},{"name":"新型存储器","subs":["MRAM STT/SOT","PCRAM相变","FeRAM铁电","ReRAM忆阻"]}]
+    },
+    "10-epitaxy": {
+        "objectives": ["理解外延生长基本原理与应用","掌握MOCVD/MBE两种主流外延技术","了解外延层质量控制与表征方法","了解异质外延与应变工程"],
+        "topics": [{"name":"外延基础","subs":["同质/异质外延","晶格匹配与失配","临界厚度","应变与弛豫"]},{"name":"MOCVD","subs":["前驱体化学","III-V生长","反应腔设计","原位监测"]},{"name":"MBE","subs":["超高真空","RHEED振荡","原子层精度","掺杂控制"]},{"name":"Si外延","subs":["选择性外延SEG","SiGe应变层","Si:C外延","外延缺陷"]}]
+    },
+    "17-bonding": {
+        "objectives": ["理解晶圆键合基本原理与分类","掌握熔融键合/粘合键合/金属键合特点","了解混合键合在3D集成中的应用","了解键合质量检测方法"],
+        "topics": [{"name":"键合类型","subs":["直接键合/熔融键合","阳极键合","共晶键合","粘合键合"]},{"name":"Hybrid Bonding","subs":["Cu-Cu直接键合","介电质-介电质键合","CMP平坦化要求","热预算控制"]},{"name":"键合工艺","subs":["表面处理/等离子活化","对准精度","热压参数","界面空洞"]},{"name":"检测与缺陷","subs":["SAM扫描声学","IR红外透视","界面强度测试","void检测"]}]
+    },
+    "18-IMP": {
+        "objectives": ["理解离子注入基本原理与剂量/能量概念","掌握注入损伤与退火修复机制","了解注入机主要部件与工艺参数","了解先进注入技术(低温/等离子掺杂)"],
+        "topics": [{"name":"注入物理","subs":["离子射程Rp/ΔRp","沟道效应","损伤与缺陷","非晶化阈值"]},{"name":"退火技术","subs":["RTA快速热退火","尖峰退火Spike","毫秒退火MSA","固相外延SPER"]},{"name":"工艺应用","subs":["阱注入Well","源漏延伸SDE","晕注入Halo","超浅结USJ"]},{"name":"先进注入","subs":["等离子浸没PLAD","低温注入","共注入","团簇注入"]}]
+    },
+    "20-PKG": {
+        "objectives": ["掌握先进封装技术全景","理解WLP/Fan-Out/2.5D/3D封装区别","了解Chiplet与异构集成趋势","了解封装可靠性与热管理"],
+        "topics": [{"name":"WLP晶圆级封装","subs":["Fan-In WLP","Fan-Out (eWLB)","RDL再分布层","UBM凸点下金属"]},{"name":"2.5D/3D集成","subs":["硅中介层Interposer","TSV通孔工艺","μBump微凸点","HBM堆叠"]},{"name":"Chiplet生态","subs":["UCIe标准","Die-to-Die互联","异构集成","Chiplet分区设计"]},{"name":"封装可靠性","subs":["热膨胀CTE失配","底填Underfill","热界面材料TIM","温度循环TCT"]}]
+    },
+    "21-RF": {
+        "objectives": ["了解RF/微波器件基本概念","掌握GaAs/GaN HEMT工作原理","理解RF开关/功放/滤波器类型","了解mmWave与6G通信射频挑战"],
+        "topics": [{"name":"RF器件物理","subs":["截止频率fT/fmax","MAG最大可用增益","噪声系数NF","线性度IP3"]},{"name":"GaAs/GaN HEMT","subs":["AlGaAs/GaAs异质结","AlGaN/GaN 2DEG","场板Field Plate","电流崩塌"]},{"name":"RF前端模块","subs":["功率放大器PA","低噪声放大器LNA","RF SOI开关","BAW/SAW滤波器"]},{"name":"mmWave与封装","subs":["Antenna-in-Package","LTCC基板","电磁仿真","天线阵列"]}]
+    },
+    "30-Metal": {
+        "objectives": ["理解互连金属化演进路线","掌握Cu damascene工艺流程","了解扩散阻挡层与种子层","了解先进互连材料(Co/Ru/Mo)"],
+        "topics": [{"name":"互连基础","subs":["RC延迟","趋肤效应","电迁移EM","应力迁移SM"]},{"name":"Cu Damascene","subs":["沟槽刻蚀","TaN/Ta阻挡层","Cu种子层","ECP电镀+退火"]},{"name":"low-k集成","subs":["SiCOH低k介质","k值演进","等离子损伤","多孔low-k挑战"]},{"name":"先进互连","subs":["Co帽层","Ru半damascene","Mo互连","气隙Air Gap"]}]
+    },
+    "31-Piezo": {
+        "objectives": ["理解压电效应基本原理与材料体系","掌握PZT/AlN/ScAlN材料特性","了解BAW/SAW滤波器工作原理","了解压电MEMS器件与应用"],
+        "topics": [{"name":"压电材料","subs":["PZT铁电特性","AlN压电系数","Sc掺杂AlN增强","压电常数d33/d31"]},{"name":"声学滤波器","subs":["SAW叉指换能器","BAW体声波","FBAR薄膜结构","SMR固态装配"]},{"name":"压电MEMS","subs":["PMUT超声","压电微镜","能量收集","压电传感器"]},{"name":"表征与测试","subs":["e31/f压电系数","谐振频率","机电耦合k²","品质因数Q"]}]
+    },
+    "40-Mask": {
+        "objectives": ["理解光掩模在光刻中的关键作用","掌握OPC光学邻近修正原理","了解PSM相移掩模技术","了解ILT逆向光刻与EUV掩模挑战"],
+        "topics": [{"name":"掩模基础","subs":["二元掩模BIM","掩模材料(Cr/MoSi)","掩模制造流程","掩模误差因子MEF"]},{"name":"OPC","subs":["基于规则OPC","基于模型OPC","亚分辨率辅助SRAF","OPC验证"]},{"name":"相移掩模","subs":["交替型AltPSM","衰减型AttPSM","无铬CPL","工艺窗口增强"]},{"name":"先进掩模","subs":["ILT逆向光刻","多光束掩模写入","EUV掩模缺陷","掩模检测AIMS"]}]
+    },
+    "41-DTCO": {
+        "objectives": ["理解DTCO/STCO设计技术协同优化概念","掌握标准单元设计与工艺约束","了解PPA功率性能面积权衡","了解路径查找Pathfinding方法"],
+        "topics": [{"name":"DTCO基础","subs":["PPAC指标","设计规则DRC","标准单元库","工艺设计套件PDK"]},{"name":"标准单元优化","subs":["FinFET单元","GAA单元","接触孔Placement","单元高度Track"]},{"name":"互连尺度","subs":["金属间距MP","Via电阻","IR Drop","信号完整性"]},{"name":"STCO系统级","subs":["背面供电BSPDN","3D堆叠逻辑","DTCO流程闭环","TCAD仿真链路"]}]
+    },
+    "90-English": {
+        "objectives": ["掌握半导体技术英语核心术语","能阅读英文datasheet与论文","能撰写英文工艺报告与邮件","能进行英文技术汇报"],
+        "topics": [{"name":"核心术语","subs":["工艺术语300词","缩写全称对照","设备部件命名","Fab日常用语"]},{"name":"文献阅读","subs":["论文结构(Abstract/Method)","图表解读","关键数据定位","速读技巧"]},{"name":"技术写作","subs":["工艺变更通知PCN","良率报告YMR","设备异常报告","邮件规范"]},{"name":"口头交流","subs":["工艺review汇报","跨部门会议","供应商沟通","发音精练"]}]
+    },
+    "91-general": {
+        "objectives": ["建立半导体产业全局认知","了解半导体历史与关键里程碑","掌握芯片从设计到制造的完整流程","了解主要企业与产业链分工"],
+        "topics": [{"name":"产业概览","subs":["摩尔定律演进","半导体产业规模","IDM/Fabless/Foundry","产业链分工"]},{"name":"芯片制造流程","subs":["设计(RTL/Synthesis)","制造(FEOL/BEOL)","封装与测试","产品认证"]},{"name":"关键里程碑","subs":["晶体管发明1947","集成电路1958","微处理器1971","FinFET 2011"]},{"name":"主要企业","subs":["台积电TSMC","三星/Intel","ASML/AMAT/LAM","Qualcomm/NVIDIA/AMD"]}]
+    },
+    "92-scrum": {
+        "objectives": ["理解Scrum敏捷框架在制造业的应用","掌握Sprint规划与Daily Standup","学会用户故事拆分与估算","理解持续改进与回顾机制"],
+        "topics": [{"name":"Scrum框架","subs":["Scrum角色(Scrum Master/PO)","Sprint周期","产品待办列表","完成的定义DoD"]},{"name":"制造Scrum","subs":["设备维护Sprint","良率改善增量","Kanban+Scrum混合","跨职能团队"]},{"name":"估算与规划","subs":["故事点估算","Planning Poker","速度Velocity","燃尽图Burndown"]},{"name":"回顾与改进","subs":["Sprint回顾会","根因分析5Why","改善Kaizen","A3报告"]}]
+    },
+    "93-IE": {
+        "objectives": ["掌握工业工程核心指标(OEE/UPH/WIP)","理解精益生产与价值流分析","了解工厂仿真与排程","了解约束理论与瓶颈分析"],
+        "topics": [{"name":"OEE设备综合效率","subs":["可用率Availability","性能率Performance","良率Quality","六大损失"]},{"name":"精益生产","subs":["价值流图VSM","七大浪费","拉动生产Pull","5S管理"]},{"name":"产能与排程","subs":["产能模型","TOC约束理论","Little定律","瓶颈漂移"]},{"name":"IE工具","subs":["时间研究","动作分析","人机工程","仿真建模"]}]
+    },
+    "94-clean-room": {
+        "objectives": ["理解洁净室ISO等级标准","掌握洁净室气流组织与过滤","了解AMC气态污染物控制","了解EHS安全与ESD防护"],
+        "topics": [{"name":"洁净室设计","subs":["ISO 1-9等级","FFU风机过滤单元","层流/湍流","正压/负压"]},{"name":"环境控制","subs":["温湿度控制","AMC气态污染物","化学过滤器","VOC/酸/碱"]},{"name":"设施系统","subs":["纯水UPW","特气Bulk/Specialty","化学品供应CDS","排风Exhaust"]},{"name":"安全与ESD","subs":["静电放电ESD","接地规范","消防与应急","化学品安全"]}]
+    },
+    "95-Q": {
+        "objectives": ["掌握SPC统计过程控制原理","理解FMEA失效模式分析","了解8D问题解决法","了解六西格玛DMAIC方法"],
+        "topics": [{"name":"SPC统计控制","subs":["控制图Xbar-R","过程能力Cpk/Ppk","Western Electric规则","非正态数据"]},{"name":"FMEA","subs":["设计DFMEA","过程PFMEA","RPN风险优先级","探测度预防"]},{"name":"8D问题解决","subs":["D1团队→D8庆祝","5Why根因","防错Poka-Yoke","永久纠正措施"]},{"name":"六西格玛","subs":["DMAIC框架","MSA测量系统","DOE实验设计","假设检验"]}]
+    },
+    "998-company": {
+        "objectives": ["了解主要半导体设备厂商与产品线","掌握各工艺环节主流设备品牌","了解设备选型考量因素","了解设备市场格局与竞争动态"],
+        "topics": [{"name":"光刻设备","subs":["ASML DUV/EUV","Nikon/Canon","涂布显影Track","量测设备"]},{"name":"沉积与刻蚀","subs":["AMAT Endura/Producer","LAM Kiyo/Flex","TEL Tactras","中微/北方华创"]},{"name":"检测与量测","subs":["KLA量测","AMAT PROVision","日立CD-SEM","Onto Innovation"]},{"name":"后段与测试","subs":["Teradyne/Advantest","ASM/KE","Disco划片","Besi贴片"]}]
+    },
+    "999-industry": {
+        "objectives": ["了解半导体行业周期性规律","掌握主要市场研究机构与报告","了解技术路线图与趋势","了解地缘政治对产业影响"],
+        "topics": [{"name":"市场格局","subs":["全球半导体产值","晶圆代工份额","设备市场WFE","EDA/IP格局"]},{"name":"技术路线图","subs":["IRDS路线图","台积电路线图","IMEC roadmap","晶体管演进"]},{"name":"研究机构","subs":["Yole Intelligence","TechInsights/IC Insights","SEMI","Counterpoint"]},{"name":"产业趋势","subs":["Chiplet时代","AI芯片热潮","地缘与供应链","绿色制造"]}]
+    },
+    "50-RF Generator & Match": {
+        "objectives": ["理解RF电源基本原理与关键参数","掌握阻抗匹配原理与自动匹配器","了解不同工艺对RF电源需求差异","了解主要厂商与选型考量"],
+        "topics": [{"name":"RF电源基础","subs":["13.56MHz标准","功率范围100W-10kW","固态vs电子管","正向/反射功率"]},{"name":"阻抗匹配网络","subs":["L型/π型匹配","自动匹配器VVC","匹配速度<500ms","脉冲等离子体"]},{"name":"工艺应用","subs":["刻蚀双频2MHz+60MHz","PECVD 400kHz","PVD DC+RF","脉冲RF"]},{"name":"厂商与选型","subs":["AE Navio/Cesar","MKS SurePower","Daihen","冷却方式选型"]}]
+    },
+    "50-Pumps-Cryo": {
+        "objectives": ["理解低温泵工作原理与G-M制冷循环","掌握两级冷头80K+15K结构","了解半导体工艺应用场景","掌握再生流程与最佳实践"],
+        "topics": [{"name":"G-M制冷循环","subs":["闭循环氦气制冷","一级80K大冷量","二级10-12K","压缩机组"]},{"name":"气体捕获机制","subs":["80K挡板冷凝H2O","15K低温板冷凝N2/O2/Ar","活性炭吸附H2/He/Ne","三种捕获方式"]},{"name":"半导体应用","subs":["PVD溅射10^-8Pa","离子注入大量H2","刻蚀配合分子泵","CVD频繁再生"]},{"name":"再生操作","subs":["自然升温1-2h","稀释排气Dilution Phase","加热烘烤30-40°C","粗抽+降温投用"]}]
+    },
+    "50-Pumps-Turbo": {
+        "objectives": ["理解涡轮分子泵工作原理","了解动叶轮/静叶轮交错结构","掌握磁悬浮轴承优势","了解工艺应用与选型"],
+        "topics": [{"name":"原理与结构","subs":["动叶轮/静叶轮交错","转速3-9万RPM","每级压缩比10-100","磁悬浮无油"]},{"name":"抽气特性","subs":["N2抽速300-3000L/s","压缩比N2>10^9","极限<10^-8Pa","H2压缩比仅10^3"]},{"name":"工艺应用","subs":["刻蚀耐腐蚀型","PVD大抽速","量测SEM","配合干泵前级"]},{"name":"厂商与维护","subs":["Pfeiffer HiPace","Edwards nEXT","轴承寿命3-5年","过滤网清洗"]}]
+    },
+    "50-Pumps-Dry": {
+        "objectives": ["了解干泵类型与工作原理","理解罗茨/爪式/螺杆泵区别","掌握半导体工艺兼容性要求","了解维护与故障排除"],
+        "topics": [{"name":"泵类型","subs":["罗茨泵高抽速","爪式多级","螺杆耐腐蚀","涡旋小型"]},{"name":"多级组合","subs":["罗茨+螺杆组合","抽速30-600m³/h","极限<0.5Pa","N2吹扫5-20SLM"]},{"name":"工艺兼容","subs":["PECVD粉末多","刻蚀耐腐蚀","ALD快速循环","防凝结N2稀释"]},{"name":"厂商与维护","subs":["Edwards iXH/iXM","Ebara A系列","半年保养","转子卡死预防"]}]
+    },
+    "50-Pumps-Ion": {
+        "objectives": ["理解Penning放电与溅射吸附原理","了解离子泵优缺点与适用场景","了解NEG与离子泵组合技术"],
+        "topics": [{"name":"工作原理","subs":["Penning放电","Ti溅射化学吸附","惰性气体掩埋","电流正比压力"]},{"name":"特点","subs":["无油无振动>50000h","对惰性气体抽速低","高压下发热","H脆化阴极"]},{"name":"应用","subs":["SEM/TEM/SIMS","同步辐射","MBE","不适合大流量工艺"]},{"name":"厂商","subs":["Gamma Vacuum","Agilent VacIon","ULVAC PST","SAES NEG组合"]}]
+    },
+    "50-Pumps-Scroll": {
+        "objectives": ["理解涡旋泵工作原理","了解双涡旋盘无油设计","掌握半导体行业中的应用场景"],
+        "topics": [{"name":"原理","subs":["固定+动涡旋偏心","新月形气腔压缩","单级10Pa双级1Pa","无接触间隙0.1mm"]},{"name":"特点","subs":["完全无油","低噪<55dBA","免维护","抽速<30m³/h"]},{"name":"应用","subs":["Load Lock粗抽","氦检漏仪标配","SEM/XPS前级","R&D小型腔体"]},{"name":"厂商","subs":["Edwards nXDS","Agilent TriScroll","Anest Iwata ISP","中科科仪"]}]
+    },
+    "50-Pumps-Diaphragm": {
+        "objectives": ["理解隔膜泵膜片往复原理","掌握耐腐蚀材料选择","了解半导体辅助应用"],
+        "topics": [{"name":"原理","subs":["膜片往复运动","进排气单向阀","多级串联压缩","极限50-200Pa"]},{"name":"特点","subs":["完全无油","PTFE耐腐蚀","极其可靠","抽速<10m³/h"]},{"name":"应用","subs":["气体采样RGA前级","密封腔保压","化学品输送","实验室通用"]},{"name":"厂商","subs":["KNF德国","Vacuubrand ME","Welch","Edwards"]}]
+    },
+    "50-Pumps-Diffusion": {
+        "objectives": ["理解油扩散泵蒸汽射流原理","了解其历史地位与衰退原因","知道仍在使用的大型场景"],
+        "topics": [{"name":"原理","subs":["油加热蒸汽射流","多级喷嘴超音速","水冷回流","前级泵配合"]},{"name":"特点","subs":["高抽速低成本","对所有气体均匀","油返流污染","需冷阱挡板"]},{"name":"应用","subs":["大型PVD光伏/玻璃","真空热处理","空间模拟舱","已淘汰于精密半导体制程"]},{"name":"厂商","subs":["Agilent HS/NHS","Edwards Diffstak","Leybold DIP","硅油/聚苯醚"]}]
+    },
+    "54-MFC": {
+        "objectives": ["理解MFC热式测量原理","掌握PID闭环控制","了解关键性能指标","了解半导体工艺对MFC的特殊要求"],
+        "topics": [{"name":"工作原理","subs":["热式测量分流管","毛细管加热测温","PID电磁比例阀","1SCCM-200SLM"]},{"name":"关键指标","subs":["响应时间<1s","精度±1% S.P.","重复性±0.2%","压差0.1-3.0MPa"]},{"name":"工艺需求","subs":["刻蚀耐腐蚀","CVD加热防冷凝","ALD快速响应","量测高精度"]},{"name":"厂商与校准","subs":["MKS全球最大","Horiba高精度","七星华创国产","6-12月校准周期"]}]
+    },
+    "55-Gauge & Sensor": {
+        "objectives": ["了解真空计类型与适用量程","掌握全量程覆盖策略","理解不同工艺对真空计的特殊需求"],
+        "topics": [{"name":"真空计类型","subs":["Pirani热传导1atm-10^-1Pa","CDG电容薄膜最高精度","冷阴极高真空","热阴极超高真空"]},{"name":"全量程覆盖","subs":["大气-粗真空Pirani+CDG","中-高真空冷阴极","组合式Pirani+冷阴极","MKS/Inficon主流"]},{"name":"工艺需求","subs":["刻蚀耐腐蚀全Ni","CVD防沉积","PVD抗电磁干扰","CDG定期调零"]},{"name":"常见问题","subs":["CDG零漂","冷阴极打火","信号干扰","屏蔽与接地"]}]
+    },
+    "56-Chiller & Temperature": {
+        "objectives": ["理解温控系统架构","掌握多通道PID温控","了解各工艺温控需求","了解维护要点"],
+        "topics": [{"name":"系统架构","subs":["压缩机制冷/电加热","循环泵导热液","PID±0.1°C","管路快插接头"]},{"name":"工艺温控","subs":["刻蚀腔壁60-80°C","ESC -20-60°C","PVD靶材水冷","光刻22±0.1°C"]},{"name":"多通道控制","subs":["4-8通道独立","区域PID","改善均匀性","Galden导热液"]},{"name":"厂商与维护","subs":["SMC行业龙头","AE Atonarp","导热液6-12月更换","管路堵塞清洗"]}]
+    },
+    "57-Robot & Wafer Handling": {
+        "objectives": ["了解机械手类型与特点","理解ATM/VAC机械手区别","掌握关键性能指标","了解末端执行器设计"],
+        "topics": [{"name":"机械手类型","subs":["SCARA水平多关节","蛙腿型径向伸缩","直线导轨重载","半导体主流SCARA"]},{"name":"ATM与VAC","subs":["大气机械手EFEM","真空机械手VAC","特殊润滑MoS2","真空散热设计"]},{"name":"关键指标","subs":["定位精度<±0.1mm","搬运<5s/片","MTBF>50000h","ISO Class1洁净"]},{"name":"厂商与末端","subs":["Brooks Magnet系列","Rorze日本","边缘夹持/真空吸附","陶瓷Al2O3低颗粒"]}]
+    },
+    "58-Chamber & Components": {
+        "objectives": ["理解腔体设计原则","掌握ESC静电卡盘原理","了解喷淋头与陶瓷窗设计"],
+        "topics": [{"name":"腔体设计","subs":["铝合金6061+阳极氧化","O-ring/Kalrez密封","水冷/加热通道","对称性气流RF"]},{"name":"静电卡盘ESC","subs":["J-R力/Coulomb力","双极多区温控","背面He冷却2-10Torr","去chuck电压反转"]},{"name":"喷淋头Showerhead","subs":["均匀分布工艺气体","兼作上电极CCP","Si/SiC材质","孔径0.5-1.0mm"]},{"name":"其他关键件","subs":["ICP陶瓷窗Al2O3/石英","观察窗蓝宝石","RF/DC电馈通","OES光纤"]}]
+    },
+    "59-Power Supply & Electrical": {
+        "objectives": ["了解设备配电系统","理解DC电源类型与应用","掌握安全互锁与SEMI标准"],
+        "topics": [{"name":"配电系统","subs":["380V三相五线","AC配电盘ACDB","UPS不间断供电","隔离变压器"]},{"name":"DC电源","subs":["24V传感器/电磁阀","±15V模拟电路","高压DC ESC kV级","TDK-Lambda/Cosel"]},{"name":"安全互锁","subs":["紧急停机EMO","门锁联锁","接地故障GFCI","SEMI S2/S8标准"]},{"name":"电气规范","subs":["SEMI S2/S8/F47","NFPA 79工业机械","EMC电磁兼容","Siemens/Schneider配电"]}]
+    },
 }
 
 def api(path, method="GET", data=None):
@@ -396,7 +536,7 @@ def login_page():
         new_user = st.text_input("用户名", key="reg_user")
         new_pass = st.text_input("密码", type="password", key="reg_pass")
         new_name = st.text_input("显示名称", key="reg_name")
-        new_role = st.selectbox("工种", ["newbie", "pie", "process", "equipment", "quality", "rd"],
+        new_role = st.selectbox("工种", ["newbie", "process", "equipment", "quality", "rd"],
                                 format_func=lambda x: {"newbie":"通用入门","pie":"工艺集成","process":"单点工艺","equipment":"设备维护","quality":"品质管理","rd":"研发设计"}.get(x,x))
         if st.button("注册", use_container_width=True):
             result = api("/auth/register", "POST", {"username": new_user, "password": new_pass, "role": new_role, "display_name": new_name})
@@ -436,6 +576,10 @@ def sidebar():
                     st.session_state.page = "stats"; st.rerun()
                 if st.button("🔍 知识搜索", use_container_width=True):
                     st.session_state.page = "search"; st.rerun()
+                if st.button("📐 可视化实验室", use_container_width=True):
+                    st.session_state.page = "viz_lab"; st.rerun()
+            st.divider()
+            st.markdown("[📊 YMS 良率管理系统](http://zi23899nt64.vicp.fun:38362)", unsafe_allow_html=True)
             st.divider()
             if st.button("🚪 退出", use_container_width=True):
                 st.session_state.user = None; st.rerun()
@@ -578,11 +722,18 @@ def module_detail_page():
     
     # 核心知识点
     st.subheader("📚 知识框架")
+    from app.course_content import get_course_content
+    
     topics = framework.get("topics", [])
     for topic in topics:
         with st.expander(f"📂 {topic['name']}", expanded=False):
-            for sub in topic.get("subs", []):
-                st.markdown(f"• {sub}  `📝 详细内容开发中`")
+            # Try to load detailed content
+            content_html = get_course_content(module_code, topic["name"])
+            if content_html:
+                st.markdown(f"""<div style="background:#1c2128;border:1px solid #30363d;border-radius:8px;padding:16px;margin:8px 0;color:#c9d1d9;font-size:14px;line-height:1.8;">{content_html}</div>""", unsafe_allow_html=True)
+            else:
+                for sub in topic.get("subs", []):
+                    st.markdown(f"• **{sub}** — `📝 详细内容开发中`")
     
     st.divider()
     
@@ -873,42 +1024,211 @@ def stats_page():
 # ────── Teacher ──────
 def teacher_page():
     st.title("👥 教师后台")
-    st.info("🏗️ 教师管理功能将在 Phase 3 实现")
     
-    # Module stats overview
-    index = api("/knowledge/index")
-    if index:
-        st.subheader("📊 知识库模块统计")
-        for code, mod in sorted(index.items()):
-            if mod.get("total_pdfs", 0) > 0:
-                st.markdown(f"• **{mod['name']}** — {mod['total_pdfs']} 篇文献")
+    # Tabs
+    tab1, tab2, tab3, tab4 = st.tabs(["📊 班级概况", "👤 学员管理", "✏️ 题库管理", "📈 班级成绩"])
+    
+    with tab1:
+        st.subheader("班级概况")
+        overview = api("/teacher/overview")
+        if overview:
+            c1, c2, c3, c4, c5 = st.columns(5)
+            with c1: st.metric("学员总数", overview.get("total_users", 0))
+            with c2: st.metric("答题总量", f"{overview.get('total_answers', 0):,}")
+            with c3: st.metric("班级正确率", f"{overview.get('accuracy', 0)}%")
+            with c4: st.metric("题库总量", overview.get("total_questions", 0))
+            with c5: st.metric("待复习错题", overview.get("pending_mistakes", 0))
+            
+            st.divider()
+            st.subheader("📊 各模块答题覆盖")
+            mp = overview.get("module_progress", {})
+            if mp:
+                for mc, data in sorted(mp.items()):
+                    if data["active_users"] > 0:
+                        cols = st.columns([3, 1, 1])
+                        with cols[0]:
+                            st.markdown(f"**{data['name']}**")
+                            st.progress(min(1.0, data.get("coverage_pct", 0) / 100))
+                        with cols[1]:
+                            st.caption(f"{data['active_users']} 名学员")
+                        with cols[2]:
+                            st.caption(f"{data['questions_attempted']}/{data['total_questions']} 题")
+    
+    with tab2:
+        st.subheader("学员管理")
+        users_data = api("/teacher/users")
+        if users_data and users_data.get("users"):
+            role_map = {"pie":"PIE","process":"单点工艺","equipment":"设备","quality":"品质","rd":"研发","newbie":"入门"}
+            
+            # Header
+            hcols = st.columns([2, 2, 1.5, 1, 1, 1, 0.8])
+            with hcols[0]: st.markdown("**用户名**")
+            with hcols[1]: st.markdown("**角色**")
+            with hcols[2]: st.markdown("**答题/正确率**")
+            with hcols[3]: st.markdown("**错题**")
+            with hcols[4]: st.markdown("**最近活跃**")
+            
+            for u in users_data["users"]:
+                cols = st.columns([2, 2, 1.5, 1, 1, 1, 0.8])
+                with cols[0]: st.markdown(f"**{u.get('display_name', u['username'])}**")
+                with cols[1]: st.caption(role_map.get(u.get('role',''), '未知'))
+                with cols[2]: st.caption(f"{u.get('answered',0)}题 / {u.get('accuracy',0)}%")
+                with cols[3]: st.caption(str(u.get('mistakes',0)))
+                with cols[4]: st.caption((u.get('last_active','') or '')[:10])
+                with cols[5]:
+                    if u.get('role') not in ('pie', 'rd'):
+                        if st.button("🗑️", key=f"del_{u['id']}", help=f"删除 {u['username']}"):
+                            api("/teacher/users/delete", "POST", {"user_id": u['id']})
+                            st.rerun()
+    
+    with tab3:
+        st.subheader("添加题目")
+        with st.form("add_question_form"):
+            c1, c2 = st.columns(2)
+            with c1:
+                from app.config import MODULE_META
+                mod_names = [f"{code} - {meta['name']}" for code, meta in MODULE_META.items()]
+                selected_mod = st.selectbox("模块", mod_names)
+                difficulty = st.selectbox("难度", ["L1", "L2", "L3"], index=1)
+            with c2:
+                qtype = st.selectbox("题型", ["single", "judge"], format_func=lambda x: "单选题" if x == "single" else "判断题")
+            
+            question_text = st.text_area("题目", placeholder="输入题目内容...", height=80)
+            
+            if qtype == "single":
+                opt_str = st.text_area("选项（每行一个，如 A. 选项内容）", placeholder="A. 光刻\nB. 刻蚀\nC. 沉积\nD. CMP", height=100)
+            answer = st.text_input("正确答案", placeholder="A / B / C / D 或 正确/错误")
+            explanation = st.text_area("解析（可选）", placeholder="解释为什么这个答案是正确的...", height=60)
+            
+            if st.form_submit_button("✅ 提交题目"):
+                if not question_text or not answer:
+                    st.error("题目和答案不能为空")
+                else:
+                    mod_code = selected_mod.split(" - ")[0] if " - " in selected_mod else selected_mod
+                    opts = [o.strip() for o in opt_str.split("\n") if o.strip()] if qtype == "single" else []
+                    result = api("/teacher/questions/add", "POST", {
+                        "module_code": mod_code,
+                        "question": question_text,
+                        "answer": answer,
+                        "options": opts,
+                        "difficulty": difficulty,
+                        "qtype": qtype,
+                        "explanation": explanation,
+                        "tags": mod_code
+                    })
+                    if result and result.get("status") == "ok":
+                        st.success(f"题目添加成功！ID: {result.get('id')}")
+                        st.info("💡 重启后端服务使题目生效，或调用 /api/knowledge/refresh")
+                    else:
+                        st.error(f"添加失败：{result.get('message', '未知错误')}")
+    
+    with tab4:
+        st.subheader("班级成绩看板")
+        users_data = api("/teacher/users")
+        if users_data and users_data.get("users"):
+            # Sort by answered count desc
+            sorted_users = sorted(users_data["users"], key=lambda x: x.get("answered", 0), reverse=True)
+            
+            st.markdown("| 排名 | 学员 | 角色 | 答题数 | 正确率 | 错题 |")
+            st.markdown("|------|------|------|--------|--------|------|")
+            for i, u in enumerate(sorted_users, 1):
+                if u.get("answered", 0) > 0:
+                    medal = "🥇" if i == 1 else ("🥈" if i == 2 else ("🥉" if i == 3 else f"{i}"))
+                    st.markdown(f"| {medal} | {u.get('display_name', u['username'])} | {role_map.get(u.get('role', ''), '')} | {u.get('answered', 0)} | {u.get('accuracy', 0)}% | {u.get('mistakes', 0)} |")
+        
+        # Module stats
+        st.divider()
+        index = api("/knowledge/index")
+        if index:
+            st.subheader("📊 知识库模块统计")
+            for code, mod in sorted(index.items()):
+                if mod.get("total_pdfs", 0) > 0:
+                    st.markdown(f"• **{mod['name']}** — {mod['total_pdfs']} 篇文献")
 
 # ────── Search ──────
 def search_page():
     st.title("🔍 知识搜索")
     query = st.text_input("搜索关键词", placeholder="如: EUV 光刻, ALD, 刻蚀...")
     if query:
+        ql = query.lower()
+        found_any = False
+        
+        # 1. Search module index
         index = api("/knowledge/index")
         if index:
-            results = []
+            mod_results = []
             for code, mod in index.items():
-                if query.lower() in mod["name"].lower() or query.lower() in mod["desc"].lower():
-                    results.append((mod, code))
-                # Search in PDF names
+                if ql in mod["name"].lower() or ql in mod["desc"].lower():
+                    mod_results.append((mod, code))
                 for pdf in mod.get("pdfs", []):
-                    if query.lower() in pdf["name"].lower():
-                        results.append((mod, code))
+                    if ql in pdf["name"].lower():
+                        mod_results.append((mod, code))
                         break
             
-            if results:
-                st.success(f"找到 {len(results)} 个相关模块")
-                for mod, code in results:
+            if mod_results:
+                found_any = True
+                st.success(f"🔍 找到 {len(mod_results)} 个相关模块")
+                for mod, code in mod_results:
                     with st.expander(f"📂 {mod['name']} ({mod['total_pdfs']} 篇文献)"):
                         st.write(mod["desc"])
                         for pdf in mod.get("pdfs", [])[:5]:
                             st.caption(f"📄 {pdf['name'][:80]}")
+        
+        # 2. Search course content
+        from app.course_content import COURSE_CONTENT
+        content_results = []
+        for mc, topics in COURSE_CONTENT.items():
+            from app.config import MODULE_META
+            mod_name = MODULE_META.get(mc, {}).get("name", mc)
+            for topic_name, html_content in topics.items():
+                if ql in html_content.lower():
+                    # Extract a relevant snippet
+                    idx = html_content.lower().find(ql)
+                    start = max(0, idx - 40)
+                    end = min(len(html_content), idx + len(ql) + 80)
+                    snippet = html_content[start:end].replace("<h4>","").replace("</h4>","").replace("<p>","").replace("</p>","")
+                    content_results.append({
+                        "module": mod_name,
+                        "topic": topic_name,
+                        "snippet": snippet + ("..." if end < len(html_content) else "")
+                    })
+        
+        if content_results:
+            if not found_any:
+                st.success(f"📚 课程内容匹配 {len(content_results)} 条")
+                found_any = True
             else:
-                st.info("未找到相关结果")
+                st.markdown(f"---\n📚 **课程内容** 匹配 {len(content_results)} 条")
+            for cr in content_results[:10]:
+                st.markdown(f"**{cr['module']}** → _{cr['topic']}_  ")
+                st.caption(cr['snippet'][:200].strip())
+        
+        # 3. Search questions
+        import sqlite3, os
+        from app.config import DATA_DIR
+        db_path = os.path.join(DATA_DIR, "training.db")
+        if os.path.exists(db_path):
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            qrows = conn.execute(
+                "SELECT q.question, q.explanation, q.module_code, q.difficulty FROM questions q WHERE q.question LIKE ? OR q.explanation LIKE ? OR q.tags LIKE ? LIMIT 15",
+                (f"%{query}%", f"%{query}%", f"%{query}%")
+            ).fetchall()
+            conn.close()
+            if qrows:
+                if not found_any:
+                    st.success(f"✏️ 匹配到 {len(qrows)} 道相关题目")
+                    found_any = True
+                else:
+                    st.markdown(f"---\n✏️ **题目匹配** {len(qrows)} 条")
+                from app.config import MODULE_META as mm
+                for r in qrows:
+                    mod_name = mm.get(r["module_code"], {}).get("name", r["module_code"])
+                    st.markdown(f"**{mod_name}** · {r['difficulty']}")
+                    st.caption(r["question"][:150])
+        
+        if not found_any:
+            st.info("未找到相关结果，请尝试其他关键词")
 
 def viz_lab_page():
     st.title("📐 可视化实验室")
@@ -922,6 +1242,114 @@ def viz_lab_page():
         viz_doping()
     with st.expander("模块5：互连 RC 延迟模型", expanded=False):
         viz_rc()
+
+def library_page():
+    """Browse and search the Library Obsidian vault"""
+    st.title("📚 文献资料库")
+    
+    mode = st.radio("", ["📂 浏览模块文献", "🔍 全文检索"], horizontal=True, label_visibility="collapsed")
+    
+    if mode == "📂 浏览模块文献":
+        # Module selector
+        from app.config import MODULE_META
+        mod_list = [(code, f"{meta['name']}") for code, meta in sorted(MODULE_META.items())]
+        selected = st.selectbox("选择模块", mod_list, format_func=lambda x: f"{x[0]} - {x[1]}")
+        
+        if selected:
+            mod_code = selected[0]
+            st.caption(f"📂 {selected[1]}")
+            
+            # Browse state
+            if "lib_view_file" not in st.session_state:
+                st.session_state.lib_view_file = None
+            if "lib_view_content" not in st.session_state:
+                st.session_state.lib_view_content = None
+            
+            # Reading view
+            if st.session_state.lib_view_file:
+                if st.button("← 返回文件列表", use_container_width=True):
+                    st.session_state.lib_view_file = None
+                    st.session_state.lib_view_content = None
+                    st.rerun()
+                
+                st.subheader(f"📄 {st.session_state.lib_view_file}")
+                content = st.session_state.lib_view_content or ""
+                # Render markdown with simple formatting
+                st.markdown(f"""<div style="background:#1c2128;border:1px solid #30363d;border-radius:8px;padding:20px;max-height:70vh;overflow-y:auto;color:#c9d1d9;font-size:14px;line-height:1.8;"><pre style="white-space:pre-wrap;word-wrap:break-word;font-family:inherit;color:#c9d1d9;">{content}</pre></div>""", unsafe_allow_html=True)
+                return
+            
+            # File listing
+            files_data = api(f"/library/files?module_code={mod_code}")
+            if files_data and files_data.get("files"):
+                pdfs = [f for f in files_data["files"] if f["type"] == "pdf"]
+                notes = [f for f in files_data["files"] if f["type"] == "note"]
+                
+                st.markdown(f"📄 **{len(pdfs)}** 篇 PDF · 📝 **{len(notes)}** 篇笔记")
+                st.divider()
+                
+                if notes:
+                    st.subheader("📝 Obsidian 笔记")
+                    for note in notes:
+                        col1, col2 = st.columns([5, 1])
+                        with col1:
+                            subdir_tag = f" `{note['subdir']}/`" if note.get('subdir') and note['subdir'] != '.' else ""
+                            st.markdown(f"📝 **{note['name']}**{subdir_tag}")
+                        with col2:
+                            if st.button("📖 阅读", key=f"read_lib_{note['path'][:50]}"):
+                                data = api(f"/library/read?path={note['path']}")
+                                if data and data.get("content"):
+                                    st.session_state.lib_view_file = note['name']
+                                    st.session_state.lib_view_content = data["content"]
+                                    st.rerun()
+                                else:
+                                    st.error("无法读取文件")
+                
+                if pdfs:
+                    st.subheader("📄 PDF 文献")
+                    for pdf in pdfs[:50]:
+                        subdir_tag = f" `{pdf['subdir']}/`" if pdf.get('subdir') and pdf['subdir'] != '.' else ""
+                        size_kb = pdf.get("size", 0) / 1024
+                        size_str = f"{size_kb:.0f}KB" if size_kb < 1024 else f"{size_kb/1024:.1f}MB"
+                        pdf_key = pdf['path'].replace('/', '_').replace('.', '_')[:60]
+
+                        with st.expander(f"📄 {pdf['name']}{subdir_tag} — {size_str}"):
+                            pdf_url = f"https://zi23899nt64.vicp.fun/lib-pdf?path={pdf['path']}"
+                            st.markdown(f"""
+                            <div style="background:#1c2128;border:1px solid #30363d;border-radius:8px;overflow:hidden;margin-bottom:8px;">
+                                <embed src="{pdf_url}" width="100%" height="600px" type="application/pdf"
+                                    style="border:none;">
+                            </div>
+                            <div style="text-align:center;">
+                                <a href="{pdf_url}" target="_blank"
+                                    style="display:inline-block;padding:8px 24px;background:rgba(35,134,54,0.2);color:#3fb950;border:1px solid #30363d;border-radius:6px;text-decoration:none;font-size:14px;font-weight:600;">
+                                    🔗 新窗口打开 PDF
+                                </a>
+                            </div>
+                            """, unsafe_allow_html=True)
+            else:
+                st.info("该模块暂无文献")
+    
+    else:  # Full-text search
+        query = st.text_input("搜索 Library 笔记", placeholder="如: EUV, ALD, TSV, 良率...")
+        if query:
+            with st.spinner("搜索中..."):
+                results = api(f"/library/search?q={query}")
+            if results and results.get("results"):
+                st.success(f"找到 {results['count']} 个匹配文件")
+                for r in results["results"]:
+                    name_icon = "⭐ " if r["name_match"] else ""
+                    with st.expander(f"{name_icon}{r['name']} — {r['matches']} 处匹配"):
+                        st.caption(f"📁 {r['path']}")
+                        for snip in r.get("snippets", [])[:5]:
+                            st.markdown(f"`L{snip['line_num']}` {snip['text'][:200]}")
+                        if st.button("📖 打开全文", key=f"srch_{r['path'][:50]}"):
+                            data = api(f"/library/read?path={r['path']}")
+                            if data and data.get("content"):
+                                st.session_state.lib_view_file = r['name']
+                                st.session_state.lib_view_content = data["content"]
+                                st.rerun()
+            else:
+                st.info("未找到匹配结果")
 
 def intro_page():
     """Landing intro page with Streamlit-native rendering."""
@@ -1069,12 +1497,6 @@ def intro_page():
         </div>""", unsafe_allow_html=True)
 
     st.markdown("---")
-
-    # Test accounts
-    st.markdown("### 👤 测试账号")
-    st.code("admin / admin123 | newbie_user / newbie123 | equip_user / equip123", language=None)
-
-    st.markdown("---")
     st.caption("半导体培训系统 v2.0 · Built with FastAPI + Streamlit")
 
 
@@ -1092,12 +1514,17 @@ def main():
             login_page()
         return
 
-    intro_tab, student_tab, viz_tab, teacher_tab = st.tabs([
-        "📖 系统介绍", "学生端", "📐 可视化实验室", "教师端"
-    ])
-
-    with intro_tab:
-        intro_page()
+    user = st.session_state.user
+    is_admin = user.get("role") == "pie"
+    
+    if is_admin:
+        student_tab, library_tab, teacher_tab = st.tabs([
+            "学生端", "📚 文献资料", "教师端"
+        ])
+    else:
+        student_tab, teacher_tab = st.tabs([
+            "学生端", "教师端"
+        ])
 
     with student_tab:
         sidebar()
@@ -1112,12 +1539,14 @@ def main():
             "stats": stats_page,
             "search": search_page,
             "module_detail": module_detail_page,
+            "viz_lab": viz_lab_page,
         }
         page_func = pages.get(st.session_state.page, home_page)
         page_func()
 
-    with viz_tab:
-        viz_lab_page()
+    if is_admin:
+        with library_tab:
+            library_page()
 
     with teacher_tab:
         if st.session_state.user.get("role") in ("pie", "rd"):

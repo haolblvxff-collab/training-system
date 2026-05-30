@@ -3,17 +3,19 @@ Semiconductor Training System - FastAPI Backend
 """
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from pydantic import BaseModel
 from typing import Optional
 import os
 
 from .database import init_db, create_user, verify_user, get_user, seed_default_users
-from .knowledge import get_module_index, get_modules_for_role, scan_library
+from .knowledge import get_module_index, get_modules_for_role, scan_library, list_library_files, read_library_file, search_library, open_pdf_path
+from .config import LIBRARY_VAULT
 from .quiz import (
     seed_questions_to_db, generate_quiz, submit_answer,
     get_user_stats, log_reading,
-    generate_mistake_quiz, generate_daily_recommendation, get_progress_summary
+    generate_mistake_quiz, generate_daily_recommendation, get_progress_summary,
+    get_all_users, get_class_overview, add_question, delete_user as delete_user_db
 )
 
 app = FastAPI(title="半导体培训系统", version="0.1.0")
@@ -84,6 +86,8 @@ def login(req: LoginRequest):
 
 @app.post("/api/auth/register")
 def register(req: RegisterRequest):
+    if req.role == "pie":
+        raise HTTPException(403, "管理员角色不可通过注册创建")
     user = create_user(req.username, req.password, req.role, req.display_name)
     if not user:
         raise HTTPException(400, "用户名已存在")
@@ -109,6 +113,35 @@ def knowledge_refresh():
 @app.get("/api/knowledge/role/{role}")
 def role_modules(role: str):
     return get_modules_for_role(role)
+
+# ────── Library Browsing ──────
+@app.get("/api/library/files")
+def library_files(module_code: str = None):
+    return list_library_files(module_code)
+
+@app.get("/api/library/read")
+def library_read(path: str):
+    return read_library_file(path)
+
+@app.get("/api/library/search")
+def library_search(q: str, max_results: int = 50):
+    return search_library(q, max_results)
+
+@app.get("/api/library/open")
+def library_open(path: str):
+    return open_pdf_path(path)
+
+@app.get("/api/library/pdf")
+def library_pdf(path: str):
+    """Serve a PDF file directly for in-browser viewing"""
+    full_path = os.path.join(LIBRARY_VAULT, path)
+    real_full = os.path.realpath(full_path)
+    real_vault = os.path.realpath(LIBRARY_VAULT)
+    if not real_full.startswith(real_vault):
+        raise HTTPException(403, "Access denied")
+    if not os.path.exists(full_path):
+        raise HTTPException(404, "File not found")
+    return FileResponse(full_path, media_type="application/pdf", headers={"Content-Disposition": "inline"})
 
 # ────── Quiz ──────
 @app.post("/api/quiz/generate")
@@ -169,6 +202,45 @@ def progress_summary(user_id: int):
 def reading_log(req: ReadingRequest):
     log_reading(req.user_id, req.module_code, req.entry_title)
     return {"status": "ok"}
+
+# ────── Teacher ──────
+@app.get("/api/teacher/users")
+def teacher_users():
+    return get_all_users()
+
+@app.get("/api/teacher/overview")
+def teacher_overview():
+    return get_class_overview()
+
+class AddQuestionRequest(BaseModel):
+    module_code: str
+    question: str
+    answer: str
+    options: list = []
+    difficulty: str = "L2"
+    qtype: str = "single"
+    explanation: str = ""
+    tags: str = ""
+
+@app.post("/api/teacher/questions/add")
+def teacher_add_question(req: AddQuestionRequest):
+    return add_question(
+        module_code=req.module_code,
+        question=req.question,
+        answer=req.answer,
+        options=req.options,
+        difficulty=req.difficulty,
+        qtype=req.qtype,
+        explanation=req.explanation,
+        tags=req.tags
+    )
+
+class DeleteUserRequest(BaseModel):
+    user_id: int
+
+@app.post("/api/teacher/users/delete")
+def teacher_delete_user(req: DeleteUserRequest):
+    return delete_user_db(req.user_id)
 
 # ────── Health ──────
 @app.get("/api/health")

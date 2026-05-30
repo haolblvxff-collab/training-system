@@ -3830,5 +3830,218 @@
       }
     ],
     "total_pdfs": 193
+  },
+  "50-RF Generator & Match": {
+    "code": "50-RF Generator & Match",
+    "name": "射频电源与匹配器",
+    "desc": "RF Generator、Match Network、等离子体激发",
+    "level": 300,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "50-RF Generator & Match (射频电源与匹配器)",
+        "path": "50-RF Generator & Match/50-RF Generator & Match.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Cryo": {
+    "code": "50-Pumps-Cryo",
+    "name": "低温泵",
+    "desc": "G-M制冷循环、80K/15K两级冷头、再生",
+    "level": 300,
+    "pdfs": [
+      {
+        "name": "Vacuum-Science-Technology-Book.pdf",
+        "path": "50-Pumps/Cryo-pump/Vacuum-Science-Technology-Book.pdf"
+      },
+      {
+        "name": "OSTI-Cryopump-Design-1999.pdf",
+        "path": "50-Pumps/Cryo-pump/OSTI-Cryopump-Design-1999.pdf"
+      },
+      {
+        "name": "Philips-Cryopump-1980.pdf",
+        "path": "50-Pumps/Cryo-pump/Philips-Cryopump-1980.pdf"
+      },
+      {
+        "name": "arXiv-2006.01574-Cryogenics.pdf",
+        "path": "50-Pumps/Cryo-pump/arXiv-2006.01574-Cryogenics.pdf"
+      }
+    ],
+    "notes": [
+      {
+        "name": "51-Cryo-pump (低温泵)",
+        "path": "50-Pumps/Cryo-pump/Cryo-pump.md"
+      }
+    ],
+    "total_pdfs": 4
+  },
+  "50-Pumps-Turbo": {
+    "code": "50-Pumps-Turbo",
+    "name": "涡轮分子泵",
+    "desc": "高速旋叶、磁悬浮、高真空主泵",
+    "level": 300,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "52-Turbo Pump (涡轮分子泵)",
+        "path": "50-Pumps/Turbo-pump/Turbo-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Dry": {
+    "code": "50-Pumps-Dry",
+    "name": "干泵",
+    "desc": "罗茨/爪式/螺杆、前级粗抽、无油",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "53-Dry Pump (干泵)",
+        "path": "50-Pumps/Dry-pump/Dry-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Ion": {
+    "code": "50-Pumps-Ion",
+    "name": "离子泵",
+    "desc": "Penning放电、溅射钛膜、UHV无碳氢污染",
+    "level": 300,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "Ion-pump (离子泵/溅射离子泵)",
+        "path": "50-Pumps/Ion-pump/Ion-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Scroll": {
+    "code": "50-Pumps-Scroll",
+    "name": "涡旋泵",
+    "desc": "无油粗抽、静音低振动、Load Lock前级",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "Scroll-pump (涡旋泵)",
+        "path": "50-Pumps/Scroll-pump/Scroll-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Diaphragm": {
+    "code": "50-Pumps-Diaphragm",
+    "name": "隔膜泵",
+    "desc": "膜片往复、耐腐蚀、气体采样/保压",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "Diaphragm-pump (隔膜泵)",
+        "path": "50-Pumps/Diaphragm-pump/Diaphragm-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "50-Pumps-Diffusion": {
+    "code": "50-Pumps-Diffusion",
+    "name": "扩散泵",
+    "desc": "油蒸汽射流、高抽速、大型镀膜(老式)",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "Diffusion-pump (扩散泵/油扩散泵)",
+        "path": "50-Pumps/Diffusion-pump/Diffusion-pump.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "54-MFC": {
+    "code": "54-MFC",
+    "name": "质量流量控制器",
+    "desc": "热式测量、PID闭环、精确流量控制",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "54-MFC (质量流量控制器)",
+        "path": "54-MFC/54-MFC.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "55-Gauge & Sensor": {
+    "code": "55-Gauge & Sensor",
+    "name": "真空计与传感器",
+    "desc": "Pirani/CDG/冷阴极、全量程覆盖",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "55-Gauge & Sensor (真空计与传感器)",
+        "path": "55-Gauge & Sensor/55-Gauge & Sensor.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "56-Chiller & Temperature": {
+    "code": "56-Chiller & Temperature",
+    "name": "冷机与温控",
+    "desc": "多通道PID、ESC温控、±0.1°C精度",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "56-Chiller & Temperature Control (冷机与温控)",
+        "path": "56-Chiller & Temperature/56-Chiller & Temperature.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "57-Robot & Wafer Handling": {
+    "code": "57-Robot & Wafer Handling",
+    "name": "机械手与传片",
+    "desc": "SCARA/蛙腿型、ATM/VAC、晶圆搬运",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "57-Robot & Wafer Handling (机械手与晶圆传输)",
+        "path": "57-Robot & Wafer Handling/57-Robot & Wafer Handling.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "58-Chamber & Components": {
+    "code": "58-Chamber & Components",
+    "name": "腔体与部件",
+    "desc": "ESC/Showerhead/陶瓷窗、腔体设计",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "58-Chamber & Components (腔体与部件)",
+        "path": "58-Chamber & Components/58-Chamber & Components.md"
+      }
+    ],
+    "total_pdfs": 0
+  },
+  "59-Power Supply & Electrical": {
+    "code": "59-Power Supply & Electrical",
+    "name": "电源与电气",
+    "desc": "配电/DC电源/安全互锁/SEMI标准",
+    "level": 200,
+    "pdfs": [],
+    "notes": [
+      {
+        "name": "59-Power Supply & Electrical (电源与电气系统)",
+        "path": "59-Power Supply & Electrical/59-Power Supply & Electrical.md"
+      }
+    ],
+    "total_pdfs": 0
   }
 }

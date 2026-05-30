@@ -33,7 +33,12 @@ ROLE_MODULES = {
     "equipment": {
         "name": "设备维护",
         "required": ["94-clean-room", "93-IE", "15-metrology"],
-        "elective": ["02-Power", "11-thin-film", "14-dry-etch", "91-general"],
+        "elective": ["02-Power", "11-thin-film", "14-dry-etch", "91-general",
+                      "50-RF Generator & Match", 
+                      "50-Pumps-Cryo", "50-Pumps-Turbo", "50-Pumps-Dry",
+                      "50-Pumps-Ion", "50-Pumps-Scroll", "50-Pumps-Diaphragm", "50-Pumps-Diffusion",
+                      "54-MFC", "55-Gauge & Sensor", "56-Chiller & Temperature",
+                      "57-Robot & Wafer Handling", "58-Chamber & Components", "59-Power Supply & Electrical"],
     },
     "quality": {
         "name": "品质管理",
@@ -81,6 +86,20 @@ MODULE_META = {
     "95-Q": {"name": "品质管理", "desc": "SPC、六西格玛、FMEA、8D", "level": 200},
     "998-company": {"name": "企业档案", "desc": "AMAT、LAM、TEL、ASML 设备生态", "level": 100},
     "999-industry": {"name": "行业报告", "desc": "Yole、IC Insights、SEMI 市场报告", "level": 100},
+    "50-RF Generator & Match": {"name": "射频电源与匹配器", "desc": "RF Generator、Match Network、等离子体激发", "level": 300},
+    "50-Pumps-Cryo": {"name": "低温泵", "desc": "G-M制冷循环、80K/15K两级冷头、再生", "level": 300},
+    "50-Pumps-Turbo": {"name": "涡轮分子泵", "desc": "高速旋叶、磁悬浮、高真空主泵", "level": 300},
+    "50-Pumps-Dry": {"name": "干泵", "desc": "罗茨/爪式/螺杆、前级粗抽、无油", "level": 200},
+    "50-Pumps-Ion": {"name": "离子泵", "desc": "Penning放电、溅射钛膜、UHV无碳氢污染", "level": 300},
+    "50-Pumps-Scroll": {"name": "涡旋泵", "desc": "无油粗抽、静音低振动、Load Lock前级", "level": 200},
+    "50-Pumps-Diaphragm": {"name": "隔膜泵", "desc": "膜片往复、耐腐蚀、气体采样/保压", "level": 200},
+    "50-Pumps-Diffusion": {"name": "扩散泵", "desc": "油蒸汽射流、高抽速、大型镀膜(老式)", "level": 200},
+    "54-MFC": {"name": "质量流量控制器", "desc": "热式测量、PID闭环、精确流量控制", "level": 200},
+    "55-Gauge & Sensor": {"name": "真空计与传感器", "desc": "Pirani/CDG/冷阴极、全量程覆盖", "level": 200},
+    "56-Chiller & Temperature": {"name": "冷机与温控", "desc": "多通道PID、ESC温控、±0.1°C精度", "level": 200},
+    "57-Robot & Wafer Handling": {"name": "机械手与传片", "desc": "SCARA/蛙腿型、ATM/VAC、晶圆搬运", "level": 200},
+    "58-Chamber & Components": {"name": "腔体与部件", "desc": "ESC/Showerhead/陶瓷窗、腔体设计", "level": 200},
+    "59-Power Supply & Electrical": {"name": "电源与电气", "desc": "配电/DC电源/安全互锁/SEMI标准", "level": 200},
 }
 
 DIFFICULTY_LEVELS = {"L1": "🟢 基础", "L2": "🟡 应用", "L3": "🔴 深入"}

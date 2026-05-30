@@ -412,3 +412,92 @@ def log_reading(user_id: int, module_code: str, entry_title: str = ""):
     """, (user_id, module_code))
     conn.commit()
     conn.close()
+
+# ────── Teacher Functions ──────
+
+def get_all_users():
+    """Get all registered users with their stats"""
+    conn = get_db()
+    users = []
+    for row in conn.execute("SELECT id, username, role, display_name, created_at, last_active FROM users ORDER BY id").fetchall():
+        user = dict(row)
+        # Get stats
+        stats = conn.execute("""
+            SELECT COUNT(*) as answered, SUM(is_correct) as correct
+            FROM answers WHERE user_id=?
+        """, (user["id"],)).fetchone()
+        mc = conn.execute("SELECT COUNT(*) as c FROM mistakes WHERE user_id=? AND mastered=0", (user["id"],)).fetchone()
+        user["answered"] = stats["answered"] or 0
+        user["accuracy"] = round((stats["correct"] or 0) / (stats["answered"] or 1) * 100, 1)
+        user["mistakes"] = mc["c"] or 0
+        users.append(user)
+    conn.close()
+    return {"count": len(users), "users": users}
+
+def get_class_overview():
+    """Class-wide overview stats"""
+    conn = get_db()
+    total_users = conn.execute("SELECT COUNT(*) as c FROM users").fetchone()["c"]
+    total_answers = conn.execute("SELECT COUNT(*) as c FROM answers").fetchone()["c"]
+    total_correct = conn.execute("SELECT COUNT(*) as c FROM answers WHERE is_correct=1").fetchone()["c"]
+    total_questions = conn.execute("SELECT COUNT(*) as c FROM questions").fetchone()["c"]
+    total_mistakes = conn.execute("SELECT COUNT(*) as c FROM mistakes WHERE mastered=0").fetchone()["c"]
+    
+    # Module completion by all users
+    module_progress = {}
+    for row in conn.execute("""
+        SELECT q.module_code, COUNT(DISTINCT a.user_id) as active_users, COUNT(DISTINCT a.question_id) as questions_attempted
+        FROM answers a JOIN questions q ON a.question_id = q.id GROUP BY q.module_code
+    """).fetchall():
+        mc = row["module_code"]
+        total_q = conn.execute("SELECT COUNT(*) as c FROM questions WHERE module_code=?", (mc,)).fetchone()["c"]
+        module_progress[mc] = {
+            "name": MODULE_META.get(mc, {}).get("name", mc),
+            "active_users": row["active_users"],
+            "questions_attempted": row["questions_attempted"],
+            "total_questions": total_q,
+            "coverage_pct": round(row["questions_attempted"] / (total_q * total_users) * 100, 1) if total_users > 0 else 0
+        }
+    
+    conn.close()
+    return {
+        "total_users": total_users,
+        "total_answers": total_answers,
+        "accuracy": round(total_correct / (total_answers or 1) * 100, 1),
+        "total_questions": total_questions,
+        "pending_mistakes": total_mistakes,
+        "module_progress": module_progress,
+    }
+
+def add_question(module_code, question, answer, options, difficulty="L2", qtype="single", explanation="", tags=""):
+    """Add a new question to the database"""
+    import uuid
+    conn = get_db()
+    qid = f"Q{uuid.uuid4().hex[:8].upper()}"
+    try:
+        conn.execute("""
+            INSERT INTO questions (id, module_code, difficulty, qtype, question, options_json, answer, explanation, tags)
+            VALUES (?,?,?,?,?,?,?,?,?)
+        """, (qid, module_code, difficulty, qtype, question, json.dumps(options, ensure_ascii=False), answer, explanation, tags))
+        conn.commit()
+        conn.close()
+        return {"status": "ok", "id": qid}
+    except Exception as e:
+        conn.close()
+        return {"status": "error", "message": str(e)}
+
+def delete_user(user_id):
+    """Delete a user and all associated data"""
+    conn = get_db()
+    try:
+        conn.execute("DELETE FROM answers WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM mistakes WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM reading_logs WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM progress WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM users WHERE id=?", (user_id,))
+        conn.commit()
+        conn.close()
+        return {"status": "ok"}
+    except Exception as e:
+        conn.close()
+        return {"status": "error", "message": str(e)}

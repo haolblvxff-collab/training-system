@@ -147,12 +147,7 @@ def get_user(user_id: int):
 def seed_default_users():
     """Create default test users if not exist"""
     defaults = [
-        ("pie_user", "pie123", "pie", "PIE工程师"),
-        ("process_user", "process123", "process", "工艺工程师"),
-        ("equip_user", "equip123", "equipment", "设备工程师"),
-        ("qa_user", "qa123", "quality", "品质工程师"),
-        ("newbie_user", "newbie123", "newbie", "新员工"),
-        ("admin", "admin123", "pie", "管理员"),
+        ("erwinbo", "erwinbo669570", "pie", "Erwinbo"),
     ]
     for username, password, role, display in defaults:
         conn = get_db()
